@@ -17,6 +17,6 @@ In this repository, there are some basic programs that most companies ask during
     Ex. [1,3,5,6], 7
         ans = 4
         
-#### Program-3)   Find First and Last Position of Element in Sorted Array        
+#### Program-4)   Find First and Last Position of Element in Sorted Array        
     Ex. nums = [5,7,7,8,8,10], target = 8
         ans = [3,4]
