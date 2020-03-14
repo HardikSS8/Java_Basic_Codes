@@ -30,3 +30,20 @@ In this repository, there are some basic programs that most companies ask during
     -> Each boat carries at most 2 people at the same time, provided the sum of the weight of those people is at most limit.
     Ex. people = [3,2,2,1], limit = 3
         ans = 3   ( Explanation: 3 boats (1, 2), (2) and (3) )
+
+#### Program-7)   Same Tree or not
+     -> Given two binary trees, write a function to check if they are the same or not.
+     Ex.    1         1
+           / \       / \
+          2   3     2   3 
+     input = [1,2,3], [1,2,3]
+     Ans = true 
+           
+#### Program-8)   Validate Binary Search Tree
+    ->Given a binary tree, determine if it is a valid binary search tree (BST).
+     *) The left subtree of a node contains only nodes with keys less than the node's key.
+     *) The right subtree of a node contains only nodes with keys greater than the node's key.
+     *) Both the left and right subtrees must also be binary search trees.
+     Ex.     2    input = [2,1,3];
+            / \
+           1   3  Ans = true
