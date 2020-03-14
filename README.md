@@ -20,3 +20,7 @@ In this repository, there are some basic programs that most companies ask during
 #### Program-4)   Find First and Last Position of Element in Sorted Array        
     Ex. nums = [5,7,7,8,8,10], target = 8
         ans = [3,4]
+
+#### Program-5)   Count of Smaller Numbers After Self
+    Ex. nums = [5,2,6,1]
+        ans = [2,1,1,0]
