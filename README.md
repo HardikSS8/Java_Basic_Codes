@@ -47,3 +47,33 @@ In this repository, there are some basic programs that most companies ask during
      Ex.     2    input = [2,1,3];
             / \
            1   3  Ans = true
+
+#### Program-9)   Invert Binary Tree
+       Ex. Input =    4           
+                    /   \
+                   2     7
+                  / \   / \
+                 1   3 6   9
+         Output =      4
+                     /   \
+                    7     2
+                   / \   / \
+                  9   6 3   1
+                  
+#### Program-10)   Sum Root to Leaf Numbers ( each path from root to leaf represents the number )
+      Ex. [4,9,0,5,1]         
+                  4
+                 / \
+                9   0     Ans = 495 + 491 + 40 = 1026
+               / \
+              5   1
+              
+ #### Program-11)   Path Sum ( check if path exist in which sum of values of nodes equal to given target sum )
+      Ex. Input = 22        
+                5         Ans = 5->4->11->2 = 5+4+11+2 = 22  
+               / \        Ans = true
+              4   8
+             /   / \
+            11  13  4
+           /  \      \
+          7    2      1
