@@ -77,3 +77,15 @@ In this repository, there are some basic programs that most companies ask during
             11  13  4
            /  \      \
           7    2      1
+
+ #### Program-12)   Binary search (time complexity O(log(n))
+      Ex. nums = [-1,0,3,5,9,12], target = 9
+          Ans = 4
+          
+ #### Program-13)   Search and return subtree of that node in Binary Search Tree
+      Ex. input =    4      key = 2  Output =    2      else return [];
+                    / \                         / \ 
+                   2   7                       1   3
+                  / \
+                 1   3
+         
