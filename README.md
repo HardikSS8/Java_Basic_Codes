@@ -1,7 +1,7 @@
 # Java_Basic_Codes
-In this repository, there are some basic programs that most companies ask during interview process in java language.
+In this repository, there are some basic programs (only functions) that most companies ask during interview process in java language.
 
-#### Program-1)   Median of two sorted arrays ( time complexity should be O(log(m+n)) )
+#### Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n)))
                   
     Ex. nums1 = [1,2] and nums2 = [3,4]
         median = (2+3)/2 = 2.5
@@ -60,7 +60,7 @@ In this repository, there are some basic programs that most companies ask during
                    / \   / \
                   9   6 3   1
                   
-#### Program-10)   Sum Root to Leaf Numbers ( each path from root to leaf represents the number )
+#### Program-10)   Sum Root to Leaf Numbers (each path from root to leaf represents the number)
       Ex. [4,9,0,5,1]         
                   4
                  / \
@@ -68,7 +68,7 @@ In this repository, there are some basic programs that most companies ask during
                / \
               5   1
               
- #### Program-11)   Path Sum ( check if path exist in which sum of values of nodes equal to given target sum )
+ #### Program-11)   Path Sum (check if path exist in which sum of values of nodes equal to given target sum)
       Ex. Input = 22        
                 5         Ans = 5->4->11->2 = 5+4+11+2 = 22  
                / \        Ans = true
@@ -89,3 +89,9 @@ In this repository, there are some basic programs that most companies ask during
                   / \
                  1   3
          
+ #### Program-14)   Symmetric Tree (mirror image concept can be applied here)
+      Ex. input =     1         Output = true
+                     / \
+                    7   7
+                   / \ / \
+                  5  2 2  5
