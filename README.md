@@ -95,3 +95,11 @@ In this repository, there are some basic programs (only functions) that most com
                     7   7
                    / \ / \
                   5  2 2  5
+
+ #### Program-15)   Add Binary Strings
+      Ex. string1 = "1010", string2 = "1011"
+          Ans = "10101"
+          
+ #### Program-16)   Plus One ( Add 1 in the given number in form of array )
+      Ex. Input = [2,4,5,9]       Input = [9,9,9]
+          Ans =   [2,4,6,0]       Input = [1,0,0,0]
