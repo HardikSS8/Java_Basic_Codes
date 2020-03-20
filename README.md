@@ -126,3 +126,76 @@ In this repository, there are some basic programs (only functions) that most com
           = 2 + 4 + 2
           = 8
           
+#### Program-20)  Reverse Integer (Constraint : 32-bit signed integer)
+      Ex. Input  = 113      Input = -345    Input = 120
+          Ans = 311         Ans = -543      Ans = 21
+          
+#### Program-21)  Move Zeros to end of the array (Without using another array and min no of operations)
+      Ex. Input = [0,56,3,2,4,0,2]
+          Ans = [56,3,2,4,2,0,0]
+          
+#### Program-22)  Subtract the Product and Sum of Digits of an Integer
+      Ex. N = 453
+      Product = 4*5*3 = 60
+      Sum = 4 + 5 + 3 = 12
+      Result = 60 - 12 = 48
+      
+#### Program-23)  Number of Steps to Reduce a Number to Zero (If n is even divide by 2 otherwise reduce 1 from n at each operation until zero)
+      Ex. Num = 6;
+      Ops = (6/2) = (3-2) = (2/2) = (1-1) = 0.
+      No of Ops = 1 + 1 + 1 + 1 = 4
+     
+#### Program-24)  Intersection of Two Arrays
+      Ex. Input1 = [4,7,6]  Input2 = [6,32,23,7,8]
+          Ans = [7,6]
+       
+#### Program-25)  Replace Elements with Greatest Element on Right Side (Last element = -1)
+      Ex. arr = [17,18,5,4,6,1]
+          Ans = [18,6,6,6,1,-1]
+          
+#### Program-26)  Find Numbers with Even Number of Digits
+      Ex. Input = [34,5,4,345,6785]
+          Ans = 2
+
+#### Program-27)  Merge Sorted Array (Assume : array one is large enough to hold both array)
+      Ex. Input1 = [1,5,4,0,0,0]
+          Input2 = [3,2,7]
+          Ans = [1,2,3,4,5,7]
+         
+#### Program-28)  Two Sum
+    -> Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+      Ex. Input = [7,8,45,32] Target = 15
+          Ans = Input[0] + Input[1] = 7+8 = 15
+          Ans = [0,1]
+
+#### Program-29)  Single Number
+    -> Given a non-empty array of integers and Frequency of all elements except one, find that number
+      Ex. Input = [5,6,7,7,5,8,6,4,8]
+          Ans = 4
+          
+#### Program-30)  Power (x,n) (Only for 32 bit range [-2^32, 2^31 - 1]
+      Ex. Input -> X = 2.0, n = 10
+          Ans = 1024.0
+
+#### Program-31)  Max Consecutive Ones (Input string of 0 and 1s)
+      Ex. Input = [1,1,0,0,0,1,1,1,1,1]
+          Ans = 5
+          
+#### Program-32)  Palindrome Number (Negative number also) (Without converting to string)
+      Ex. Input = 565     Input = -565
+          Ans = true      Ans = false
+          
+#### Program-33)  Find First and Last Position of Element in Sorted Array (O(log(n))
+      Ex. Input = [5,4,6,8,6,5,3]       Input = [3,4,5,2,4,5,6]
+          Target = 6                    Target = 8
+          Ans = [2,4]                   Ans = [-1,-1]
+       
+#### Program-34)  Edit Distance (One of the useful similarity measure in data science)(Using Dynamic Approach)
+      -> The minimum edit distance is the minimum number of editing operations (insert, delete, replace) to transform one string into the other.
+        Ex. "sunday" and "saturday"
+            Edit distance = 3
+            -> Last three and first characters are same.
+            -> convert "un" to "atur".
+            -> Replace 'n' with 'r', insert t, insert a
+            
+For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki/Edit_distance)            
