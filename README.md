@@ -100,6 +100,29 @@ In this repository, there are some basic programs (only functions) that most com
       Ex. string1 = "1010", string2 = "1011"
           Ans = "10101"
           
- #### Program-16)   Plus One ( Add 1 in the given number in form of array )
+ #### Program-16)   Plus One (Add 1 in the given number in form of array)
       Ex. Input = [2,4,5,9]       Input = [9,9,9]
           Ans =   [2,4,6,0]       Input = [1,0,0,0]
+
+#### Program-17)  Count no of 1 in given String (Concept of masking of bits in using AND operation)
+      Ex. 11111111111111111111111111101101
+          Ans = 30
+
+#### Program-18)  Hamming Distance (Upto 32 bits) (Use of Integer.toBinaryString(int) function of java in-built function)
+      -> Also we have to format the string of this converted binary into 32 bit format.
+      -> X = 1 and Y = 4
+      Binary =>   X = 1
+                  Y = 100
+      -> So we cannot compare the bits for hamming distance.
+      -> Therefore we have to format the string
+      Ex. Input:    X = -24   Y = 675
+          Converting to Binary :  X = 11111111111111111111111111101000
+                                  Y = 00000000000000000000001010100011
+          ANS = 27
+
+#### Program-19)  Total Hamming Distance (All pairs of numbers in given array) (time complexity must be taken care of because of  two for loops)
+      Ex. Input => [5, 15, 20]
+      Ans = hamming(5,15) + hamming(15,20) + hamming(5,20)
+          = 2 + 4 + 2
+          = 8
+          
