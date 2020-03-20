@@ -1,8 +1,8 @@
 class Solution {
     public int totalHammingDistance(int[] nums) {
         
-        // If there are n integers in the array and k of them have a particular bit set 
-        and n-k do not, then that bit contributes k * (n - k) hamming distance to the total.
+        /* If there are n integers in the array and k of them have a particular bit set 
+        and n-k do not, then that bit contributes k * (n - k) hamming distance to the total. */
         
         if(nums==null || nums.length==0) return 0;
         
