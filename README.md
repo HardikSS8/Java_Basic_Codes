@@ -199,3 +199,13 @@ In this repository, there are some basic programs (only functions) that most com
             -> Replace 'n' with 'r', insert t, insert a
             
 For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki/Edit_distance)            
+
+#### Program-35)  Integer Replacement
+    ->  Given a positive integer n and you can do operations as follow:
+        Until n = 1; do
+    -> If n is even, replace n with n/2.
+    -> If n is odd, you can replace n with either n+1 or n-1. (Choose by which min no of operations can be obtained)
+      Ex. Input = 12
+          12 -> 6 -> 3 -> 2 -> 1  Opes = 4      (at 3 -> N = N-1)
+          12 -> 6 -> 3 -> 4 -> 2 -> 1 Opes = 5  (at 3 -> N = N+1)
+          Ans = 4
