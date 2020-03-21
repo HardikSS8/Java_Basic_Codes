@@ -209,3 +209,12 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
           12 -> 6 -> 3 -> 2 -> 1  Opes = 4      (at 3 -> N = N-1)
           12 -> 6 -> 3 -> 4 -> 2 -> 1 Opes = 5  (at 3 -> N = N+1)
           Ans = 4
+
+#### Program-36)  Missing Number (first missing number from 0,1,2... n where n = array length)
+      Ex. Input = [0,1,2]   Input = [6,7,8,9]
+          Ans = 3           Ans = 4
+          
+#### Program-37)  First Missing Positive (find the first positive number in unsorted array)
+      Ex. Input = [-5,-3,1,3]           Input = [4,3,5,2]       Input = [-5,-4,-9,-10,-11]   
+          Ans   = 2                     Ans   = 1               Ans   = 1
+          
