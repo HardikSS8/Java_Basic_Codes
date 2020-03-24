@@ -218,3 +218,6 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
       Ex. Input = [-5,-3,1,3]           Input = [4,3,5,2]       Input = [-5,-4,-9,-10,-11]   
           Ans   = 2                     Ans   = 1               Ans   = 1
           
+#### Program-38) Complement of number
+      Ex. Input = 34529     Input = 34
+          Ans = 31006       Ans = 29
