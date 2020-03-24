@@ -221,3 +221,12 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 #### Program-38) Complement of number
       Ex. Input = 34529     Input = 34
           Ans = 31006       Ans = 29
+
+#### Program-39)  Student Attendance Record I
+    -> You are given a string representing an attendance record for a student. The record only contains the following three characters:
+        'A' : Absent.
+        'L' : Late.
+        'P' : Present.
+     -> A student could be rewarded if his attendance record doesn't contain more than one 'A' (absent) or more than two continuous 'L' (late).
+     Ex. "PPALLP"           "LLPPPLL"
+          Ans = true        Ans = true
