@@ -230,3 +230,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
      -> A student could be rewarded if his attendance record doesn't contain more than one 'A' (absent) or more than two continuous 'L' (late).
      Ex. "PPALLP"           "LLPPPLL"
           Ans = true        Ans = true
+
+#### Program-40)  Binary Number with Alternating Bits
+    -> Given a positive integer, check whether it has alternating bits.
+    Ex. Input = 5  (101)    Input = 231 (11100111)   
+        Ans = true          Ans = false
