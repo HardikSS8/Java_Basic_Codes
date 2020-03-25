@@ -235,3 +235,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
     -> Given a positive integer, check whether it has alternating bits.
     Ex. Input = 5  (101)    Input = 231 (11100111)   
         Ans = true          Ans = false
+
+#### Program-41)  Maximum Average Subarray I
+    -> Find the contiguous subarray of given length k that has the maximum average value.
+    Ex. Input = [10,12,66,-70,-53]  K = 4
+        Ans = 4.50
