@@ -246,3 +246,10 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
       Ex. Input = 46        Input = 3423
           Ans = false       Ans = false
           
+#### Program-43)  Valid Perfect Square (Do not use sqrt function)
+    Ex. Input = 625         Input = 24
+            Ans = true          Ans = false
+
+#### Program-44)  Sqrt(x) (find square root of given number using floor function)
+    Ex. Input = 16            Input = 534
+        Ans = 4               Ans = 23
