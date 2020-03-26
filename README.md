@@ -240,3 +240,9 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
     -> Find the contiguous subarray of given length k that has the maximum average value.
     Ex. Input = [10,12,66,-70,-53]  K = 4
         Ans = 4.50
+
+#### Program-42)  Sum of Square Numbers
+    -> Given a non-empty binary tree, return the average value of the nodes on each level in the form of an array.
+      Ex. Input = 46        Input = 3423
+          Ans = false       Ans = false
+          
