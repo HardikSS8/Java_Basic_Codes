@@ -253,3 +253,9 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 #### Program-44)  Sqrt(x) (find square root of given number using floor function)
     Ex. Input = 16            Input = 534
         Ans = 4               Ans = 23
+
+#### Program-45)  Powerful Integers
+    -> Given two positive integers x and y, an integer is powerful if it is equal to x^i + y^j
+          for some integers i >= 0 and j >= 0. until the bound given.
+      Ex. Input => X = 5, Y = 7, Bound = 15
+          Ans = [2,6,8,12]
