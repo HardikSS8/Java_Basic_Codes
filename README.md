@@ -259,3 +259,16 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
           for some integers i >= 0 and j >= 0. until the bound given.
       Ex. Input => X = 5, Y = 7, Bound = 15
           Ans = [2,6,8,12]
+
+#### Program-46)  Valid Parentheses
+    -> Check if given string of parentheses is balanced or not.
+      Ex. Input = "((({}[))])"
+          Ans = false
+          
+#### Program-47)  Score of Parentheses
+    -> Given a balanced parentheses string S, compute the score of the string based on the following rule:
+    -> () has score 1
+    -> AB has score A + B, where A and B are balanced parentheses strings.
+    -> (A) has score 2 * A, where A is a balanced parentheses string.   
+      Ex. Input = "(()(()(()))())"
+          Ans = 16
