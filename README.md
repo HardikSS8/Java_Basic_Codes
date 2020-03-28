@@ -297,3 +297,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
         -> After adding -3 to A[1], the array is [2,3,8,5], and the sum of even values is 2 + 8 = 10.
         -> After adding -4 to A[0], the array is [-2,3,8,5], and the sum of even values is -2 + 8 = 6.
         -> After adding 2 to A[3], the array is [-2,3,8,7], and the sum of even values is -2 + 8 = 6.
+
+#### Program-50)  Maximum Number of Balloons
+      -> From the given string, find the number of string balloon can be formed.
+        Ex. Input = "nlaebolkoballono"
+            Ans = 2
