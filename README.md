@@ -284,3 +284,16 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
       -> 14 -> 1110 (3 set bits, 3 is prime)
       -> 15 -> 1111 (4 set bits, 4 is not prime)
       Ans = 5
+
+
+#### Program-49)  Sum of Even Numbers After Queries
+      -> For the i-th query 
+          -> val = queries[i][0]
+          -> index = queries[i][1]
+      we add val to A[index]. Then, the answer to the i-th query is the sum of the even values of A.
+      Ex. Input -> A = [1,6,8,5]  Queries = [[1,0],[-3,1],[-4,0],[2,3]]
+         Ans = [16,10,6,6]
+        -> After adding 1 to A[0], the array is [2,6,8,5], and the sum of even values is 2 + 6 + 8 = 16.
+        -> After adding -3 to A[1], the array is [2,3,8,5], and the sum of even values is 2 + 8 = 10.
+        -> After adding -4 to A[0], the array is [-2,3,8,5], and the sum of even values is -2 + 8 = 6.
+        -> After adding 2 to A[3], the array is [-2,3,8,7], and the sum of even values is -2 + 8 = 6.
