@@ -272,3 +272,15 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
     -> (A) has score 2 * A, where A is a balanced parentheses string.   
       Ex. Input = "(()(()(()))())"
           Ans = 16
+
+#### Program-48)  Prime Number of Set Bits in Binary Representation
+    -> if no of set bits in binary representation of number in given range is prime then return count
+    Range is given [L, R]
+      Ex . Input = [10,15]
+      -> 10 -> 1010 (2 set bits, 2 is prime)
+      -> 11 -> 1011 (3 set bits, 3 is prime)
+      -> 12 -> 1100 (2 set bits, 2 is prime)
+      -> 13 -> 1101 (3 set bits, 3 is prime)
+      -> 14 -> 1110 (3 set bits, 3 is prime)
+      -> 15 -> 1111 (4 set bits, 4 is not prime)
+      Ans = 5
