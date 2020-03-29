@@ -302,3 +302,32 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
       -> From the given string, find the number of string balloon can be formed.
         Ex. Input = "nlaebolkoballono"
             Ans = 2
+
+
+#### Program-51)  Minimum Depth of Binary Tree
+    Ex. Input = [8,6,4,5,10,16,2]
+              8           
+             / \        Ans = 3
+            6   10
+           /     \
+          4       16
+         / \
+        2   5
+
+#### Program-52)  Maximum Depth of Binary Tree
+      Ex. Input = [20,8,4,14,23]
+            20
+           /  \         Ans = 3
+          8    23 
+         / \
+        4   14  
+    
+#### Program-53)  Balanced Binary Tree
+      -> Height-balanced binary tree is defined as:
+          -> a binary tree in which the left and right subtrees of every node differ in height by no more than 1.
+       Ex. Input = [3,9,20,null,null,15,7]
+             3
+            / \     Ans = true
+           9  20      
+          / \
+         15  7
