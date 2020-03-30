@@ -331,3 +331,33 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
            9  20      
           / \
          15  7
+
+#### Program-54)  Self Dividing Numbers
+    -> A self-dividing number is a number that is divisible by every digit it contains.
+    -> Also, a self-dividing number is not allowed to contain the digit zero.
+      Ex. Input -> Left = 56 & Right = 78
+          Ans = [66,77]
+
+#### Program-55)  Average of Levels in Binary Tree
+      Ex.     3     
+             / \      Ans = [3, 14.5, 11]
+            9  20
+              /  \
+             15   7
+
+#### Program-56)  Perfect Number
+     -> Perfect Number is a positive integer that is equal to the sum of all its positive divisors except itself.
+      Ex. Input = 256       Input = 6
+          Ans = false       Ans = true
+     
+#### Program-57)  Add Digits
+    -> Add all its digits until the result has only one digit.
+    Ex. Input = 78
+        Ans = 7+8 = 15 = 1+5 = 6
+
+#### Program-58)  Daily Temperatures
+    -> Given a list of daily temperatures T, return a list such that, for each day in the input, tells you how many days you would have to wait until a warmer temperature. 
+    -> If there is no future day for which this is possible, put 0 instead.
+    Ex. Input = [73,78,71,71,69,72,73,76]
+        Ans = [1,0,3,2,1,1,1,0]
+  
