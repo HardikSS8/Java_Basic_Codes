@@ -361,3 +361,37 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
     Ex. Input = [73,78,71,71,69,72,73,76]
         Ans = [1,0,3,2,1,1,1,0]
   
+
+#### Program-59)  Counting Bits
+    -> Given a non negative integer number num. For every numbers i in the range 0 ≤ i ≤ num calculate the number of 1's in their binary representation and return them as an array.
+      Ex. Input -> num = 35
+          Ans = [0,1,1,2,1,2,2,3,1,2,2,3,2,3,3,4,1,2,2,3,2,3,3,4,2,3,3,4,3,4,4,5,1,2,2,3]
+          
+#### Program-60)  Majority Element
+    -> Given an array of size n, find the majority element.
+    -> The majority element is the element that appears more than ⌊ n/2 ⌋ times.
+      Ex. Input = [1,2,4,3,2,4,4,4,4,4,2]
+          Ans = 4
+
+#### Program-61)  Majority Element II
+    -> Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.
+      Ex. Input = [4,4,5,3,4,5,5,3,3,3,3,4,4,4,4]
+          Ans = [4]
+
+#### Program-62)  All Elements in Two Binary Search Trees
+    -> Given two binary search trees root1 and root2.
+    -> Return a list containing all the integers from both trees sorted in ascending order.
+    Ex.   4         6           List1 = [4,5,7]
+         / \       / \          List2 = [6,10,1]
+        5   7     10  1         
+        Ans = [1,4,5,6,7,10]
+        
+#### Program-63)  Count Number of Teams
+    -> There are n soldiers standing in a line. Each soldier is assigned a unique rating value.
+    -> Choose 3 soldiers with index (i, j, k) with rating (rating[i], rating[j], rating[k]).
+        A team is valid if:  
+          (rating[i] < rating[j] < rating[k]) or 
+          (rating[i] > rating[j] > rating[k]) 
+        where (0 <= i < j < k < n).
+     Ex. rating = [2,5,3,4,1]
+         Ans = 3  [ Explanation: (2,3,4), (5,4,1), (5,3,1)]
