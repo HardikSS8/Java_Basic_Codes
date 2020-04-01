@@ -395,3 +395,25 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
         where (0 <= i < j < k < n).
      Ex. rating = [2,5,3,4,1]
          Ans = 3  [ Explanation: (2,3,4), (5,4,1), (5,3,1)]
+
+#### Program-64)  Univalued Binary Tree
+    -> A binary tree is univalued if every node in the tree has the same value.
+        Ex. 6
+           / \     Ans = true
+          6   6
+         /
+        6 
+        
+#### Program-65)  Convert Binary Number in a Linked List to Integer
+      Ex. Input = [1,0,1,1,1,1,0,0,0,0,1]
+          Ans = 1505
+
+#### Program-66)  Unique Number of Occurrences
+    -> write a function that returns true if and only if the number of occurrences of each value in the array is unique.
+      Ex. Input = [-5,-6,2,6,-5,-7,5]
+          Ans = false
+
+#### Program-67)  Valid Anagram
+    -> Given two strings str1 and str2 , write a function to determine if str2 is an anagram of str1.
+        Ex. Str1 = "hardik" Str2 = "krdiha"
+            Ans = true
