@@ -417,3 +417,27 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
     -> Given two strings str1 and str2 , write a function to determine if str2 is an anagram of str1.
         Ex. Str1 = "hardik" Str2 = "krdiha"
             Ans = true
+
+#### Program-68)  Merge Two Binary Trees
+    -> The merge rule is that if two nodes overlap, then sum node values up as the new value of the merged node.
+      Ex. 4           5                 9
+         / \    +    /        =        / \
+        2   6       3                 5   6
+        
+#### Program-69)  Middle of the Linked List
+    -> singly linked list with head node head, return a middle node of linked list.
+    -> If there are two middle nodes, return the second middle node.
+      Ex. Input = [4,5,6,7,7,4,3,3]
+          Ans = [7,4,3,3]
+          
+#### Program-70)  Find Minimum in Rotated Sorted Array II
+    -> An array sorted in ascending order is rotated at some pivot unknown to you beforehand. Find min of array.
+    Ex. Input = [1,3,5,5,6,3,2,0,1,1]
+        Ans = 0
+        
+#### Program-71)  Search a 2D Matrix
+    -> Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:
+        1 -> Integers in each row are sorted from left to right.
+        2 -> The first integer of each row is greater than the last integer of the previous row.
+    Ex.  Matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,50]] Target = 3
+         Ans = true
