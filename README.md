@@ -659,16 +659,104 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-73)  Add Two Numbers </summary>
 <pre>
-   -> You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse             order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
-        Ex. Num1 = 2->4->3->7->8    Num2 = 5->6->4->4->2
-            Ans = 7->0->8->1->1->1
+ -> You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse             order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
+      Ex. Num1 = 2->4->3->7->8    Num2 = 5->6->4->4->2
+          Ans = 7->0->8->1->1->1
 </pre>
 </details>
 
 <details><summary> Program-74)  Add to Array-Form of Integer </summary>
 <pre>
-   -> The array-form of X is an array of its digits in left to right order.
-      Ex. X = [1,4,53,5,63,9] and K = 94243 ( Add number + K)
-          Ans = [2,8,8,3,8,2]
+ -> The array-form of X is an array of its digits in left to right order.
+    Ex. X = [1,4,53,5,63,9] and K = 94243 ( Add number + K)
+        Ans = [2,8,8,3,8,2]
+</pre>
+</details>
+
+<details><summary> Program-75)  Binary Tree Inorder Traversal </summary>
+<pre>
+  Ex.Input = [7,4,1,6,9,2,3]
+        7
+       / \
+      4   9
+     / \
+    1   6
+     \
+      2
+       \
+        3
+     Ans = [6,4,9,7,2,1,3]
+</pre>
+</details>
+
+<details><summary> Program-76)  Binary Tree Preorder Traversal </summary>
+<pre>
+  Ex. Input = [7,4,1,6,9,2,3]
+        7
+       / \
+      4   9
+     / \
+    1   6
+     \
+      2
+       \
+        3
+      Ans = [7,4,6,9,1,2,3]
+</pre>
+</details>
+
+<details><summary> Program-77)  Binary Tree Postorder Traversal </summary>
+<pre>
+  Ex. Input = [7,4,1,6,9,2,3]
+        7
+       / \
+      4   9
+     / \
+    1   6
+     \
+      2
+       \
+        3
+      Ans = [6,9,4,2,3,1,7]
+</pre>
+</details>
+
+<details><summary> Program-78)  Minimum Distance Between BST Nodes </summary>
+<pre>
+  -> Find the minimum difference between the values of any two different nodes in the BST
+  Ex. Input = [4,2,6,1,3,null,null]
+        4
+       / \
+      2   6
+     / \    
+    1   3  
+    Ans = 1
+</pre>
+</details>
+
+<details><summary> Program-79)  Find All Duplicates in an Array </summary>
+<pre>
+  -> Given an array of integers, 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
+  -> Find all the elements that appear twice in this array.
+  Ex. Input = [4,3,5,5,6,8,7,5,3,2,2,7,8,2,3,1] 
+      Ans = [5,5,3,2,7,8,2,3]
+</pre>
+</details>
+
+<details><summary> Program-80)  Find All Numbers Disappeared in an Array </summary>
+<pre>
+  -> Find all the elements of [1, n] inclusive that do not appear in this array.
+  Ex. Input = [4,3,5,5,6,8,7,5,3,2,2,7,8,2,3,1] 
+      Ans = [9,10,11,12,13,14,15,16]
+</pre>
+</details>
+
+<details><summary> Program-81)  Distance Between Bus Stops </summary>
+<pre>
+  -> A bus has n stops numbered from 0 to n - 1 that form a circle. 
+  -> We know the distance between all pairs of neighboring stops where distance[i] is the distance between the stops number        i and (i + 1) % n.
+  -> Return the shortest distance between the given start and destination stops.
+  Ex. Input = [4,3,5,5,6,8,7,5,3,2,2,7,8,2,3,1] Start = 4, Destination = 8
+      Ans = 26
 </pre>
 </details>
