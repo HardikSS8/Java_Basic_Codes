@@ -760,3 +760,57 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
       Ans = 26
 </pre>
 </details>
+
+<details><summary> Program-82)  N-Repeated Element in Size 2N Array </summary>
+<pre>
+  -> in a array A of size 2N, there are N+1 unique elements, and exactly one of these elements is repeated N times.
+  -> Return the element repeated N times.
+    Ex. [5,1,5,2,5,3,5,4]
+        Ans = 5
+</pre>
+</details>
+
+<details><summary> Program-83)  Maximum 69 Number </summary>
+<pre>
+  -> Return the maximum number you can get by changing at most one digit (6 becomes 9, and 9 becomes 6).
+    Ex. Num = 9669
+        Ans = 9969
+</pre>
+</details>
+
+<details><summary> Program-84)  Largest Perimeter Triangle </summary>
+<pre>
+  -> Given an array A of positive lengths, return the largest perimeter of a triangle with non-zero area, formed from 3 of          these lengths.
+    Ex. [2,1,2,6,5,4,8,7,3,10,1,3,4,2344,12124]
+        Ans = 25
+</pre>
+</details>
+
+<details><summary> Program-85)  Peak Index in a Mountain Array </summary>
+<pre>
+  -> Given an array that is definitely a mountain, return any i such that 
+          A[0] < A[1] < ... A[i-1] < A[i] > A[i+1] > ... > A[A.length - 1].
+     Ex. Input -> A = [0,1,2,3,5,6,7,4,3,2,4,3,2,1,0]
+         Ans = 6
+</pre>
+</details>
+  
+<details><summary> Program-86)  Find Peak Element </summary>
+<pre>
+  -> A peak element is an element that is greater than its neighbors.
+  -> The array may contain multiple peaks, in that case return the index to any one of the peaks is fine.
+    Ex. A = [6,7,8,7,3]
+        Ans = 2
+</pre>
+</details>
+
+<details><summary> Program-87)  Find the Distance Value Between Two Arrays </summary>
+<pre>
+  -> Given two integer arrays arr1 and arr2, and the integer d, return the distance value between the two arrays.
+  -> The distance value is defined as the number of elements arr1[i] such that there is not any element arr2[j] where              |arr1[i]-arr2[j]| <= d.
+    Ex. Arr1 = [2,1,100,3]
+        Arr2 = [-5,-2,10,-3,7]
+        d = 6
+        Ans = 1
+</pre>
+</details>
