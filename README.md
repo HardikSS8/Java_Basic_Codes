@@ -814,3 +814,20 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
         Ans = 1
 </pre>
 </details>
+
+<details><summary> Program-88)  Find Lucky Integer in an Array </summary>
+<pre>
+  -> A lucky integer is an integer which has a frequency in the array equal to its value.
+  -> Return a lucky integer in the array. If there are multiple lucky integers return the largest of them. If there is no          lucky integer return -1.
+    Ex. Input = [2,2,3,4]
+        Ans = 2
+</pre>
+</details>
+
+<details><summary> Program-89)  Monotonic Array </summary>
+<pre>
+  -> An array is monotonic if it is either monotone increasing or monotone decreasing.
+    Ex. Input = [6,7,9,13,15,26,125]    Input = [1,3,4,6,2,3,1]
+        Ans = true                      Ans = false
+</pre>
+</details>
