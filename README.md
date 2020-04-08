@@ -831,3 +831,22 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
         Ans = true                      Ans = false
 </pre>
 </details>
+
+<details><summary> Program-90)  Leaf-Similar Trees </summary>
+<pre>
+  -> Consider all the leaves of a binary tree. From left to right order, the values of those leaves form a leaf value              sequence.
+  -> Two binary trees are considered leaf-similar if their leaf value sequence is the same.
+      Ex. Tree1 = [3,5,1,6,2,9,8,null,null,7,4]
+          Tree2 = [3,5,1,6,7,4,2,null,null,null,null,null,null,9,8]
+          Ans = true
+</pre>
+</details>
+
+<details><summary> Program-91)  Reduce Array Size to The Half </summary>
+<pre>
+  -> You can choose a set of integers and remove all the occurrences of these integers in the array.
+  -> Return the minimum size of the set so that at least half of the integers of the array are removed.
+    Ex. Input = [3,3,3,3,5,5,5,2,2,7]
+        Ans = 2 (Explanation : {3,7} , Reduced array = [5,5,5,2,2])
+</pre>
+</details>
