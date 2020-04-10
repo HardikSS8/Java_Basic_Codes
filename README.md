@@ -850,3 +850,28 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
         Ans = 2 (Explanation : {3,7} , Reduced array = [5,5,5,2,2])
 </pre>
 </details>
+
+<details><summary> Program-92)  Maximum Width Ramp </summary>
+<pre>
+  -> Given an array A of integers, a ramp is a tuple (i, j) for which i < j and A[i] <= A[j].The width of such a ramp is j-i.
+  -> Find the maximum width of a ramp in A.  If one doesn't exist, return 0.
+    Ex. Input = [9,8,1,0,1,9,4,0,4,1]
+        Ans = 7 (Explanation : index -> (2,9)) 
+</pre>
+</details>
+
+<details><summary> Program-93)  Contains Duplicate </summary>
+<pre>
+  -> Given an array of integers, find if the array contains any duplicates.
+      Ex. Input = [7,8,5,4,3,4,6,7,8]
+          Ans = true
+</pre>
+</details>
+
+<details><summary> Program-94)  Contains Duplicate II </summary>
+<pre>
+  -> Given an array of integers and an integer k, find out whether there are two distinct indices i and j in the array such        that nums[i] = nums[j] and the absolute difference between i and j is at most k.
+    Ex. Input = [1,2,3,1,7,6,5,6,7,8,9,7] and k = 6
+        Ans = true
+</pre>
+</details>
