@@ -847,7 +847,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
   -> You can choose a set of integers and remove all the occurrences of these integers in the array.
   -> Return the minimum size of the set so that at least half of the integers of the array are removed.
     Ex. Input = [3,3,3,3,5,5,5,2,2,7]
-        Ans = 2 (Explanation : {3,7} , Reduced array = [5,5,5,2,2])
+        Ans = 2        (Explanation : {3,7} , Reduced array = [5,5,5,2,2])
 </pre>
 </details>
 
@@ -856,7 +856,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
   -> Given an array A of integers, a ramp is a tuple (i, j) for which i < j and A[i] <= A[j].The width of such a ramp is j-i.
   -> Find the maximum width of a ramp in A.  If one doesn't exist, return 0.
     Ex. Input = [9,8,1,0,1,9,4,0,4,1]
-        Ans = 7 (Explanation : index -> (2,9)) 
+        Ans = 7       (Explanation : index -> (2,9)) 
 </pre>
 </details>
 
@@ -873,5 +873,23 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
   -> Given an array of integers and an integer k, find out whether there are two distinct indices i and j in the array such        that nums[i] = nums[j] and the absolute difference between i and j is at most k.
     Ex. Input = [1,2,3,1,7,6,5,6,7,8,9,7] and k = 6
         Ans = true
+</pre>
+</details>
+
+<details><summary> Program-95)  Rotate Array </summary>
+<pre>
+  -> Given an array, rotate the array to the right by k steps, where k is non-negative.
+    Ex. Input = [1,2,3,7,5,6,4,4,5,6,7] and K = 5
+        Ans = [4,4,5,6,7,1,2,3,7,5,6]
+</pre>
+</details>
+
+<details><summary> Program-96)  Best Time to Buy and Sell Stock </summary>
+<pre>
+  -> you have an array for which the ith element is the price of a given stock on day i.
+  -> If you were only permitted to complete at most one transaction (i.e., buy one and sell one share of the stock)
+  -> Design an algorithm to find the maximum profit.
+      Ex. Input = [7,11,3,4,67,87,3,4,2,46]
+          Ans = 84    (Explanation: buy = 3 and sell = 87, profit = 84)
 </pre>
 </details>
