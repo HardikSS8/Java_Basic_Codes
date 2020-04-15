@@ -893,3 +893,12 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
           Ans = 84    (Explanation: buy = 3 and sell = 87, profit = 84)
 </pre>
 </details>
+
+<details><summary> Program-97)  Count Number of Nice Subarrays </summary>
+<pre>
+  -> Given an array of integers nums and an integer k. A subarray is called nice if there are k odd numbers on it.
+  -> Return the number of nice sub-arrays.
+     Ex. Input = [1,8,7,6,5,9,8,7,6,3,2,1,9] and k = 6
+         Ans = 6
+</pre>
+</details>
