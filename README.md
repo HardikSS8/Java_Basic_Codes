@@ -902,3 +902,11 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Ans = 6
 </pre>
 </details>
+
+<details><summary> Program-98)  First Unique Character in a String </summary>
+<pre>
+  -> Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.
+    Ex. s = "loveleetcode"
+        Ans = 2
+</pre>
+</details>
