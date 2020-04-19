@@ -910,3 +910,54 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
         Ans = 2
 </pre>
 </details>
+
+<details><summary> Program-99)  Increasing Order Search Tree </summary>
+<pre>
+  -> Given a binary search tree, rearrange the tree in in-order so that the leftmost node in the tree is now the root of the        tree, and every node has no left child and only 1 right child.
+      Ex. Input =  5       
+                  / \             
+                3    6      
+               / \    \
+              2   4    8
+             /        / \ 
+            1        7   9
+          Ans =  1
+                  \
+                   2
+                    \
+                     3
+                      \
+                       4
+                        \
+                         5
+                          \
+                           6
+                            \
+                             7
+                              \
+                               8
+                                \
+                                 9    
+</pre>
+</details>
+
+<details><summary> Program-100)  Sum of Left Leaves </summary>
+<pre>
+  -> Find the sum of all left leaves in a given binary tree.
+      EX. Input = 5
+                 / \
+                7   9
+               /   / \
+              4   5   10 
+          Ans = 9 (4+5)   
+</pre>
+</details>
+
+<details><summary> Program-101)  Product of Array Except Self </summary>
+<pre>
+  -> Given an array nums of n integers where n > 1, return an array output such that output[i] is equal to the 
+  product of all the elements of nums except nums[i]. 
+    Ex. Input = [1,2,3,4]
+        Ans = [24,12,8,6]
+</pre>
+</details>
