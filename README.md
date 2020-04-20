@@ -961,3 +961,26 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
         Ans = [24,12,8,6]
 </pre>
 </details>
+
+<details><summary> Program-102)  Check If N and Its Double Exist </summary>
+<pre>
+  -> Given an array arr of integers, check if there exists two integers N and M such that N is the double of M (i.e.N = 2*M).
+      Ex. Input = [10,2,5,4,3,2]
+          Ans = true
+</pre>
+</details>
+
+<details><summary> Program-103)  Product of the Last K Numbers </summary>
+<pre>
+  -> Implement the class ProductOfNumbers that supports two methods:
+    1. add(int num)
+        Adds the number num to the back of the current list of numbers. 
+    2. getProduct(int k)
+        Returns the product of the last k numbers in the current list.
+        You can assume that always the current list has at least k numbers.
+    Ex. Input =       
+          ["ProductOfNumbers","add","add","add","add","add","getProduct","getProduct","getProduct","add","getProduct"]
+          [[],[3],[0],[2],[5],[4],[2],[3],[4],[8],[2]]
+        Ans = [null,null,null,null,null,null,20,40,0,null,32]  
+</pre>
+</details>
