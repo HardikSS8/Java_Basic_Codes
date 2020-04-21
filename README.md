@@ -4,21 +4,21 @@
 
 <br />
 
-<details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n)))</summary>
+<details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
 <pre>
   Ex. nums1 = [1,2] and nums2 = [3,4]
       median = (2+3)/2 = 2.5
 </pre>
 </details>
                   
-<details><summary> Program-2)   Merge two sorted linked lists</summary>
+<details><summary> Program-2)   Merge two sorted linked lists <b>#Linked List</b></summary>
 <pre>
   Ex. lis1 = 1->4->5 and list2 = 1->6->8
       ans = 1->1->4->5->6->8
 </pre>
 </details> 
 
-<details><summary> Program-3)   Search insert position</summary>
+<details><summary> Program-3)   Search insert position <b>#Binary Search #Array</b> </summary>
 <pre>
    -> Given a sorted array and a target value, return the index if the target is found. If not, return the index where it           would be if it were inserted in order.
     Ex. [1,3,5,6], 7
@@ -33,14 +33,14 @@
 </pre>
 </details> 
         
-<details><summary> Program-5)   Count of Smaller Numbers After Self  </summary>
+<details><summary> Program-5)   Count of Smaller Numbers After Self <b>#Binary Search #Greedy #Binary Indexed Tree #Segment Tree #Divide and Conque</b>  </summary>
 <pre>
    Ex. nums = [5,2,6,1]
        ans = [2,1,1,0]
 </pre>
 </details>
 
-<details><summary> Program-6)   Boats to Save People (Return the minimum number of boats) </summary>
+<details><summary> Program-6)   Boats to Save People (Return the minimum number of boats) <b>#Two Pointers #Greedy</b> </summary>
 <pre>
    -> The i-th person has weight people[i], and each boat can carry a maximum weight of limit.
    -> Each boat carries at most 2 people at the same time, provided the sum of the weight of those people is at most                 limit.
@@ -111,14 +111,14 @@
 </pre>
 </details>
 
-<details><summary> Program-12)   Binary search (time complexity O(log(n))</summary>
+<details><summary> Program-12)   Binary search (time complexity O(log(n)) <b>#Binary Search</b></summary>
 <pre>
    Ex. nums = [-1,0,3,5,9,12], target = 9
        Ans = 4
 </pre>
 </details>
           
-<details><summary> Program-13)   Search and return subtree of that node in Binary Search Tree </summary>
+<details><summary> Program-13)   Search and return subtree of that node in Binary Search Tree <b>#Tree</b> </summary>
 <pre>
     Ex. input =  4      key = 2    Output =  2      else return [];
                 / \                         / \ 
@@ -128,7 +128,7 @@
 </pre>
 </details>
 
-<details><summary> Program-14)   Symmetric Tree (mirror image concept can be applied here) </summary>
+<details><summary> Program-14)   Symmetric Tree (mirror image concept can be applied here) <b>#Tree #Breadth-first Search</b> </summary>
 <pre>
    Ex. input =    1         Output = true
                  / \
@@ -138,14 +138,14 @@
 </pre>
 </details>
 
-<details><summary> Program-15)   Add Binary Strings </summary>
+<details><summary> Program-15)   Add Binary Strings <b>#String #Math</b> </summary>
 <pre>
    Ex. string1 = "1010", string2 = "1011"
       Ans = "10101"
 </pre>
 </details>
 
-<details><summary> Program-16)   Plus One (Add 1 in the given number in form of array) </summary>
+<details><summary> Program-16)   Plus One (Add 1 in the given number in form of array) <b>#Array</b> </summary>
 <pre>
    Ex. Input = [2,4,5,9]       Input = [9,9,9]
        Ans =  [2,4,6,0]       Input = [1,0,0,0]
@@ -183,21 +183,21 @@
 </pre>
 </details>
 
-<details><summary> Program-20)  Reverse Integer (Constraint : 32-bit signed integer) </summary>
+<details><summary> Program-20)  Reverse Integer (Constraint : 32-bit signed integer) <b>#Math</b> </summary>
 <pre>
   Ex. Input  = 113      Input = -345    Input = 120
        Ans = 311         Ans = -543      Ans = 21
 </pre>
 </details>
 
-<details><summary> Program-21)  Move Zeros to end of the array (Without using another array and min no of operations) </summary>
+<details><summary> Program-21)  Move Zeros to end of the array (Without using another array and min no of operations) <b>#Two Pointers #Array</b> </summary>
 <pre>
   Ex. Input = [0,56,3,2,4,0,2]
        Ans = [56,3,2,4,2,0,0]
 </pre>
 </details>
 
-<details><summary> Program-22)  Subtract the Product and Sum of Digits of an Integer </summary>
+<details><summary> Program-22)  Subtract the Product and Sum of Digits of an Integer <b>#Math</b> </summary>
 <pre>
   Ex. N = 453
       Product = 4*5*3 = 60
@@ -214,28 +214,28 @@
 </pre>
 </details>
 
-<details><summary> Program-24)  Intersection of Two Arrays </summary>
+<details><summary> Program-24)  Intersection of Two Arrays <b>#Two Pointers #Binary Search #Greedy #Hash Table</b> </summary>
 <pre>
   Ex. Input1 = [4,7,6]  Input2 = [6,32,23,7,8]
       Ans = [7,6]
 </pre>
 </details>
 
-<details><summary> Program-25)  Replace Elements with Greatest Element on Right Side (Last element = -1) </summary>
+<details><summary> Program-25)  Replace Elements with Greatest Element on Right Side (Last element = -1) <b>#Array</b> </summary>
 <pre>
   Ex. arr = [17,18,5,4,6,1]
       Ans = [18,6,6,6,1,-1]
 </pre>
 </details>
 
-<details><summary> Program-26)  Find Numbers with Even Number of Digits </summary>
+<details><summary> Program-26)  Find Numbers with Even Number of Digits <b>#Array</b> </summary>
 <pre>
   Ex. Input = [34,5,4,345,6785]
       Ans = 2
 </pre>
 </details>
                  
-<details><summary> Program-27)  Merge Sorted Array (Assume : array one is large enough to hold both array) </summary>
+<details><summary> Program-27)  Merge Sorted Array (Assume : array one is large enough to hold both array) <b>#Two Pointers #Array</b> </summary>
 <pre>
   Ex. Input1 = [1,5,4,0,0,0]
       Input2 = [3,2,7]
@@ -243,7 +243,7 @@
 </pre>
 </details>
 
-<details><summary> Program-28)  Two Sum </summary>
+<details><summary> Program-28)  Two Sum <b>#Hash Table #Array</b> </summary>
 <pre>
   -> Given an array of integers, return indices of the two numbers such that they add up to a specific target.
   Ex. Input = [7,8,45,32] Target = 15
@@ -252,7 +252,7 @@
 </pre>
 </details>
 
-<details><summary> Program-29)  Single Number </summary>
+<details><summary> Program-29)  Single Number <b>#Hash Table</b> </summary>
 <pre>
   -> Given a non-empty array of integers and Frequency of all elements except one, find that number
   Ex. Input = [5,6,7,7,5,8,6,4,8]
@@ -260,28 +260,28 @@
 </pre>
 </details>
 
-<details><summary> Program-30)  Power (x,n) (Only for 32 bit range [-2^32, 2^31 - 1] </summary>
+<details><summary> Program-30)  Power (x,n) (Only for 32 bit range [-2^32, 2^31 - 1] <b>#Binary Search #Math</b> </summary>
 <pre>
   Ex. Input -> X = 2.0, n = 10
       Ans = 1024.0
 </pre>
 </details>
 
-<details><summary> Program-31)  Max Consecutive Ones (Input string of 0 and 1s) </summary>
+<details><summary> Program-31)  Max Consecutive Ones (Input string of 0 and 1s) <b>#Array</b> </summary>
 <pre>
   Ex. Input = [1,1,0,0,0,1,1,1,1,1]
       Ans = 5
 </pre>
 </details>
 
-<details><summary> Program-32)  Palindrome Number (Negative number also) (Without converting to string) </summary>
+<details><summary> Program-32)  Palindrome Number (Negative number also) (Without converting to string) <b>#Math</b> </summary>
 <pre>
   Ex. Input = 565     Input = -565
       Ans = true      Ans = false
 </pre>
 </details>
 
-<details><summary> Program-33)  Find First and Last Position of Element in Sorted Array (O(log(n)) </summary>
+<details><summary> Program-33)  Find First and Last Position of Element in Sorted Array (O(log(n)) <b>#Binary Search #Array</b> </summary>
 <pre>
   Ex. Input = [5,4,6,8,6,5,3]       Input = [3,4,5,2,4,5,6]
       Target = 6                    Target = 8
@@ -289,7 +289,7 @@
 </pre>
 </details>
 
-<details><summary> Program-34)  Edit Distance (One of the useful similarity measure in data science)(Using Dynamic Approach) </summary>
+<details><summary> Program-34)  Edit Distance (One of the useful similarity measure in data science)(Using Dynamic Approach) <b>#String #Dynamic Programming</b> </summary>
 <pre>
   -> The minimum edit distance is the minimum number of editing operations (insert, delete, replace) to transform one              string into the other.
      Ex. "sunday" and "saturday"
@@ -302,7 +302,7 @@
      
 For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki/Edit_distance)            
 
-<details><summary> Program-35)  Integer Replacement </summary>
+<details><summary> Program-35)  Integer Replacement <b>#Math</b> </summary>
 <pre>
   ->  Given a positive integer n and you can do operations as follow:
     Until n = 1; do
@@ -315,13 +315,13 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-36)  Missing Number (first missing number from 0,1,2... n where n = array length) </summary>
+<details><summary> Program-36)  Missing Number (first missing number from 0,1,2... n where n = array length) <b>#Math #Array</b> </summary>
 <pre>
   Ex. Input = [0,1,2]   Input = [6,7,8,9]
       Ans = 3           Ans = 4
 </details>
   
-<details><summary> Program-37)  First Missing Positive (find the first positive number in unsorted array) </summary>
+<details><summary> Program-37)  First Missing Positive (find the first positive number in unsorted array) <b>#Array</b> </summary>
 <pre>
   Ex. Input = [-5,-3,1,3]           Input = [4,3,5,2]       Input = [-5,-4,-9,-10,-11]   
       Ans   = 2                     Ans   = 1               Ans   = 1
@@ -335,7 +335,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details> 
   
-<details><summary> Program-39)  Student Attendance Record I </summary>
+<details><summary> Program-39)  Student Attendance Record I <b>#String</b> </summary>
 <pre>
   -> You are given a string representing an attendance record for a student. The record only contains the following three          characters:
         'A' : Absent.
@@ -355,7 +355,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details> 
 
-<details><summary> Program-41)  Maximum Average Subarray I </summary>
+<details><summary> Program-41)  Maximum Average Subarray I <b>#Array</b> </summary>
 <pre>
   -> Find the contiguous subarray of given length k that has the maximum average value.
     Ex. Input = [10,12,66,-70,-53]  K = 4
@@ -363,7 +363,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details> 
 
-<details><summary> Program-42)  Sum of Square Numbers </summary>
+<details><summary> Program-42)  Sum of Square Numbers <b>#Math</b> </summary>
 <pre>
   -> Given a non-empty binary tree, return the average value of the nodes on each level in the form of an array.
   Ex. Input = 46        Input = 3423
@@ -371,21 +371,21 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-43)  Valid Perfect Square (Do not use sqrt function)</summary>
+<details><summary> Program-43)  Valid Perfect Square (Do not use sqrt function) <b>#Binary Search #Math</b> </summary>
 <pre>
   Ex. Input = 625         Input = 24
       Ans = true          Ans = false
 </pre>
 </details>
   
-<details><summary> Program-44)  Sqrt(x) (find square root of given number using floor function) </summary>
+<details><summary> Program-44)  Sqrt(x) (find square root of given number using floor function) <b>#Binary Search #Math</b> </summary>
 <pre>
   Ex. Input = 16            Input = 534
       Ans = 4               Ans = 23
 </pre>
 </details>
 
-<details><summary> Program-45)  Powerful Integers </summary>
+<details><summary> Program-45)  Powerful Integers <b>#Hash Table #Math</b> </summary>
 <pre>
   -> Given two positive integers x and y, an integer is powerful if it is equal to x^i + y^j
       for some integers i >= 0 and j >= 0. until the bound given.
@@ -395,7 +395,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </details>
   
 
-<details><summary> Program-46)  Valid Parentheses </summary>
+<details><summary> Program-46)  Valid Parentheses <b>#String #Stack</b> </summary>
 <pre>
   -> Check if given string of parentheses is balanced or not.
   Ex. Input = "((({}[))])"
@@ -403,7 +403,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
   
-<details><summary> Program-47)  Score of Parentheses </summary>
+<details><summary> Program-47)  Score of Parentheses <b>#String #Stack</b> </summary>
 <pre>
   -> Given a balanced parentheses string S, compute the score of the string based on the following rule:
   -> () has score 1
@@ -444,14 +444,14 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details> 
 
-<details><summary> Program-50)  Maximum Number of Balloons </summary>
+<details><summary> Program-50)  Maximum Number of Balloons <b>#String #Hash Table</b> </summary>
 <pre>
   -> From the given string, find the number of string balloon can be formed.
     Ex. Input = "nlaebolkoballono"
         Ans = 2
 </details> 
   
-<details><summary> Program-51)  Minimum Depth of Binary Tree </summary>
+<details><summary> Program-51)  Minimum Depth of Binary Tree <b>#Tree</b> </summary>
 <pre>
   Ex. Input = [8,6,4,5,10,16,2]
           8           
@@ -464,7 +464,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-52)  Maximum Depth of Binary Tree </summary>
+<details><summary> Program-52)  Maximum Depth of Binary Tree <b>#Tree #Breadth-first Search</b> </summary>
 <pre>
   Ex. Input = [20,8,4,14,23]
         20
@@ -475,7 +475,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-53)  Balanced Binary Tree </summary>
+<details><summary> Program-53)  Balanced Binary Tree <b>#Tree</b> </summary>
 <pre>
   -> Height-balanced binary tree is defined as:
       -> a binary tree in which the left and right subtrees of every node differ in height by no more than 1.
@@ -488,7 +488,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-54)  Self Dividing Numbers </summary>
+<details><summary> Program-54)  Self Dividing Numbers <b>#Math</b> </summary>
 <pre>
   -> A self-dividing number is a number that is divisible by every digit it contains.
   -> Also, a self-dividing number is not allowed to contain the digit zero.
@@ -497,7 +497,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-55)  Average of Levels in Binary Tree </summary>
+<details><summary> Program-55)  Average of Levels in Binary Tree <b>#Tree</b> </summary>
 <pre>
     Ex.   3     
          / \      Ans = [3, 14.5, 11]
@@ -507,14 +507,14 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-56)  Perfect Number </summary>
+<details><summary> Program-56)  Perfect Number <b>#Math</b> </summary>
 <pre>
   -> Perfect Number is a positive integer that is equal to the sum of all its positive divisors except itself.
   Ex. Input = 256       Input = 6
       Ans = false       Ans = true
 </details>
   
-<details><summary> Program-57)  Add Digits </summary>
+<details><summary> Program-57)  Add Digits <b>#Math</b> </summary>
 <pre>
   -> Add all its digits until the result has only one digit.
   Ex. Input = 78
@@ -522,7 +522,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-58)  Daily Temperatures </summary>
+<details><summary> Program-58)  Daily Temperatures <b>#Dynamic Programming #Hash Table</b> </summary>
 <pre>
   -> Given a list of daily temperatures T, return a list such that, for each day in the input, tells you how many days you          would have to wait until a warmer temperature. 
   -> If there is no future day for which this is possible, put 0 instead.
@@ -531,7 +531,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-59)  Counting Bits </summary>
+<details><summary> Program-59)  Counting Bits <b>#Dynamic Programming</b> </summary>
 <pre>
   -> Given a non negative integer number num. For every numbers i in the range 0 ≤ i ≤ num calculate the number of 1's in       their binary representation and return them as an array.
     Ex. Input -> num = 35
@@ -539,7 +539,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-60)  Majority Element </summary>
+<details><summary> Program-60)  Majority Element <b>#Divide and Conque #Array</b> </summary>
 <pre>
   -> Given an array of size n, find the majority element.
   -> The majority element is the element that appears more than ⌊ n/2 ⌋ times.
@@ -548,7 +548,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-61)  Majority Element II </summary>
+<details><summary> Program-61)  Majority Element II <b>#Array</b> </summary>
 <pre>
   -> Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.
     Ex. Input = [4,4,5,3,4,5,5,3,3,3,3,4,4,4,4]
@@ -556,7 +556,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-62)  All Elements in Two Binary Search Trees </summary>
+<details><summary> Program-62)  All Elements in Two Binary Search Trees <b>#Tree #Greedy</b> </summary>
 <pre>
   -> Given two binary search trees root1 and root2.
   -> Return a list containing all the integers from both trees sorted in ascending order.
@@ -567,7 +567,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-63)  Count Number of Teams </summary>
+<details><summary> Program-63)  Count Number of Teams <b>#Array</b> </summary>
 <pre>
   -> There are n soldiers standing in a line. Each soldier is assigned a unique rating value.
   -> Choose 3 soldiers with index (i, j, k) with rating (rating[i], rating[j], rating[k]).
@@ -580,7 +580,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-64)  Univalued Binary Tree </summary>
+<details><summary> Program-64)  Univalued Binary Tree  <b>#Tree</b> </summary>
 <pre>
   -> A binary tree is univalued if every node in the tree has the same value.
       Ex. 6
@@ -591,14 +591,14 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-65)  Convert Binary Number in a Linked List to Integer </summary>
+<details><summary> Program-65)  Convert Binary Number in a Linked List to Integer <b>#Linked List</b> </summary>
 <pre>
   Ex. Input = [1,0,1,1,1,1,0,0,0,0,1]
       Ans = 1505
 </pre>
 </details>
 
-<details><summary> Program-66)  Unique Number of Occurrences </summary>
+<details><summary> Program-66)  Unique Number of Occurrences <b>#Hash Table</b> </summary>
 <pre>
   -> write a function that returns true if and only if the number of occurrences of each value in the array is unique.
     Ex. Input = [-5,-6,2,6,-5,-7,5]
@@ -606,7 +606,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-67)  Valid Anagram </summary>
+<details><summary> Program-67)  Valid Anagram <b>#Greedy #Hash Table</b> </summary>
 <pre>
   -> Given two strings str1 and str2 , write a function to determine if str2 is an anagram of str1.
       Ex. Str1 = "hardik" Str2 = "krdiha"
@@ -614,7 +614,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-68)  Merge Two Binary Trees </summary>
+<details><summary> Program-68)  Merge Two Binary Trees <b>#Tree</b> </summary>
 <pre>
   -> The merge rule is that if two nodes overlap, then sum node values up as the new value of the merged node.
   Ex. 4           5                 9
@@ -623,7 +623,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-69)  Middle of the Linked List </summary>
+<details><summary> Program-69)  Middle of the Linked List <b>#Linked List</b> </summary>
 <pre>
   -> singly linked list with head node head, return a middle node of linked list.
   -> If there are two middle nodes, return the second middle node.
@@ -632,7 +632,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-70)  Find Minimum in Rotated Sorted Array II </summary>
+<details><summary> Program-70)  Find Minimum in Rotated Sorted Array II <b>#Binary Search #Array</b> </summary>
 <pre>
   -> An array sorted in ascending order is rotated at some pivot unknown to you beforehand. Find min of array.
   Ex. Input = [1,3,5,5,6,3,2,0,1,1]
@@ -640,7 +640,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-71)  Search a 2D Matrix </summary>
+<details><summary> Program-71)  Search a 2D Matrix <b>#Binary Search #Array</b> </summary>
 <pre>
   -> Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:
      1 -> Integers in each row are sorted from left to right.
@@ -657,7 +657,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-73)  Add Two Numbers </summary>
+<details><summary> Program-73)  Add Two Numbers <b>#Linked List #Math</b> </summary>
 <pre>
  -> You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse             order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
       Ex. Num1 = 2->4->3->7->8    Num2 = 5->6->4->4->2
@@ -665,7 +665,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-74)  Add to Array-Form of Integer </summary>
+<details><summary> Program-74)  Add to Array-Form of Integer <b>#Array</b> </summary>
 <pre>
  -> The array-form of X is an array of its digits in left to right order.
     Ex. X = [1,4,53,5,63,9] and K = 94243 ( Add number + K)
@@ -673,7 +673,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-75)  Binary Tree Inorder Traversal </summary>
+<details><summary> Program-75)  Binary Tree Inorder Traversal <b>#Tree #Stack #Hash Table</b> </summary>
 <pre>
   Ex.Input = [7,4,1,6,9,2,3]
         7
@@ -689,7 +689,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-76)  Binary Tree Preorder Traversal </summary>
+<details><summary> Program-76)  Binary Tree Preorder Traversal <b>#Tree #Stack</b> </summary>
 <pre>
   Ex. Input = [7,4,1,6,9,2,3]
         7
@@ -705,7 +705,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-77)  Binary Tree Postorder Traversal </summary>
+<details><summary> Program-77)  Binary Tree Postorder Traversal <b>#Tree #Stack</b> </summary>
 <pre>
   Ex. Input = [7,4,1,6,9,2,3]
         7
@@ -721,7 +721,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-78)  Minimum Distance Between BST Nodes </summary>
+<details><summary> Program-78)  Minimum Distance Between BST Nodes <b>#Tree #Recursion</b> </summary>
 <pre>
   -> Find the minimum difference between the values of any two different nodes in the BST
   Ex. Input = [4,2,6,1,3,null,null]
@@ -734,7 +734,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-79)  Find All Duplicates in an Array </summary>
+<details><summary> Program-79)  Find All Duplicates in an Array <b>#Array</b> </summary>
 <pre>
   -> Given an array of integers, 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
   -> Find all the elements that appear twice in this array.
@@ -743,7 +743,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-80)  Find All Numbers Disappeared in an Array </summary>
+<details><summary> Program-80)  Find All Numbers Disappeared in an Array <b>#Array</b> </summary>
 <pre>
   -> Find all the elements of [1, n] inclusive that do not appear in this array.
   Ex. Input = [4,3,5,5,6,8,7,5,3,2,2,7,8,2,3,1] 
@@ -751,7 +751,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-81)  Distance Between Bus Stops </summary>
+<details><summary> Program-81)  Distance Between Bus Stops <b>#Array</b> </summary>
 <pre>
   -> A bus has n stops numbered from 0 to n - 1 that form a circle. 
   -> We know the distance between all pairs of neighboring stops where distance[i] is the distance between the stops number        i and (i + 1) % n.
@@ -761,7 +761,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-82)  N-Repeated Element in Size 2N Array </summary>
+<details><summary> Program-82)  N-Repeated Element in Size 2N Array <b>#Hash Table</b> </summary>
 <pre>
   -> in a array A of size 2N, there are N+1 unique elements, and exactly one of these elements is repeated N times.
   -> Return the element repeated N times.
@@ -770,7 +770,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-83)  Maximum 69 Number </summary>
+<details><summary> Program-83)  Maximum 69 Number <b>#Math #Array</b> </summary>
 <pre>
   -> Return the maximum number you can get by changing at most one digit (6 becomes 9, and 9 becomes 6).
     Ex. Num = 9669
@@ -778,7 +778,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-84)  Largest Perimeter Triangle </summary>
+<details><summary> Program-84)  Largest Perimeter Triangle <b>#Greedy #Math</b> </summary>
 <pre>
   -> Given an array A of positive lengths, return the largest perimeter of a triangle with non-zero area, formed from 3 of          these lengths.
     Ex. [2,1,2,6,5,4,8,7,3,10,1,3,4,2344,12124]
@@ -786,7 +786,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-85)  Peak Index in a Mountain Array </summary>
+<details><summary> Program-85)  Peak Index in a Mountain Array <b>#Binary Search</b> </summary>
 <pre>
   -> Given an array that is definitely a mountain, return any i such that 
           A[0] < A[1] < ... A[i-1] < A[i] > A[i+1] > ... > A[A.length - 1].
@@ -795,7 +795,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
   
-<details><summary> Program-86)  Find Peak Element </summary>
+<details><summary> Program-86)  Find Peak Element <b>#Binary Search #Array</b> </summary>
 <pre>
   -> A peak element is an element that is greater than its neighbors.
   -> The array may contain multiple peaks, in that case return the index to any one of the peaks is fine.
@@ -804,7 +804,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-87)  Find the Distance Value Between Two Arrays </summary>
+<details><summary> Program-87)  Find the Distance Value Between Two Arrays <b>#Array</b> </summary>
 <pre>
   -> Given two integer arrays arr1 and arr2, and the integer d, return the distance value between the two arrays.
   -> The distance value is defined as the number of elements arr1[i] such that there is not any element arr2[j] where              |arr1[i]-arr2[j]| <= d.
@@ -824,7 +824,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-89)  Monotonic Array </summary>
+<details><summary> Program-89)  Monotonic Array <b>#Array</b> </summary>
 <pre>
   -> An array is monotonic if it is either monotone increasing or monotone decreasing.
     Ex. Input = [6,7,9,13,15,26,125]    Input = [1,3,4,6,2,3,1]
@@ -832,7 +832,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-90)  Leaf-Similar Trees </summary>
+<details><summary> Program-90)  Leaf-Similar Trees <b>#Tree</b> </summary>
 <pre>
   -> Consider all the leaves of a binary tree. From left to right order, the values of those leaves form a leaf value              sequence.
   -> Two binary trees are considered leaf-similar if their leaf value sequence is the same.
@@ -842,7 +842,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-91)  Reduce Array Size to The Half </summary>
+<details><summary> Program-91)  Reduce Array Size to The Half <b>#Greedy #Array</b> </summary>
 <pre>
   -> You can choose a set of integers and remove all the occurrences of these integers in the array.
   -> Return the minimum size of the set so that at least half of the integers of the array are removed.
@@ -851,7 +851,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-92)  Maximum Width Ramp </summary>
+<details><summary> Program-92)  Maximum Width Ramp <b>#Array</b> </summary>
 <pre>
   -> Given an array A of integers, a ramp is a tuple (i, j) for which i < j and A[i] <= A[j].The width of such a ramp is j-i.
   -> Find the maximum width of a ramp in A.  If one doesn't exist, return 0.
@@ -860,7 +860,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-93)  Contains Duplicate </summary>
+<details><summary> Program-93)  Contains Duplicate <b>#Hash Table #Array</b> </summary>
 <pre>
   -> Given an array of integers, find if the array contains any duplicates.
       Ex. Input = [7,8,5,4,3,4,6,7,8]
@@ -868,7 +868,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-94)  Contains Duplicate II </summary>
+<details><summary> Program-94)  Contains Duplicate II <b>#Hash Table #Array</b> </summary>
 <pre>
   -> Given an array of integers and an integer k, find out whether there are two distinct indices i and j in the array such        that nums[i] = nums[j] and the absolute difference between i and j is at most k.
     Ex. Input = [1,2,3,1,7,6,5,6,7,8,9,7] and k = 6
@@ -876,7 +876,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-95)  Rotate Array </summary>
+<details><summary> Program-95)  Rotate Array <b>#Array</b> </summary>
 <pre>
   -> Given an array, rotate the array to the right by k steps, where k is non-negative.
     Ex. Input = [1,2,3,7,5,6,4,4,5,6,7] and K = 5
@@ -884,7 +884,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-96)  Best Time to Buy and Sell Stock </summary>
+<details><summary> Program-96)  Best Time to Buy and Sell Stock <b>#Dynamic Programming #Array</b> </summary>
 <pre>
   -> you have an array for which the ith element is the price of a given stock on day i.
   -> If you were only permitted to complete at most one transaction (i.e., buy one and sell one share of the stock)
@@ -894,7 +894,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-97)  Count Number of Nice Subarrays </summary>
+<details><summary> Program-97)  Count Number of Nice Subarrays <b>#Two Pointers</b> </summary>
 <pre>
   -> Given an array of integers nums and an integer k. A subarray is called nice if there are k odd numbers on it.
   -> Return the number of nice sub-arrays.
@@ -903,7 +903,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-98)  First Unique Character in a String </summary>
+<details><summary> Program-98)  First Unique Character in a String <b>#String #Hash Table</b> </summary>
 <pre>
   -> Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.
     Ex. s = "loveleetcode"
@@ -911,7 +911,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-99)  Increasing Order Search Tree </summary>
+<details><summary> Program-99)  Increasing Order Search Tree <b>#Tree</b> </summary>
 <pre>
   -> Given a binary search tree, rearrange the tree in in-order so that the leftmost node in the tree is now the root of the        tree, and every node has no left child and only 1 right child.
       Ex. Input =  5       
@@ -941,7 +941,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-100)  Sum of Left Leaves </summary>
+<details><summary> Program-100)  Sum of Left Leaves <b>#Tree #Array</b> </summary>
 <pre>
   -> Find the sum of all left leaves in a given binary tree.
       EX. Input = 5
@@ -962,7 +962,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-102)  Check If N and Its Double Exist </summary>
+<details><summary> Program-102)  Check If N and Its Double Exist <b>#Array</b> </summary>
 <pre>
   -> Given an array arr of integers, check if there exists two integers N and M such that N is the double of M (i.e.N = 2*M).
       Ex. Input = [10,2,5,4,3,2]
@@ -970,7 +970,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-103)  Product of the Last K Numbers </summary>
+<details><summary> Program-103)  Product of the Last K Numbers <b>#Design #Array</b> </summary>
 <pre>
   -> Implement the class ProductOfNumbers that supports two methods:
     1. add(int num)
@@ -986,7 +986,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </details>
 
 
-<details><summary> Program-104)  1-bit and 2-bit Characters </summary>
+<details><summary> Program-104)  1-bit and 2-bit Characters <b>#Array</b> </summary>
 <pre>
   -> There are two special characters. The first character can be represented by one bit 0. The second character can be            represented by two bits (10 or 11).
   -> Now given a string represented by several bits. Return whether the last character must be a one-bit character or not. The      given string will always end with a zero.
@@ -995,7 +995,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-105)  Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold </summary>
+<details><summary> Program-105)  Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold <b>#Array</b> </summary>
 <pre>
   -> Given an array of integers arr and two integers k and threshold.
   -> Return the number of sub-arrays of size k and average greater than or equal to threshold.
