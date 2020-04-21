@@ -2,6 +2,8 @@
 
 ### In this repository, there are some basic programs (only functions) that most companies ask during interview process in java language.
 
+#### Categories (like array,linked list,tree) of all questions are also tagged along side of question description below.
+
 <br />
 
 <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
