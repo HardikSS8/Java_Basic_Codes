@@ -984,3 +984,23 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
         Ans = [null,null,null,null,null,null,20,40,0,null,32]  
 </pre>
 </details>
+
+
+<details><summary> Program-104)  1-bit and 2-bit Characters </summary>
+<pre>
+  -> There are two special characters. The first character can be represented by one bit 0. The second character can be            represented by two bits (10 or 11).
+  -> Now given a string represented by several bits. Return whether the last character must be a one-bit character or not. The      given string will always end with a zero.
+      Ex. Input = [1, 1, 1, 0]        Input = [0,0]
+          Ans = false                 Ans = true
+</pre>
+</details>
+
+<details><summary> Program-105)  Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold </summary>
+<pre>
+  -> Given an array of integers arr and two integers k and threshold.
+  -> Return the number of sub-arrays of size k and average greater than or equal to threshold.
+      Ex. Input = [2,2,2,2,5,5,5,8], k = 3, threshold = 4
+          Ans = 3 (Explanation: Sub-arrays [2,5,5],[5,5,5] and [5,5,8] have averages 4, 5 and 6 respectively. 
+                  All other sub-arrays of size 3 have averages less than 4 (the threshold))
+</pre>
+</details>
