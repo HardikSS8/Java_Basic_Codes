@@ -26,7 +26,7 @@
 </pre>
 </details> 
 
-<details><summary> Program-4)   Find First and Last Position of Element in Sorted Array  </summary>
+<details><summary> Program-4)   Find First and Last Position of Element in Sorted Array <b>#Array #Binary Search</b>  </summary>
 <pre>
    Ex. nums = [5,7,7,8,8,10], target = 8
        ans = [3,4]
@@ -49,7 +49,7 @@
 </pre>
 </details>
 
-<details><summary> Program-7)   Same Tree or not </summary>
+<details><summary> Program-7)   Same Tree or not <b>#Tree</b> </summary>
 <pre>
     -> Given two binary trees, write a function to check if they are the same or not.
      Ex.    1         1
@@ -60,7 +60,7 @@
 </pre>
 </details>
           
-<details><summary> Program-8)   Validate Binary Search Tree </summary>
+<details><summary> Program-8)   Validate Binary Search Tree <b>#Tree</b> </summary>
 <pre>
     ->Given a binary tree, determine if it is a valid binary search tree (BST).
      *) The left subtree of a node contains only nodes with keys less than the node's key.
@@ -72,7 +72,7 @@
 </pre>
 </details>
 
-<details><summary> Program-9)   Invert Binary Tree </summary>
+<details><summary> Program-9)   Invert Binary Tree <b>#Tree</b> </summary>
 <pre>
     Ex. Input =   4           
                 /   \
@@ -87,7 +87,7 @@
 </pre>
 </details>
 
-<details><summary> Program-10)   Sum Root to Leaf Numbers (each path from root to leaf represents the number) </summary>
+<details><summary> Program-10)   Sum Root to Leaf Numbers (each path from root to leaf represents the number) <b>#Tree</b> </summary>
 <pre>
     Ex. [4,9,0,5,1]         
               4
@@ -98,7 +98,7 @@
 </pre>
 </details>
 
-<details><summary> Program-11)  Path Sum (check if path exist in which sum of values of nodes equal to given target sum) </summary>
+<details><summary> Program-11)  Path Sum (check if path exist in which sum of values of nodes equal to given target sum) <b>#Tree</b> </summary>
 <pre>
     Ex. Input = 22        
             5         Ans = 5->4->11->2 = 5+4+11+2 = 22  
@@ -152,14 +152,14 @@
 </pre>
 </details>
 
-<details><summary> Program-17)  Count no of 1 in given String (Concept of masking of bits in using AND operation) </summary>
+<details><summary> Program-17)  Count no of 1 in given String (Concept of masking of bits in using AND operation) <b>#Bit Manipulation</b> </summary>
 <pre>
    Ex. 11111111111111111111111111101101
        Ans = 30
 </pre>
 </details>
 
-<details><summary> Program-18)  Hamming Distance (Upto 32 bits) (Use of Integer.toBinaryString(int) function of java in-built function) </summary>
+<details><summary> Program-18)  Hamming Distance (Upto 32 bits) (Use of Integer.toBinaryString(int) function of java in-built function) <b>#Bit Manipulation</b> </summary>
 <pre>
   -> Also we have to format the string of this converted binary into 32 bit format.
   -> X = 1 and Y = 4
@@ -174,7 +174,7 @@
 </pre>
 </details>
 
-<details><summary> Program-19)  Total Hamming Distance (All pairs of numbers in given array) (time complexity must be taken care of because of  two for loops) </summary>
+<details><summary> Program-19)  Total Hamming Distance (All pairs of numbers in given array) (time complexity must be taken care of because of  two for loops) <b>#Bit Manipulation</b> </summary>
 <pre>
   Ex. Input => [5, 15, 20]
   Ans = hamming(5,15) + hamming(15,20) + hamming(5,20)
@@ -206,7 +206,7 @@
 </pre>
 </details>
 
-<details><summary> Program-23)  Number of Steps to Reduce a Number to Zero (If n is even divide by 2 otherwise reduce 1 from n at each operation until zero) </summary>
+<details><summary> Program-23)  Number of Steps to Reduce a Number to Zero (If n is even divide by 2 otherwise reduce 1 from n at each operation until zero) <b>#Bit Manipulation</b> </summary>
 <pre>
   Ex. Num = 6;
       Ops = (6/2) = (3-2) = (2/2) = (1-1) = 0.
@@ -252,7 +252,7 @@
 </pre>
 </details>
 
-<details><summary> Program-29)  Single Number <b>#Hash Table</b> </summary>
+<details><summary> Program-29)  Single Number <b>#Hash Table #Bit Manipulation</b> </summary>
 <pre>
   -> Given a non-empty array of integers and Frequency of all elements except one, find that number
   Ex. Input = [5,6,7,7,5,8,6,4,8]
@@ -302,7 +302,7 @@
      
 For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki/Edit_distance)            
 
-<details><summary> Program-35)  Integer Replacement <b>#Math</b> </summary>
+<details><summary> Program-35)  Integer Replacement <b>#Math #Bit Manipulation</b> </summary>
 <pre>
   ->  Given a positive integer n and you can do operations as follow:
     Until n = 1; do
@@ -328,7 +328,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>  
 
-<details><summary> Program-38) Complement of number </summary>
+<details><summary> Program-38) Complement of number <b>#Bit Manipulation</b> </summary>
 <pre>
   Ex. Input = 34529     Input = 34
       Ans = 31006       Ans = 29
@@ -347,7 +347,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>  
 
-<details><summary> Program-40)  Binary Number with Alternating Bits </summary>
+<details><summary> Program-40)  Binary Number with Alternating Bits <b>#Bit Manipulation</b> </summary>
 <pre>
   -> Given a positive integer, check whether it has alternating bits.
     Ex. Input = 5  (101)    Input = 231 (11100111)   
@@ -414,7 +414,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
   
-<details><summary> Program-48)  Prime Number of Set Bits in Binary Representation </summary>
+<details><summary> Program-48)  Prime Number of Set Bits in Binary Representation <b>#Bit Manipulation</b> </summary>
 <pre>
   -> if no of set bits in binary representation of number in given range is prime then return count
      Range is given [L, R]
@@ -429,7 +429,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
   
-<details><summary> Program-49)  Sum of Even Numbers After Queries </summary>
+<details><summary> Program-49)  Sum of Even Numbers After Queries <b>#Array</b> </summary>
 <pre>
   -> For the i-th query 
       -> val = queries[i][0]
@@ -531,7 +531,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-59)  Counting Bits <b>#Dynamic Programming</b> </summary>
+<details><summary> Program-59)  Counting Bits <b>#Dynamic Programming #Bit Manipulation</b> </summary>
 <pre>
   -> Given a non negative integer number num. For every numbers i in the range 0 ≤ i ≤ num calculate the number of 1's in       their binary representation and return them as an array.
     Ex. Input -> num = 35
@@ -539,7 +539,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-60)  Majority Element <b>#Divide and Conque #Array</b> </summary>
+<details><summary> Program-60)  Majority Element <b>#Divide and Conque #Array #Bit Manipulation</b> </summary>
 <pre>
   -> Given an array of size n, find the majority element.
   -> The majority element is the element that appears more than ⌊ n/2 ⌋ times.
@@ -591,7 +591,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-65)  Convert Binary Number in a Linked List to Integer <b>#Linked List</b> </summary>
+<details><summary> Program-65)  Convert Binary Number in a Linked List to Integer <b>#Linked List #Bit Manipulation</b> </summary>
 <pre>
   Ex. Input = [1,0,1,1,1,1,0,0,0,0,1]
       Ans = 1505
@@ -650,7 +650,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-72)  Sum of Two Integers </summary>
+<details><summary> Program-72)  Sum of Two Integers <b>#Bit Manipulation</b> </summary>
 <pre>
   Ex. a = 5 and b = 6 
       Ans = 11
@@ -953,7 +953,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre>
 </details>
 
-<details><summary> Program-101)  Product of Array Except Self </summary>
+<details><summary> Program-101)  Product of Array Except Self <b>#Array</b> </summary>
 <pre>
   -> Given an array nums of n integers where n > 1, return an array output such that output[i] is equal to the 
   product of all the elements of nums except nums[i]. 
