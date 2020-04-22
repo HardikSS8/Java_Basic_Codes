@@ -1006,3 +1006,38 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
                   All other sub-arrays of size 3 have averages less than 4 (the threshold))
 </pre>
 </details>
+
+<details><summary> Program-106)  Insert into a Binary Search Tree <b>#Tree</b> </summary>
+<pre>
+  -> Binary Search Tree is a node-based binary tree data structure which has the following properties:
+  -> The left subtree of a node contains only nodes with keys lesser than the node’s key.
+  -> The right subtree of a node contains only nodes with keys greater than the node’s key.
+  -> The left and right subtree each must also be a binary search tree.
+     Ex.  4     val = 5
+         / \             Ans =  4
+        2   7                 /   \
+       / \                   2     7  
+      1   3                 / \   /
+                           1   3 5
+
+</pre>
+</details>
+
+<details><summary> Program-107)  Maximum Binary Tree <b>#Tree</b> </summary>
+<pre>
+  -> Given an integer array with no duplicates. A maximum tree building on this array is defined as follow:
+     ->The root is the maximum number in the array.
+     ->The left subtree is the maximum tree constructed from left part subarray divided by the maximum number.
+     ->The right subtree is the maximum tree constructed from right part subarray divided by the maximum number.
+  ->Construct the maximum tree by the given array and output the root node of this tree.
+  Ex. [3,2,1,6,0,5]
+      Ans = 6
+          /   \
+         3     5
+          \    / 
+           2  0   
+             \
+              1
+
+</pre>
+</details>
