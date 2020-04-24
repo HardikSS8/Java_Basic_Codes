@@ -1013,13 +1013,12 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
   -> The left subtree of a node contains only nodes with keys lesser than the node’s key.
   -> The right subtree of a node contains only nodes with keys greater than the node’s key.
   -> The left and right subtree each must also be a binary search tree.
-     Ex.  4     val = 5
-         / \             Ans =  4
-        2   7                 /   \
-       / \                   2     7  
-      1   3                 / \   /
-                           1   3 5
-
+     Ex. Input = 4     val = 5
+                / \             Ans =  4
+               2   7                 /   \
+              / \                   2     7  
+             1   3                 / \   /
+                                  1   3 5
 </pre>
 </details>
 
@@ -1030,7 +1029,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
      ->The left subtree is the maximum tree constructed from left part subarray divided by the maximum number.
      ->The right subtree is the maximum tree constructed from right part subarray divided by the maximum number.
   ->Construct the maximum tree by the given array and output the root node of this tree.
-  Ex. [3,2,1,6,0,5]
+  Ex. Input = [3,2,1,6,0,5]
       Ans = 6
           /   \
          3     5
@@ -1038,6 +1037,24 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
            2  0   
              \
               1
+</pre>
+</details>
+
+<details><summary> Program-108)  Maximum Subarray <b>#Array #Dynamic Programming #Divide and Conquer</b> </summary>
+<pre>
+  -> Given an integer array nums, find the contiguous subarray (containing at least one number) which has the 
+     largest sum and return its sum.
+  Ex. Input = [9,8,7,-4,0,-6,-3,7,8,8]
+      Ans = 34
+
+</pre>
+</details>
+
+<details><summary> Program-109)  Maximum Product of Three Numbers <b>#Array #Math</b> </summary>
+<pre>
+  -> Given an integer array, find three numbers whose product is maximum and output the maximum product.
+  Ex. Input = [9,8,7,-4,0,-6,-3,7,8,8]
+      Ans = 576
 
 </pre>
 </details>
