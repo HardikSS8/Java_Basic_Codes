@@ -1066,3 +1066,28 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Output: 2->3->6->7->1->5->4->NULL
 </pre>
 </details>
+
+<details><summary> Program-111)  Reverse Linked List <b>#Linked List</b> </summary>
+<pre>
+  -> Reverse a singly linked list.
+    Ex. Input : 1->2->3->4->5->NULL
+        Output: 5->4->3->2->1->NULL
+</pre>
+</details>
+
+<details><summary> Program-112)  Delete Node in a Linked List <b>#Linked List</b> </summary>
+<pre>
+  -> Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.
+  -> Given linked list -- head = [4,5,1,9], which looks like following:
+     Ex. head = [4,5,1,9], node = 5
+         Output: [4,1,9]
+</pre>
+</details>
+
+<details><summary> Program-113)  Remove Linked List Elements <b>#Linked List</b> </summary>
+<pre>
+  -> Remove all elements from a linked list of integers that have value val.
+     Ex. Input:  1->2->6->3->4->5->6, val = 6
+         Output: 1->2->3->4->5
+</pre>
+</details>
