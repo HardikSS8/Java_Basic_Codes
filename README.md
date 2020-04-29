@@ -1091,3 +1091,27 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Output: 1->2->3->4->5
 </pre>
 </details>
+
+<details><summary> Program-114)  Remove Duplicates from Sorted List <b>#Linked List</b> </summary>
+<pre>
+  -> Given a sorted linked list, delete all duplicates such that each element appear only once.
+     Ex. Input: 1->1->2->3->3
+         Output: 1->2->3
+</pre>
+</details>
+
+<details><summary> Program-115)  Remove Nth Node From End of List <b>#Linked List</b> </summary>
+<pre>
+  -> Given a linked list, remove the n-th node from the end of list and return its head.
+     Ex. Input: 1->2->3->4->5, and n = 2.
+         Output: 1->2->3->5.
+</pre> 
+</details>
+
+<details><summary> Program-116)  Complement of Base 10 Integer <b>#Math</b> </summary>
+<pre>
+  -> Find complement of Base 10 Integer.
+     Ex. Input: 5 (101)
+         Output: 2 (010)
+</pre> 
+</details>
