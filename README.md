@@ -1173,3 +1173,41 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
         Output = "0A3B"
 </pre> 
 </details>
+
+<details><summary> Program-122)  Next Greater Element I <b>#Stack</b> </summary>
+<pre>
+  -> You are given two arrays (without duplicates) nums1 and nums2 where nums1’s elements are subset of nums2. 
+     Find all the next greater numbers for nums1's elements in the corresponding places of nums2.
+  -> The Next Greater Number of a number x in nums1 is the first greater number to its right in nums2. 
+     If it does not exist, output -1 for this number.
+    Ex. nums1 = [2,4], nums2 = [1,2,3,4].
+        Output = [3,-1]
+</pre> 
+</details>
+
+<details><summary> Program-123)  Range Sum Query - Immutable <b>#Dynamic Programming #Segment Tree</b> </summary>
+<pre>
+  -> Given an integer array nums, find the sum of the elements between indices i and j (i ≤ j), inclusive.
+    Ex. Given nums = [-2, 0, 3, -5, 2, -1]
+          sumRange(0, 2) -> 1
+          sumRange(2, 5) -> -1
+          sumRange(0, 5) -> -3
+</pre> 
+</details>
+
+<details><summary> Program-124)  Range Sum Query 2D - Immutable <b>#Dynamic Programming</b> </summary>
+<pre>
+  -> Given a 2D matrix matrix, find the sum of the elements inside the rectangle defined by its upper left corner 
+     (row1, col1) and lower right corner (row2, col2).
+    Ex. Given matrix = [
+                        [3, 0, 1, 4, 2],
+                        [5, 6, 3, 2, 1],
+                        [1, 2, 0, 1, 5],
+                        [4, 1, 0, 1, 7],
+                        [1, 0, 3, 0, 5]
+                      ]
+        sumRegion(2, 1, 4, 3) -> 8
+        sumRegion(1, 1, 2, 2) -> 11
+        sumRegion(1, 2, 2, 4) -> 12
+</pre> 
+</details>
