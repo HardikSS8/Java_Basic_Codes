@@ -1211,3 +1211,12 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
         sumRegion(1, 2, 2, 4) -> 12
 </pre> 
 </details>
+
+<details><summary> Program-125)  Check If It Is a Straight Line <b>#Array #Math #Geometry</b> </summary>
+<pre>
+  -> You are given an array coordinates,coordinates[i] = [x, y],where [x, y] represents the coordinate of a point. 
+     Check if these points make a straight line in the XY plane.
+    Ex. coordinates = [[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]]
+        Output: true
+</pre> 
+</details>
