@@ -1220,3 +1220,16 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
         Output: true
 </pre> 
 </details>
+
+<details><summary> Program-126)  Valid Mountain Array <b>#Array</b> </summary>
+<pre>
+  -> Given an array A of integers, return true if and only if it is a valid mountain array.
+  -> Recall that A is a mountain array if and only if:
+      -> A.length >= 3
+      -> There exists some i with 0 < i < A.length - 1 such that:
+           A[0] < A[1] < ... A[i-1] < A[i]
+           A[i] > A[i+1] > ... > A[A.length - 1]
+    Ex. Input : [0,2,3,4,5,2,1,0]
+        Output: true
+</pre> 
+</details>
