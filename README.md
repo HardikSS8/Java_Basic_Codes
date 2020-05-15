@@ -991,7 +991,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 <details><summary> Program-104)  1-bit and 2-bit Characters <b>#Array</b> </summary>
 <pre>
   -> There are two special characters. The first character can be represented by one bit 0. The second character can be            represented by two bits (10 or 11).
-  -> Now given a string represented by several bits. Return whether the last character must be a one-bit character or not. The      given string will always end with a zero.
+  
+  -> Now given a string represented by several bits. Return whether the last character must be a one-bit character or not.        The given string will always end with a zero.
       Ex. Input = [1, 1, 1, 0]        Input = [0,0]
           Ans = false                 Ans = true
 </pre>
@@ -1028,6 +1029,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
      ->The root is the maximum number in the array.
      ->The left subtree is the maximum tree constructed from left part subarray divided by the maximum number.
      ->The right subtree is the maximum tree constructed from right part subarray divided by the maximum number.
+  
   ->Construct the maximum tree by the given array and output the root node of this tree.
   Ex. Input = [3,2,1,6,0,5]
       Ans = 6
@@ -1127,6 +1129,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 <details><summary> Program-118)  Kth Largest Element in a Stream <b>#Heap</b> </summary>
 <pre>
   -> Design a class to find the kth largest element in a stream. Note that it is the kth largest element in the sorted order,      not the kth distinct element.
+  
   -> Your KthLargest class will have a constructor which accepts an integer k and an integer array nums, which contains            initial elements from the stream. For each call to the method KthLargest.add, return the element representing the kth        largest element in the stream.
      Ex.  int k = 3;
           int[] arr = [4,5,8,2];
@@ -1142,8 +1145,10 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 <details><summary> Program-119)  Find Pivot Index <b>#Array</b> </summary>
 <pre>
   -> Given an array of integers nums, write a method that returns the "pivot" index of this array.
+  
   -> We define the pivot index as the index where the sum of the numbers to the left of the index is 
      equal to the sum of the numbers to the right of the index.
+  
   -> If no such index exists, we should return -1. If there are multiple pivot indexes, you should return 
      the left-most pivot index.
      Ex. Input = [1, 7, 3, 6, 5, 6]
@@ -1166,8 +1171,10 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
      hint that indicates how many digits in said guess match your secret number exactly in both digit and 
      position (called "bulls") and how many digits match the secret number but locate in the wrong 
      position (called "cows"). 
-  -> Your friend will use successive guesses and hints to eventually derive the secret number.
-  -> Write a function to return a hint according to the secret number and friend's guess, 
+ 
+ -> Your friend will use successive guesses and hints to eventually derive the secret number.
+ 
+ -> Write a function to return a hint according to the secret number and friend's guess, 
      use A to indicate the bulls and B to indicate the cows. 
     Ex. Secret = "122432"  Guess = "783223"
         Output = "0A3B"
@@ -1178,7 +1185,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 <pre>
   -> You are given two arrays (without duplicates) nums1 and nums2 where nums1’s elements are subset of nums2. 
      Find all the next greater numbers for nums1's elements in the corresponding places of nums2.
-  -> The Next Greater Number of a number x in nums1 is the first greater number to its right in nums2. 
+ 
+ -> The Next Greater Number of a number x in nums1 is the first greater number to its right in nums2. 
      If it does not exist, output -1 for this number.
     Ex. nums1 = [2,4], nums2 = [1,2,3,4].
         Output = [3,-1]
@@ -1244,6 +1252,20 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
      nodes' value in the whole tree.
   -> If no such second minimum value exists, output -1 instead.
     Ex. Input : [2,2,5,null,null,5,7]
+        Output: 5
+</pre> 
+</details>
+
+<details><summary> Program-128)  Longest Mountain in Array <b>#Two Pointers</b> </summary>
+<pre>
+  -> Let's call any (contiguous) subarray B (of A) a mountain if the following properties hold:
+          -> B.length >= 3
+          -> There exists some 0 < i < B.length - 1 such that 
+             B[0] < B[1] < ... B[i-1] < B[i] > B[i+1] > ... > B[B.length - 1]
+                
+  -> Given an array A of integers, return the length of the longest mountain.
+  -> Return 0 if there is no mountain.
+     Ex. Input : [2,1,4,7,3,2,5]
         Output: 5
 </pre> 
 </details>
