@@ -1269,3 +1269,24 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
         Output: 5
 </pre> 
 </details>
+
+<details><summary> Program-129)  Range Sum of BST <b>#Tree #Recursion</b> </summary>
+<pre>
+  -> Given the root node of a binary search tree, return the sum of values of all nodes with 
+     value between L and R (inclusive).
+  -> The binary search tree is guaranteed to have unique values.
+     Ex. root  = [10,5,15,3,7,13,18,1,null,6], L = 6, R = 10
+        Output = 23
+</pre> 
+</details>
+
+<details><summary> Program-130)  Fizz Buzz </summary>
+<pre>
+  -> Write a program that outputs the string representation of numbers from 1 to n.
+  -> for multiples of three it should output “Fizz” instead of the number and 
+  -> for the multiples of five output “Buzz”.
+  -> for numbers which are multiples of both three and five output “FizzBuzz”.
+     Ex. Input = 6
+         Output = ["1","2","Fizz","4","Buzz","Fizz"]
+</pre> 
+</details>
