@@ -1290,3 +1290,23 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Output = ["1","2","Fizz","4","Buzz","Fizz"]
 </pre> 
 </details>
+
+<details><summary> Program-131)  132 Pattern <b>#Stack</b> </summary>
+<pre>
+  -> Given a sequence of n integers a1, a2, ..., an, a 132 pattern is a subsequence ai, aj, ak such that 
+     i < j < k and ai < ak < aj. Design an algorithm that takes a list of n numbers as input and checks 
+     whether there is a 132 pattern in the list.
+     Ex. Input = [3, 1, 4, 2]
+         Output = True
+</pre> 
+</details>
+
+
+<details><summary> Program-132)  3Sum <b>#Array #Two Pointers</b> </summary>
+<pre>
+  -> Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? 
+     Find all unique triplets in the array which gives the sum of zero.
+     Ex. Input = [-1, 0, 1, 2, -1, -4]
+         Output = [[-1,0,1],[-1,-1,2]]
+</pre> 
+</details>
