@@ -1310,3 +1310,15 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Output = [[-1,0,1],[-1,-1,2]]
 </pre> 
 </details>
+
+<details><summary> Program-133)  Min Stack <b>#Stack #Design</b> </summary>
+<pre>
+  -> Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+  -> push(x) -- Push element x onto stack.
+  -> pop() -- Removes the element on top of the stack.
+  -> top() -- Get the top element.
+  -> getMin() -- Retrieve the minimum element in the stack.
+     Ex. Input ["MinStack","push","push","push","getMin","pop","top","getMin"][[],[-2],[0],[-3],[],[],[],[]]
+         Output = [null,null,null,null,-3,null,0,-2]
+</pre> 
+</details>
