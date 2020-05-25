@@ -1318,7 +1318,35 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
   -> pop() -- Removes the element on top of the stack.
   -> top() -- Get the top element.
   -> getMin() -- Retrieve the minimum element in the stack.
-     Ex. Input ["MinStack","push","push","push","getMin","pop","top","getMin"][[],[-2],[0],[-3],[],[],[],[]]
+     Ex. Input  = ["MinStack","push","push","push","getMin","pop","top","getMin"][[],[-2],[0],[-3],[],[],[],[]]
          Output = [null,null,null,null,-3,null,0,-2]
 </pre> 
 </details>
+
+
+<details><summary> Program-134)  Build an Array With Stack Operations <b>#Stack</b> </summary>
+<pre>
+  -> Given an array target and an integer n. In each iteration, you will read a number from  list = {1,2,3..., n}.
+  -> Build the target array using the following operations:
+        Push: Read a new element from the beginning list, and push it in the array.
+        Pop: delete the last element of the array.
+  -> If the target array is already built, stop reading more elements.
+  -> You are guaranteed that the target array is strictly increasing, only containing numbers between 1 to n inclusive.
+     Ex. target = [2,3,4], n = 4
+         Output = ["Push","Pop","Push","Push","Push"]
+</pre> 
+</details>
+
+<details><summary> Program-135)  Implement Stack using Queues <b>#Stack #Design</b> </summary>
+<pre>
+  -> Implement the following operations of a stack using queues.
+      -> push(x) -- Push element x onto stack.
+      -> pop() -- Removes the element on top of the stack.
+      -> top() -- Get the top element.
+      -> empty() -- Return whether the stack is empty.
+     Ex. Input = ["MyStack","push","push","top","pop","empty"][[],[1],[2],[],[],[]]
+         Output = [null,null,null,2,2,false]
+</pre> 
+</details>
+
+
