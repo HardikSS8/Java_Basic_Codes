@@ -1349,4 +1349,31 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 </pre> 
 </details>
 
+<details><summary> Program-136)  Implement Queue using Stacks <b>#Stack #Design</b> </summary>
+<pre>
+  -> Implement the following operations of a queue using stacks.
+    -> push(x) -- Push element x to the back of queue.
+    -> pop() -- Removes the element from in front of queue.
+    -> peek() -- Get the front element.
+    -> empty() -- Return whether the queue is empty.
+     Ex. Input = ["MyQueue","push","push","peek","pop","empty"][[],[1],[2],[],[],[]]
+         Output = [null,null,null,1,1,false]
+</pre> 
+</details>
 
+<details><summary> Program-137)  Baseball Game <b>#Stack</b> </summary>
+<pre>
+  -> You're now a baseball game point recorder.
+  -> Given a list of strings, each string can be one of the 4 following types:
+      -> Integer (one round's score): Directly represents the number of points you get in this round.
+      -> "+" (one round's score): Represents that the points you get in this round are the sum of 
+         the last two valid round's points.
+      -> "D" (one round's score): Represents that the points you get in this round are the doubled 
+          data of the last valid round's points.
+      -> "C" (an operation, which isn't a round's score): Represents the last valid round's points 
+          you get were invalid and should be removed.
+    -> You need to return the sum of the points you could get in all the rounds.
+     Ex. Input = ["5","-2","4","C","D","9","+","+"]
+         Output = 27
+</pre> 
+</details>
