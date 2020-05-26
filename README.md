@@ -1377,3 +1377,27 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Output = 27
 </pre> 
 </details>
+
+<details><summary> Program-138)  Remove All Adjacent Duplicates In String <b>#Stack</b> </summary>
+<pre>
+  -> Given a string S of lowercase letters, a duplicate removal consists of choosing 
+     two adjacent and equal letters, and removing them.
+  -> We repeatedly make duplicate removals on S until we no longer can.
+  -> Return the final string after all such duplicate removals have been made.  
+  -> It is guaranteed the answer is unique.
+     Ex. Input = "hhhqhfiabbtke"
+         Output = "hqhfiatke"
+</pre> 
+</details>
+
+<details><summary> Program-139)  Backspace String Compare <b>#Stack #Two pointers</b> </summary>
+<pre>
+  -> Given two strings S and T, return if they are equal when both are typed into empty text editors. 
+     # means a backspace character.
+  -> Note that after backspacing an empty text, the text will continue empty.
+     Ex. S = "rd#dsc#ds" and T = "d###ds#sd"
+         Output = false (Explanation : final string after removing backspace characters
+                          S = [r, d, s, d, s] and T = [d, s, d])
+
+</pre> 
+</details>
