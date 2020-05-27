@@ -1398,7 +1398,6 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
      Ex. S = "rd#dsc#ds" and T = "d###ds#sd"
          Output = false (Explanation : final string after removing backspace characters
                           S = [r, d, s, d, s] and T = [d, s, d])
-
 </pre> 
 </details>
 
@@ -1411,9 +1410,39 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
      it into S = A+B, with A and B nonempty valid parentheses strings.
   -> Given a valid parentheses string S, consider its primitive decomposition: 
             S = P_1 + P_2 + ... + P_k, where P_i are primitive valid parentheses strings.
-  -> Return S after removing the outermost parentheses of every primitive string in the primitive decomposition of S.
+  -> Return S after removing the outermost parentheses of every primitive string in the primitive 
+     decomposition of S.
      Ex. Input = "(()())(())(()(()))"
          Output = "()()()()(())"
+</pre> 
+</details>
 
+<details><summary> Program-141)  Design a Stack With Increment Operation <b>#Stack #Design</b> </summary>
+<pre>
+  -> Design a stack which supports the following operations.
+  -> Implement the CustomStack class:
+      -> CustomStack(int maxSize) Initializes the object with maxSize which is the maximum number of 
+         elements in the stack or do nothing if the stack reached the maxSize.
+      -> void push(int x) Adds x to the top of the stack if the stack hasn't reached the maxSize.
+      -> int pop() Pops and returns the top of stack or -1 if the stack is empty.
+      -> void inc(int k, int val) Increments the bottom k elements of the stack by val. 
+         If there are less than k elements in the stack, just increment all the elements in the stack.
+     Ex. Input = ["CustomStack","push","push","pop","push","push","push","increment","increment","pop","pop","pop","pop"]
+                 [[3],[1],[2],[],[2],[3],[4],[5,100],[2,100],[],[],[],[]]
+         Output = [null,null,null,2,null,null,null,null,null,103,202,201,-1]
+</pre> 
+</details>
+
+<details><summary> Program-142)  Online Stock Span <b>#Stack</b> </summary>
+<pre>
+  -> Write a class StockSpanner which collects daily price quotes for some stock, and returns the 
+     span of that stock's price for the current day.
+  -> The span of the stock's price today is defined as the maximum number of consecutive days (starting from 
+     today and going backwards) for which the price of the stock was less than or equal to today's price.
+  -> For example, if the price of a stock over the next 7 days were [100, 80, 60, 70, 60, 75, 85], 
+     then the stock spans would be [1, 1, 1, 2, 1, 4, 6].
+     Ex. Input = ["StockSpanner","next","next","next","next","next","next","next"]
+                 [[],[100],[101],[102],[70],[90],[75],[85]]
+         Output = [null,1,2,3,1,2,1,2]
 </pre> 
 </details>
