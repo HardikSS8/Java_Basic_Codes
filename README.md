@@ -1441,8 +1441,51 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
      today and going backwards) for which the price of the stock was less than or equal to today's price.
   -> For example, if the price of a stock over the next 7 days were [100, 80, 60, 70, 60, 75, 85], 
      then the stock spans would be [1, 1, 1, 2, 1, 4, 6].
-     Ex. Input = ["StockSpanner","next","next","next","next","next","next","next"]
+     Ex. Input  = ["StockSpanner","next","next","next","next","next","next","next"]
                  [[],[100],[101],[102],[70],[90],[75],[85]]
          Output = [null,1,2,3,1,2,1,2]
+</pre> 
+</details>
+
+<details><summary> Program-143)  Kids With the Greatest Number of Candies <b>#Array</b> </summary>
+<pre>
+  -> Given the array candies and the integer extraCandies, where candies[i] represents the number of candies 
+     that the ith kid has.
+  -> For each kid check if there is a way to distribute extraCandies among the kids such that he or she can 
+     have the greatest number of candies among them. Notice that multiple kids can have the greatest 
+     number of candies.
+     Ex. Input : candies = [2,3,5,1,3], extraCandies = 3
+         Output: [true,true,true,false,true] 
+</pre> 
+</details>
+
+<details><summary> Program-144)  Number of Students Doing Homework at a Given Time <b>#Array</b> </summary>
+<pre>
+  -> Given two integer arrays startTime and endTime and given an integer queryTime.
+  -> The ith student started doing their homework at the time startTime[i] and finished it at time endTime[i].
+  -> Return the number of students doing their homework at time queryTime. More formally, return the number 
+     of students where queryTime lays in the interval [startTime[i], endTime[i]] inclusive.
+     Ex. Input : startTime = [9,8,7,6,5,4,3,2,1], endTime = [10,10,10,10,10,10,10,10,10], queryTime = 5
+         Output: 5
+</pre> 
+</details>
+
+<details><summary> Program-145)  Array Partition I <b>#Array</b> </summary>
+<pre>
+  -> Given an array of 2n integers, your task is to group these integers into n pairs of integer, say 
+     (a1, b1), (a2, b2), ..., (an, bn) which makes sum of min(ai, bi) for all i from 1 to n as large as possible.
+     Ex. Input : [4,30,20,10,50,45]
+         Output: 69 (Explanation : (4,10), (20,30), (45,50) = 4 + 20 + 45 = 69)
+</pre> 
+</details>
+
+<details><summary> Program-146)  Duplicate Zeros <b>#Array</b> </summary>
+<pre>
+  -> Given a fixed length array arr of integers, duplicate each occurrence of zero, shifting the remaining 
+     elements to the right.
+  -> Note that elements beyond the length of the original array are not written.
+  -> Do the above modifications to the input array in place, do not return anything from your function.
+     Ex. Input : [1,0,2,3,0,4,5,0]
+         Output: [1,0,0,2,3,0,0,4]
 </pre> 
 </details>
