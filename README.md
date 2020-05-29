@@ -1500,3 +1500,23 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Output: false
 </pre> 
 </details>
+
+<details><summary> Program-148)  Remove Duplicates from Sorted Array <b>#Array #Two pointers</b> </summary>
+<pre>
+  -> Given a sorted array nums, remove the duplicates in-place such that each element appear only once and 
+     return the new length.
+  -> Do not allocate extra space for another array, you must do this by modifying the input array in-place 
+     with O(1) extra memory.
+     Ex. Input : [1,1,2]
+         Output: [1,2
+</pre> 
+</details>
+
+<details><summary> Program-149)  Valid Triangle Number <b>#Array</b> </summary>
+<pre>
+  -> Given an array consists of non-negative integers, your task is to count the number of triplets chosen 
+     from the array that can make triangles if we take them as side lengths of a triangle.
+     Ex. Input : [2,2,3,4]
+         Output: 3
+</pre> 
+</details>
