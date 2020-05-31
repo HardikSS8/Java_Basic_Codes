@@ -1574,3 +1574,13 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
                1
 </pre> 
 </details>
+
+
+<details><summary> Program-154)  Ugly Number <b>#Math</b> </summary>
+<pre>
+  -> Write a program to check whether a given number is an ugly number.
+  -> Ugly numbers are positive numbers whose prime factors only include 2, 3, 5.
+     Ex. Input  : 190
+         Output : false
+</pre> 
+</details>
