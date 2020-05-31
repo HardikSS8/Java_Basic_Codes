@@ -1454,8 +1454,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
   -> For each kid check if there is a way to distribute extraCandies among the kids such that he or she can 
      have the greatest number of candies among them. Notice that multiple kids can have the greatest 
      number of candies.
-     Ex. Input : candies = [2,3,5,1,3], extraCandies = 3
-         Output: [true,true,true,false,true] 
+     Ex. Input  : candies = [2,3,5,1,3], extraCandies = 3
+         Output : [true,true,true,false,true] 
 </pre> 
 </details>
 
@@ -1465,8 +1465,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
   -> The ith student started doing their homework at the time startTime[i] and finished it at time endTime[i].
   -> Return the number of students doing their homework at time queryTime. More formally, return the number 
      of students where queryTime lays in the interval [startTime[i], endTime[i]] inclusive.
-     Ex. Input : startTime = [9,8,7,6,5,4,3,2,1], endTime = [10,10,10,10,10,10,10,10,10], queryTime = 5
-         Output: 5
+     Ex. Input  : startTime = [9,8,7,6,5,4,3,2,1], endTime = [10,10,10,10,10,10,10,10,10], queryTime = 5
+         Output : 5
 </pre> 
 </details>
 
@@ -1474,8 +1474,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 <pre>
   -> Given an array of 2n integers, your task is to group these integers into n pairs of integer, say 
      (a1, b1), (a2, b2), ..., (an, bn) which makes sum of min(ai, bi) for all i from 1 to n as large as possible.
-     Ex. Input : [4,30,20,10,50,45]
-         Output: 69 (Explanation : (4,10), (20,30), (45,50) = 4 + 20 + 45 = 69)
+     Ex. Input  : [4,30,20,10,50,45]
+         Output : 69 (Explanation : (4,10), (20,30), (45,50) = 4 + 20 + 45 = 69)
 </pre> 
 </details>
 
@@ -1485,8 +1485,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
      elements to the right.
   -> Note that elements beyond the length of the original array are not written.
   -> Do the above modifications to the input array in place, do not return anything from your function.
-     Ex. Input : [1,0,2,3,0,4,5,0]
-         Output: [1,0,0,2,3,0,0,4]
+     Ex. Input  : [1,0,2,3,0,4,5,0]
+         Output : [1,0,0,2,3,0,0,4]
 </pre> 
 </details>
 
@@ -1496,8 +1496,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
      flowers cannot be planted in adjacent plots - they would compete for water and both would die.
   -> Given a flowerbed (represented as an array containing 0 and 1, where 0 means empty and 1 means not empty), 
      and a number n, return if n new flowers can be planted in it without violating the no-adjacent-flowers rule.
-     Ex. Input : [1,0,0,1,0,1,0,0,0,1,0,0,1] and n = 3
-         Output: false
+     Ex. Input  : [1,0,0,1,0,1,0,0,0,1,0,0,1] and n = 3
+         Output : false
 </pre> 
 </details>
 
@@ -1507,8 +1507,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
      return the new length.
   -> Do not allocate extra space for another array, you must do this by modifying the input array in-place 
      with O(1) extra memory.
-     Ex. Input : [1,1,2]
-         Output: [1,2
+     Ex. Input  : [1,1,2]
+         Output : [1,2
 </pre> 
 </details>
 
@@ -1516,7 +1516,61 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 <pre>
   -> Given an array consists of non-negative integers, your task is to count the number of triplets chosen 
      from the array that can make triangles if we take them as side lengths of a triangle.
-     Ex. Input : [2,2,3,4]
-         Output: 3
+     Ex. Input  : [2,2,3,4]
+         Output : 3
+</pre> 
+</details>
+
+<details><summary> Program-150)  Maximum Product of Two Elements in an Array <b>#Array</b> </summary>
+<pre>
+  -> Given the array of integers nums, you will choose two different indices i and j of that array. 
+  -> Return the maximum value of (nums[i]-1)*(nums[j]-1).
+     Ex. Input  : [3,4,5,2]
+         Output : 12 ( Explanation: (5-1)*(4-1) = 12)
+</pre> 
+</details>
+
+<details><summary> Program-151)  Distribute Candies <b>#Hash Table</b> </summary>
+<pre>
+  -> Given an integer array with even length, where different numbers in this array represent 
+     different kinds of candies. Each number means one candy of the corresponding kind. 
+  -> You need to distribute these candies equally in number to brother and sister. 
+  -> Return the maximum number of kinds of candies the sister could gain.
+     Ex. Input  : candies = [1,1,2,2,3,3]
+         Output : 3 ( Explanation: 3 kind of candies [1,2,3] ).
+</pre> 
+</details>
+
+<details><summary> Program-152)  Toeplitz Matrix <b>#Array</b> </summary>
+<pre>
+  -> A matrix is Toeplitz if every diagonal from top-left to bottom-right has the same element.
+  -> Now given an M x N matrix, return True if and only if the matrix is Toeplitz.
+     Ex. Input  : matrix = [
+                             [1,2,3,4],
+                             [5,1,2,3],
+                             [9,5,1,2]
+                           ]
+         Output : ture
+</pre> 
+</details>
+
+<details><summary> Program-153)  Trim a Binary Search Tree <b>#Tree</b> </summary>
+<pre>
+  -> Given a binary search tree and the lowest and highest boundaries as L and R, trim the tree so that 
+     all its elements lies in [L, R] (R >= L). You might need to change the root of the tree, so the result 
+     should return the new root of the trimmed binary search tree.
+     Ex. Input  :   3
+                   / \
+                  0   4
+                   \
+                    2
+                   /
+                  1
+                  
+         Output :  3
+                  / 
+                 2   
+                /
+               1
 </pre> 
 </details>
