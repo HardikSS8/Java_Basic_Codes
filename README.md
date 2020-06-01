@@ -1584,3 +1584,14 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Output : false
 </pre> 
 </details>
+
+<details><summary> Program-155)  Make Two Arrays Equal by Reversing Sub-arrays <b>#Array</b> </summary>
+<pre>
+  -> Given two integer arrays of equal length target and arr.
+  -> In one step, you can select any non-empty sub-array of arr and reverse it. You are allowed to make 
+     any number of steps.
+  -> Return True if you can make arr equal to target, or False otherwise.
+     Ex. Input  : Target  : [3,7,9,4,5,4,3,5] and Arr : [3,7,11,5,4,3,2,2]
+         Output : false
+</pre> 
+</details>
