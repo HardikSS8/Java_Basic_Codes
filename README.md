@@ -1647,3 +1647,23 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Output : [[1,4,7],[2,5,8],[3,6,9]]
 </pre> 
 </details>
+
+<details><summary> Program-161)  Sort Colors <b>#Array #Sort #Two Pointers</b> </summary>
+<pre>
+  -> Given an array with n objects colored red, white or blue, sort them in-place so that objects of the 
+     same color are adjacent, with the colors in the order red, white and blue.
+  -> Here, we will use the integers 0, 1, and 2 to represent the color red, white, and blue respectively.
+  -> <b>Note: You are not suppose to use the library's sort function for this problem.</b>
+     Ex. Input  : [2,0,2,1,1,0]
+         Output : [0,0,1,1,2,2]
+</pre> 
+</details>
+
+<details><summary> Program-162)  Maximum Gap <b>#Sort</b> </summary>
+<pre>
+  -> Given an unsorted array, find the maximum difference between the successive elements in its sorted form.
+  -> Return 0 if the array contains less than 2 elements.
+     Ex. Input  : [3,9,12,15,23,45,32,12,9]
+         Output : 13
+</pre> 
+</details>
