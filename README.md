@@ -1595,3 +1595,45 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Output : false
 </pre> 
 </details>
+
+<details><summary> Program-156)  Partition Array Into Three Parts With Equal Sum <b>#Array</b> </summary>
+<pre>
+  -> Given an array A of integers, return true if and only if we can partition the array into three 
+     non-empty parts with equal sums.
+  -> Formally, we can partition the array if we can find indexes i+1 < j with 
+     (A[0] + A[1] + ... + A[i] == A[i+1] + A[i+2] + ... + A[j-1] == A[j] + A[j-1] + ... + A[A.length - 1])
+     Ex. Input       : A = [0,2,1,-6,6,-7,9,1,2,0,1]
+         Output      : true
+         Explanation : 0 + 2 + 1 = -6 + 6 - 7 + 9 + 1 = 2 + 0 + 1
+</pre> 
+</details>
+  
+<details><summary> Program-157)  Longest Continuous Increasing Subsequence <b>#Array</b> </summary>
+<pre>
+  -> Given an unsorted array of integers, find the length of longest continuous increasing subsequence (subarray).
+     Ex. Input  : [1,3,5,4,7]
+         Output : 3
+</pre> 
+</details>
+
+<details><summary> Program-158)  Rank Transform of an Array <b>#Array #HashMap</b> </summary>
+<pre>
+  -> Given an array of integers arr, replace each element with its rank.
+  -> The rank represents how large the element is. The rank has the following rules:
+      -> Rank is an integer starting from 1.
+      -> The larger the element, the larger the rank. If two elements are equal, their rank must be the same.
+      -> Rank should be as small as possible.
+     Ex. Input  : [37,12,28,9,100,56,80,5,12]
+         Output : [5,3,4,2,8,6,7,1,3]
+</pre> 
+</details>
+
+<details><summary> Program-159)  Shortest Unsorted Continuous Subarray <b>#Array</b> </summary>
+<pre>
+  -> Given an integer array, you need to find one continuous subarray that if you only sort this subarray 
+     in ascending order, then the whole array will be sorted in ascending order, too.
+  -> You need to find the shortest such subarray and output its length.
+     Ex. Input  : [2,6,8,7,6,78,89,990]
+         Output : 3
+</pre> 
+</details>
