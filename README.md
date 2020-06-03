@@ -1667,3 +1667,17 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Output : 13
 </pre> 
 </details>
+
+<details><summary> Program-163)  Two Sum IV - Input is a BST <b>#Tree</b> </summary>
+<pre>
+  -> Given a Binary Search Tree and a target number, return true if there exist two elements in the BST 
+     such that their sum is equal to the given target.
+     Ex. Input  : 5         And target sum = 9
+                 / \
+                3   6
+               / \   \
+              2   4   7
+         Output : true ( explanation : 3+6 = 9)
+                
+</pre> 
+</details>
