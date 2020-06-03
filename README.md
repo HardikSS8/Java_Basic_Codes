@@ -1678,6 +1678,35 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
                / \   \
               2   4   7
          Output : true ( explanation : 3+6 = 9)
-                
+</pre> 
+</details>
+
+<details><summary> Program-164)  Sort Array By Parity <b>#Array</b> </summary>
+<pre>
+  -> Given an array A of non-negative integers, return an array consisting of all the even elements of A, 
+     followed by all the odd elements of A.
+  -> You may return any answer array that satisfies this condition.
+     Ex. Input  : [3,1,2,4]
+         Output : [2,4,3,1]
+</pre> 
+</details>
+
+<details><summary> Program-165)  Sort Array By Parity II <b>#Array #Sort</b> </summary>
+<pre>
+  -> Given an array A of non-negative integers, half of the integers in A are odd, and half of the integers are even.
+  -> Sort the array so that whenever A[i] is odd, i is odd; and whenever A[i] is even, i is even.
+  -> You may return any answer array that satisfies this condition.
+     Ex. Input  : [4,2,5,7]
+         Output : [4,5,2,7]
+</pre> 
+</details>
+
+<details><summary> Program-166)  Container With Most Water <b>#Array #Two Pointers</b> </summary>
+<pre>
+  -> Given an array A of non-negative integers, half of the integers in A are odd, and half of the integers are even.
+  -> Sort the array so that whenever A[i] is odd, i is odd; and whenever A[i] is even, i is even.
+  -> You may return any answer array that satisfies this condition.
+     Ex. Input  : [1,8,6,10,7,4,8,13,16]
+         Output : 56
 </pre> 
 </details>
