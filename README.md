@@ -1742,3 +1742,66 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Output : 2
 </pre> 
 </details>
+
+<details><summary> Program-170)  Set Mismatch <b>#Math #Hash Table</b> </summary>
+<pre>
+  -> The set S originally contains numbers from 1 to n. But unfortunately, due to the data error, one of 
+     the numbers in the set got duplicated to another number in the set, which results in repetition of one 
+     number and loss of another number.
+  -> Given an array nums representing the data status of this set after the error. Your task is to firstly 
+     find the number occurs twice and then find the number that is missing. Return them in the form of an array.
+     Ex. Input  : [5,3,6,1,5,4,7,8]
+         Output : [5,2]
+</pre> 
+</details>
+
+<details><summary> Program-171)  Find the Duplicate Number <b>#Array #Binary Search #Two Pointers</b> </summary>
+<pre>
+  -> Given an array nums containing n + 1 integers where each integer is between 1 and n (inclusive), prove 
+     that at least one duplicate number must exist. Assume that there is only one duplicate number, 
+     find the duplicate one.
+     Ex. Input  : [1,2,3,4,5,5]
+         Output : 5
+</pre> 
+</details>
+
+<details><summary> Program-172)  Valid Boomerang <b>#Math</b> </summary>
+<pre>
+  -> A boomerang is a set of 3 points that are all distinct and not in a straight line.
+  -> Given a list of three points in the plane, return whether these points are a boomerang.
+     Ex. Input  : [[1,1],[2,3],[3,2]]
+         Output : true
+</pre> 
+</details>
+
+<details><summary> Program-173)  Happy Number <b>#Math #Hash Table</b> </summary>
+<pre>
+  -> Write an algorithm to determine if a number n is "happy".
+  -> A happy number is a number defined by the following process: Starting with any positive integer, 
+     replace the number by the sum of the squares of its digits, and repeat the process until the number 
+     equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers 
+     for which this process ends in 1 are happy numbers.
+  -> Return True if n is a happy number, and False if not.
+     Ex. Input  : 219
+         Output : true (Explanation: 12 + 92 = 82
+                                     82 + 22 = 68
+                                     62 + 82 = 100
+                                     12 + 02 + 02 = 1)
+</pre> 
+</details>
+
+<details><summary> Program-174)  Distribute Candies to People <b>#Math</b> </summary>
+<pre>
+  -> We distribute some number of candies, to a row of n = num_people people in the following way:
+  -> We then give 1 candy to the first person, 2 candies to the second person, and so on until we give n 
+     candies to the last person.
+  -> Then, we go back to the start of the row, giving n + 1 candies to the first person, n + 2 candies to 
+     the second person, and so on until we give 2 * n candies to the last person.
+  -> This process repeats (with us giving one more candy each time, and moving to the start of the row after 
+     we reach the end) until we run out of candies.  The last person will receive all of our remaining candies 
+     (not  necessarily one more than the previous gift).
+  -> Return an array (of length num_people and sum candies) that represents the final distribution of candies.
+     Ex. Input  : candies = 10, num_people = 3
+         Output : [5,2,3]
+</pre> 
+</details>
