@@ -1710,3 +1710,35 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Output : 56
 </pre> 
 </details>
+
+<details><summary> Program-167)  Arranging Coins <b>#Math #Binary Search</b> </summary>
+<pre>
+  -> You have a total of n coins that you want to form in a staircase shape, where every k-th row must 
+     have exactly k coins.
+  -> Given n, find the total number of full staircase rows that can be formed.
+  -> n is a non-negative integer and fits within the range of a 32-bit signed integer.
+     Ex. Input  : 10
+         Output : 4
+</pre> 
+</details>
+
+<details><summary> Program-168)  Range Addition II <b>#Math</b> </summary>
+<pre>
+  -> Given an m * n matrix M initialized with all 0's and several update operations.
+  -> Operations are represented by a 2D array, and each operation is represented by an array with two 
+     positive integers a and b, which means M[i][j] should be added by one for all 0 <= i < a and 0 <= j < b.
+  -> You need to count and return the number of maximum integers in the matrix after performing all the operations.
+     Ex. Input  : m = 3, n = 3, Ops = [[2,2],[3,3],[1,2],[2,2]]
+         Output : 2
+</pre> 
+</details>
+
+<details><summary> Program-169)  Binary Gap <b>#Math</b> </summary>
+<pre>
+  -> Given a positive integer N, find and return the longest distance between two consecutive 1's in 
+     the binary representation of N.
+  -> If there aren't two consecutive 1's, return 0.
+     Ex. Input  : 22
+         Output : 2
+</pre> 
+</details>
