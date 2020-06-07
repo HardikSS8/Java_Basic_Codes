@@ -1841,3 +1841,34 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Output : [null,true,true,false]
 </pre> 
 </details>
+
+<details><summary> Program-178)  Binary Tree Tilt <b>#Tree</b> </summary>
+<pre>
+  -> Given a binary tree, return the tilt of the whole tree.
+  -> The tilt of a tree node is defined as the absolute difference between the sum of all left subtree node 
+     values and the sum of all right subtree node values. Null node has tilt 0.
+  -> The tilt of the whole tree is defined as the sum of all nodes' tilt.
+     Ex. Input  : [7,6,1,2,3,4]
+         Output : 11
+</pre> 
+</details>
+
+<details><summary> Program-179)  Construct String from Binary Tree <b>#Tree #String</b> </summary>
+<pre>
+  -> You need to construct a string consists of parenthesis and integers from a binary tree with the 
+     preorder traversing way.
+  -> The null node needs to be represented by empty parenthesis pair "()". And you need to omit all the 
+     empty parenthesis pairs that don't affect the one-to-one mapping relationship between the string 
+     and the original binary tree.
+     Ex. Input  : [1,2,3,4]
+         Output : "1(2(4))(3)"
+</pre> 
+</details>
+
+<details><summary> Program-180)  Kth Smallest Element in a BST <b>#Tree #Binary Search</b> </summary>
+<pre>
+  -> Given a binary search tree, write a function kthSmallest to find the kth smallest element in it.
+     Ex. Input  : root = [5,3,6,2,4,null,null,1], k = 3
+         Output : 3
+</pre> 
+</details>
