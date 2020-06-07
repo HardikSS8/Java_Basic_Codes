@@ -1805,3 +1805,39 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Output : [5,2,3]
 </pre> 
 </details>
+
+<details><summary> Program-175)  Factorial Trailing Zeroes <b>#Math</b> </summary>
+<pre>
+  -> Given an integer n, return the number of trailing zeroes in n!.
+     Ex. Input  : 12
+         Output : 2
+</pre> 
+</details>
+
+
+<details><summary> Program-176)  Sum of Nodes with Even-Valued Grandparent <b>#Tree #Depth-first Search</b> </summary>
+<pre>
+  -> Given a binary tree, return the sum of values of nodes with even-valued grandparent. (A grandparent
+     of a node is the parent of its parent, if it exists.)
+  -> If there are no nodes with an even-valued grandparent, return 0.
+     Ex. Input  : root = [6,7,8,2,7,1,3,9,null,1,4,null,null,null,5]
+         Output : 18  
+</pre> 
+</details>
+
+<details><summary> Program-177)  Find Elements in a Contaminated Binary Tree <b>#Tree #Hash Table</b> </summary>
+<pre>
+  -> Given a binary tree with the following rules:
+      -> root.val == 0
+      -> If treeNode.val == x and treeNode.left != null, then treeNode.left.val == 2 * x + 1
+      -> If treeNode.val == x and treeNode.right != null, then treeNode.right.val == 2 * x + 2
+  -> Now the binary tree is contaminated, which means all treeNode.val have been changed to -1.
+  -> You need to first recover the binary tree and then implement the FindElements class: 
+        -> FindElements(TreeNode* root) Initializes the object with a contamined binary tree, 
+           you need to recover it first.
+        -> bool find(int target) Return if the target value exists in the recovered binary tree.
+     Ex. Input  : ["FindElements","find","find","find"]
+                  [[[-1,-1,-1,-1,-1]],[1],[3],[5]]
+         Output : [null,true,true,false]
+</pre> 
+</details>
