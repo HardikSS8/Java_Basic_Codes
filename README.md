@@ -1872,3 +1872,33 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Output : 3
 </pre> 
 </details>
+
+<details><summary> Program-181)  Shuffle the Array <b>#Array</b> </summary>
+<pre>
+  -> Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,...,yn].
+  -> Return the array in the form [x1,y1,x2,y2,...,xn,yn].
+     Ex. Input  : nums = [2,5,1,3,4,7], n = 3
+         Output : [2,3,5,4,1,7] 
+</pre> 
+</details>
+
+<details><summary> Program-182)  Create Target Array in the Given Order <b>#Array</b> </summary>
+<pre>
+  -> Given two arrays of integers nums and index. Your task is to create target array under the following rules:
+    -> Initially target array is empty.
+    -> From left to right read nums[i] and index[i], insert at index index[i] the value nums[i] in target array.
+    -> Repeat the previous step until there are no elements to read in nums and index.
+    -> Return the target array.
+  -> It is guaranteed that the insertion operations will be valid.
+     Ex. Input  : nums = [0,1,2,3,4], index = [0,1,2,2,1]
+         Output : [0,4,1,3,2]
+</pre> 
+</details>
+
+<details><summary> Program-183)  Reverse Vowels of a String <b>#String #Two Pointers</b> </summary>
+<pre>
+  -> Write a function that takes a string as input and reverse only the vowels of a string.
+     Ex. Input  : "hello"
+         Output : "holle"
+</pre> 
+</details>
