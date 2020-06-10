@@ -1911,3 +1911,12 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Output : 4
 </pre> 
 </details>
+
+<details><summary> Program-185)  Flipping an Image <b>#Array</b> </summary>
+<pre>
+  -> Given a binary matrix A, we want to flip the image horizontally, then invert it, and 
+     return the resulting image.
+     Ex. Input  : [[1,1,0,0],[1,0,0,1],[0,1,1,1],[1,0,1,0]]
+         Output : [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]
+</pre> 
+</details>
