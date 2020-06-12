@@ -1920,3 +1920,33 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Output : [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]
 </pre> 
 </details>
+
+<details><summary> Program-186)  Word Search <b>#Array #Backtracking</b> </summary>
+<pre>
+  -> Given a 2D board and a word, find if the word exists in the grid.
+  -> The word can be constructed from letters of sequentially adjacent cell, where "adjacent" cells are 
+     those horizontally or vertically neighboring. The same letter cell may not be used more than once.
+     Ex. board =  [
+                    ['A','B','C','E'],
+                    ['S','F','C','S'],
+                    ['A','D','E','E']
+                  ]
+        Given word = "ABCCED", return true.
+        Given word = "SEE", return true.
+        Given word = "ABCB", return false.
+</pre> 
+</details>
+
+<details><summary> Program-187)  Minimum Path Sum <b>#Array #Dynamic Programming</b> </summary>
+<pre>
+  -> Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right 
+     which minimizes the sum of all numbers along its path.
+  -> Note: You can only move either down or right at any point in time.
+     Ex. Input : [
+                  [1,3,1],
+                  [1,5,1],
+                  [4,2,1]
+                 ]
+        Output : 7
+</pre>
+</details>
