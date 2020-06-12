@@ -1950,3 +1950,23 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
         Output : 7
 </pre>
 </details>
+
+<details><summary> Program-188)  Valid Palindrome <b>#String #Two Pointers</b> </summary>
+<pre>
+  -> Given a string, determine if it is a palindrome, considering only alphanumeric characters 
+     and ignoring cases.
+  -> Note: For the purpose of this problem, we define empty string as valid palindrome.
+     Ex. Input  : "A man, a plan, a canal: Panama"
+         Output : true
+</pre>
+</details>
+
+<details><summary> Program-189)  Reverse Substrings Between Each Pair of Parentheses <b>#Stack</b> </summary>
+<pre>
+  -> You are given a string s that consists of lower case English letters and brackets. 
+  -> Reverse the strings in each pair of matching parentheses, starting from the innermost one. 
+  -> Your result should not contain any brackets.
+     Ex. Input  : s = "(u(love)i)"
+         Output : "iloveu"
+</pre>
+</details>
