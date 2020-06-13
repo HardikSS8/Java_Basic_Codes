@@ -1970,3 +1970,27 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Output : "iloveu"
 </pre>
 </details>
+
+<details><summary> Program-190)  Spiral Matrix <b>#Array</b> </summary>
+<pre>
+  -> Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in spiral order.
+     Ex. Input  : [
+                    [1, 2, 3, 4],
+                    [5, 6, 7, 8],
+                    [9,10,11,12]
+                  ]
+         Output: [1,2,3,4,8,12,11,10,9,5,6,7]
+</pre>
+</details>
+
+<details><summary> Program-191)  Spiral Matrix II <b>#Array</b> </summary>
+<pre>
+  -> Given a positive integer n, generate a square matrix filled with elements from 1 to n2 in spiral order.
+     Ex. Input  : 3
+         Output : [
+                    [ 1, 2, 3 ],
+                    [ 8, 9, 4 ],
+                    [ 7, 6, 5 ]
+                  ]  
+</pre>
+</details>
