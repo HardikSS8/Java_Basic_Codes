@@ -1994,3 +1994,52 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
                   ]  
 </pre>
 </details>
+
+<details><summary> Program-192)  Binary Tree Level Order Traversal <b>#Tree #Breadth-first Search</b> </summary>
+<pre>
+  -> Given a binary tree, return the level order traversal of its nodes' values. 
+     (ie, from left to right, level by level).
+     Ex. Input  : [3,9,20,null,null,15,7]
+         Output : [
+                    [15,7],
+                    [9,20],
+                    [3]
+                  ]
+</pre>
+</details>
+
+<details><summary> Program-193)  Binary Tree Level Order Traversal II <b>#Tree #Breadth-first Search</b> </summary>
+<pre>
+  -> Given a binary tree, return the bottom-up level order traversal of its nodes' values. 
+     (ie, from left to right, level by level from leaf to root).
+     Ex. Input  : [3,9,20,null,null,15,7]
+         Output : [
+                    [15,7],
+                    [9,20],
+                    [3]
+                  ]
+</pre>
+</details>
+
+<details><summary> Program-194)  Binary Tree Zigzag Level Order Traversal <b>#Stack #Tree #Breadth-first Search</b> </summary>
+<pre>
+  -> Given a binary tree, return the zigzag level order traversal of its nodes' values. 
+     (ie, from left to right, then right to left for the next level and alternate between).
+     Ex. Input  : [3,9,20,null,null,15,7]
+         Output : [
+                    [3],
+                    [20,9],
+                    [15,7]
+                  ] 
+</pre>
+</details>
+
+<details><summary> Program-195)  Count Good Nodes in Binary Tree <b>#Tree #Depth-first Search</b> </summary>
+<pre>
+  -> Given a binary tree root, a node X in the tree is named good if in the path from root to X there 
+     are no nodes with a value greater than X.
+  -> Return the number of good nodes in the binary tree.
+     Ex. Input  : root = [3,1,4,3,null,1,5]
+         Output : 4
+</pre>
+</details>
