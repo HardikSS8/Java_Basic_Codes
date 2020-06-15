@@ -2043,3 +2043,63 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Output : 4
 </pre>
 </details>
+
+<details><summary> Program-196)  Sum of Root To Leaf Binary Numbers <b>#Tree</b> </summary>
+<pre>
+  -> Given a binary tree, each node has value 0 or 1.  Each root-to-leaf path represents a binary number 
+     starting with the most significant bit.  For example, if the path is 0 -> 1 -> 1 -> 0 -> 1, then 
+     this could represent 01101 in binary, which is 13.
+  -> For all leaves in the tree, consider the numbers represented by the path from the root to that leaf. 
+  -> Return the sum of these numbers.
+     Ex. Input  : [1,0,1,0,1,0,1]
+         Output : 22  (Explanation: (100) + (101) + (110) + (111) = 4 + 5 + 6 + 7 = 22)
+</pre>
+</details>
+
+<details><summary> Program-197)  Largest Time for Given Digits <b>#Math</b> </summary>
+<pre>
+  -> Given an array of 4 digits, return the largest 24 hour time that can be made.  
+  -> The smallest 24 hour time is 00:00, and the largest is 23:59.  Starting from 00:00, a time is larger 
+     if more time has elapsed since midnight.
+  -> Return the answer as a string of length 5.  If no valid time can be made, return an empty string.
+     Ex. Input  : [1,2,3,4]
+         Output : "23:41"
+</pre>
+</details>
+
+<details><summary> Program-198)  X of a Kind in a Deck of Cards <b>#Array #Math</b> </summary>
+<pre>
+  -> In a deck of cards, each card has an integer written on it.  
+  -> Return true if and only if you can choose X >= 2 such that it is possible to split the entire deck 
+     into 1 or more groups of cards, where:
+  -> Each group has exactly X cards.
+  -> All the cards in each group have the same integer.
+     Ex. Input  : deck = [1,2,3,4,4,3,2,1]
+         Output : true  (Explanation: Possible partition [1,1],[2,2],[3,3],[4,4].)
+</pre>
+</details>
+
+<details><summary> Program-199)  Convert Integer to the Sum of Two No-Zero Integers <b>#Math</b> </summary>
+<pre>
+  -> Given an integer n. No-Zero integer is a positive integer which doesn't contain any 0 in its 
+     decimal representation.
+  -> Return a list of two integers [A, B] where:
+      -> A and B are No-Zero integers.
+      -> A + B = n
+  -> It's guarateed that there is at least one valid solution. If there are many valid solutions you 
+     can return any of them.
+     Ex. Input  : n = 10000
+         Output : [1,9999]
+</pre>
+</details>
+
+<details><summary> Program-200)  Smallest Range I <b>#Math</b> </summary>
+<pre>
+  -> Given an array A of integers, for each integer A[i] we may choose any x with 
+     -K <= x <= K, and add x to A[i].
+  -> After this process, we have some array B.  
+  -> Return the smallest possible difference between the maximum value of B and the minimum value of B.
+     Ex. Input  : A = [0,10], K = 2
+         Output : 6   (Explanation: B = [2,8])
+</pre>
+</details>
