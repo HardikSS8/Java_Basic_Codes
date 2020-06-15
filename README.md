@@ -22,7 +22,8 @@
 
 <details><summary> Program-3)   Search insert position <b>#Binary Search #Array</b> </summary>
 <pre>
-   -> Given a sorted array and a target value, return the index if the target is found. If not, return the index where it           would be if it were inserted in order.
+   -> Given a sorted array and a target value, return the index if the target is found. If not, 
+      return the index where it would be if it were inserted in order.
     Ex. [1,3,5,6], 7
         ans = 4
 </pre>
@@ -45,7 +46,8 @@
 <details><summary> Program-6)   Boats to Save People (Return the minimum number of boats) <b>#Two Pointers #Greedy</b> </summary>
 <pre>
    -> The i-th person has weight people[i], and each boat can carry a maximum weight of limit.
-   -> Each boat carries at most 2 people at the same time, provided the sum of the weight of those people is at most                 limit.
+   -> Each boat carries at most 2 people at the same time, provided the sum of the weight of those people 
+      is at most limit.
     Ex. people = [3,2,2,1], limit = 3
         ans = 3   (Explanation: 3 boats (1, 2), (2) and (3))
 </pre>
@@ -293,7 +295,8 @@
 
 <details><summary> Program-34)  Edit Distance (One of the useful similarity measure in data science)(Using Dynamic Approach) <b>#String #Dynamic Programming</b> </summary>
 <pre>
-  -> The minimum edit distance is the minimum number of editing operations (insert, delete, replace) to transform one              string into the other.
+  -> The minimum edit distance is the minimum number of editing operations (insert, delete, replace) to 
+     transform one string into the other.
      Ex. "sunday" and "saturday"
         Edit distance = 3
         -> Last three and first characters are same.
@@ -309,7 +312,7 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
   ->  Given a positive integer n and you can do operations as follow:
     Until n = 1; do
   -> If n is even, replace n with n/2.
-  -> If n is odd, you can replace n with either n+1 or n-1. (Choose by which min no of operations can be obtained)
+  -> If n is odd, you can replace n with either n+1 or n-1.(Choose by which min no of operations can be obtained)
      Ex. Input = 12
          12 -> 6 -> 3 -> 2 -> 1  Opes = 4      (at 3 -> N = N-1)
          12 -> 6 -> 3 -> 4 -> 2 -> 1 Opes = 5  (at 3 -> N = N+1)
@@ -339,11 +342,13 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
   
 <details><summary> Program-39)  Student Attendance Record I <b>#String</b> </summary>
 <pre>
-  -> You are given a string representing an attendance record for a student. The record only contains the following three          characters:
+  -> You are given a string representing an attendance record for a student. The record only contains 
+     the following three characters:
         'A' : Absent.
         'L' : Late.
         'P' : Present.
-  -> A student could be rewarded if his attendance record doesn't contain more than one 'A' (absent) or more than two              continuous 'L' (late).
+  -> A student could be rewarded if his attendance record doesn't contain more than one 'A' (absent) or 
+     more than two continuous 'L' (late).
       Ex. "PPALLP"           "LLPPPLL"
           Ans = true        Ans = true
 </pre>
@@ -367,7 +372,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-42)  Sum of Square Numbers <b>#Math</b> </summary>
 <pre>
-  -> Given a non-empty binary tree, return the average value of the nodes on each level in the form of an array.
+  -> Given a non-empty binary tree, return the average value of the nodes on each level in the 
+     form of an array.
   Ex. Input = 46        Input = 3423
       Ans = false       Ans = false
 </pre>
@@ -526,7 +532,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-58)  Daily Temperatures <b>#Dynamic Programming #Hash Table</b> </summary>
 <pre>
-  -> Given a list of daily temperatures T, return a list such that, for each day in the input, tells you how many days you          would have to wait until a warmer temperature. 
+  -> Given a list of daily temperatures T, return a list such that, for each day in the input, tells 
+     you how many days you would have to wait until a warmer temperature. 
   -> If there is no future day for which this is possible, put 0 instead.
     Ex. Input = [73,78,71,71,69,72,73,76]
         Ans = [1,0,3,2,1,1,1,0]
@@ -535,7 +542,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-59)  Counting Bits <b>#Dynamic Programming #Bit Manipulation</b> </summary>
 <pre>
-  -> Given a non negative integer number num. For every numbers i in the range 0 ≤ i ≤ num calculate the number of 1's in       their binary representation and return them as an array.
+  -> Given a non negative integer number num. For every numbers i in the range 0 ≤ i ≤ num calculate the 
+     number of 1's in their binary representation and return them as an array.
     Ex. Input -> num = 35
         Ans = [0,1,1,2,1,2,2,3,1,2,2,3,2,3,3,4,1,2,2,3,2,3,3,4,2,3,3,4,3,4,4,5,1,2,2,3]
 </pre>
@@ -602,7 +610,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-66)  Unique Number of Occurrences <b>#Hash Table</b> </summary>
 <pre>
-  -> write a function that returns true if and only if the number of occurrences of each value in the array is unique.
+  -> write a function that returns true if and only if the number of occurrences of each value 
+     in the array is unique.
     Ex. Input = [-5,-6,2,6,-5,-7,5]
         Ans = false
 </pre>
@@ -644,7 +653,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-71)  Search a 2D Matrix <b>#Binary Search #Array</b> </summary>
 <pre>
-  -> Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:
+  -> Write an efficient algorithm that searches for a value in an m x n matrix. 
+     This matrix has the following properties:
      1 -> Integers in each row are sorted from left to right.
      2 -> The first integer of each row is greater than the last integer of the previous row.
   Ex.  Matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,50]] Target = 3
@@ -661,7 +671,9 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-73)  Add Two Numbers <b>#Linked List #Math</b> </summary>
 <pre>
- -> You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse             order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
+ -> You are given two non-empty linked lists representing two non-negative integers. The digits are 
+    stored in reverse order and each of their nodes contain a single digit. Add the two numbers and 
+    return it as a linked list.
       Ex. Num1 = 2->4->3->7->8    Num2 = 5->6->4->4->2
           Ans = 7->0->8->1->1->1
 </pre>
@@ -738,7 +750,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-79)  Find All Duplicates in an Array <b>#Array</b> </summary>
 <pre>
-  -> Given an array of integers, 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
+  -> Given an array of integers, 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and 
+     others appear once.
   -> Find all the elements that appear twice in this array.
   Ex. Input = [4,3,5,5,6,8,7,5,3,2,2,7,8,2,3,1] 
       Ans = [5,5,3,2,7,8,2,3]
@@ -756,7 +769,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 <details><summary> Program-81)  Distance Between Bus Stops <b>#Array</b> </summary>
 <pre>
   -> A bus has n stops numbered from 0 to n - 1 that form a circle. 
-  -> We know the distance between all pairs of neighboring stops where distance[i] is the distance between the stops number        i and (i + 1) % n.
+  -> We know the distance between all pairs of neighboring stops where distance[i] is the distance 
+     between the stops number i and (i + 1) % n.
   -> Return the shortest distance between the given start and destination stops.
   Ex. Input = [4,3,5,5,6,8,7,5,3,2,2,7,8,2,3,1] Start = 4, Destination = 8
       Ans = 26
@@ -765,7 +779,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-82)  N-Repeated Element in Size 2N Array <b>#Hash Table</b> </summary>
 <pre>
-  -> in a array A of size 2N, there are N+1 unique elements, and exactly one of these elements is repeated N times.
+  -> in a array A of size 2N, there are N+1 unique elements, and exactly one of these elements 
+     is repeated N times.
   -> Return the element repeated N times.
     Ex. [5,1,5,2,5,3,5,4]
         Ans = 5
@@ -782,7 +797,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-84)  Largest Perimeter Triangle <b>#Greedy #Math</b> </summary>
 <pre>
-  -> Given an array A of positive lengths, return the largest perimeter of a triangle with non-zero area, formed from 3 of          these lengths.
+  -> Given an array A of positive lengths, return the largest perimeter of a triangle with non-zero area, 
+     formed from 3 of these lengths.
     Ex. [2,1,2,6,5,4,8,7,3,10,1,3,4,2344,12124]
         Ans = 25
 </pre>
@@ -808,8 +824,10 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-87)  Find the Distance Value Between Two Arrays <b>#Array</b> </summary>
 <pre>
-  -> Given two integer arrays arr1 and arr2, and the integer d, return the distance value between the two arrays.
-  -> The distance value is defined as the number of elements arr1[i] such that there is not any element arr2[j] where              |arr1[i]-arr2[j]| <= d.
+  -> Given two integer arrays arr1 and arr2, and the integer d, return the distance value between 
+     the two arrays.
+  -> The distance value is defined as the number of elements arr1[i] such that there is not any 
+     element arr2[j] where |arr1[i]-arr2[j]| <= d.
     Ex. Arr1 = [2,1,100,3]
         Arr2 = [-5,-2,10,-3,7]
         d = 6
@@ -820,7 +838,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 <details><summary> Program-88)  Find Lucky Integer in an Array </summary>
 <pre>
   -> A lucky integer is an integer which has a frequency in the array equal to its value.
-  -> Return a lucky integer in the array. If there are multiple lucky integers return the largest of them. If there is no          lucky integer return -1.
+  -> Return a lucky integer in the array. If there are multiple lucky integers return the largest of them. 
+     If there is no lucky integer return -1.
     Ex. Input = [2,2,3,4]
         Ans = 2
 </pre>
@@ -836,7 +855,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-90)  Leaf-Similar Trees <b>#Tree</b> </summary>
 <pre>
-  -> Consider all the leaves of a binary tree. From left to right order, the values of those leaves form a leaf value              sequence.
+  -> Consider all the leaves of a binary tree. From left to right order, the values of those leaves 
+     form a leaf value sequence.
   -> Two binary trees are considered leaf-similar if their leaf value sequence is the same.
       Ex. Tree1 = [3,5,1,6,2,9,8,null,null,7,4]
           Tree2 = [3,5,1,6,7,4,2,null,null,null,null,null,null,9,8]
@@ -855,7 +875,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-92)  Maximum Width Ramp <b>#Array</b> </summary>
 <pre>
-  -> Given an array A of integers, a ramp is a tuple (i, j) for which i < j and A[i] <= A[j].The width of such a ramp is j-i.
+  -> Given an array A of integers, a ramp is a tuple (i, j) for which i < j and A[i] <= A[j].The width 
+     of such a ramp is j-i.
   -> Find the maximum width of a ramp in A.  If one doesn't exist, return 0.
     Ex. Input = [9,8,1,0,1,9,4,0,4,1]
         Ans = 7       (Explanation : index -> (2,9)) 
@@ -872,7 +893,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-94)  Contains Duplicate II <b>#Hash Table #Array</b> </summary>
 <pre>
-  -> Given an array of integers and an integer k, find out whether there are two distinct indices i and j in the array such        that nums[i] = nums[j] and the absolute difference between i and j is at most k.
+  -> Given an array of integers and an integer k, find out whether there are two distinct indices i 
+     and j in the array such that nums[i] = nums[j] and the absolute difference between i and j is at most k.
     Ex. Input = [1,2,3,1,7,6,5,6,7,8,9,7] and k = 6
         Ans = true
 </pre>
@@ -898,7 +920,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-97)  Count Number of Nice Subarrays <b>#Two Pointers</b> </summary>
 <pre>
-  -> Given an array of integers nums and an integer k. A subarray is called nice if there are k odd numbers on it.
+  -> Given an array of integers nums and an integer k. A subarray is called nice if there are k 
+     odd numbers on it.
   -> Return the number of nice sub-arrays.
      Ex. Input = [1,8,7,6,5,9,8,7,6,3,2,1,9] and k = 6
          Ans = 6
@@ -907,7 +930,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-98)  First Unique Character in a String <b>#String #Hash Table</b> </summary>
 <pre>
-  -> Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.
+  -> Given a string, find the first non-repeating character in it and return it's index. If it 
+     doesn't exist, return -1.
     Ex. s = "loveleetcode"
         Ans = 2
 </pre>
@@ -915,7 +939,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-99)  Increasing Order Search Tree <b>#Tree</b> </summary>
 <pre>
-  -> Given a binary search tree, rearrange the tree in in-order so that the leftmost node in the tree is now the root of the        tree, and every node has no left child and only 1 right child.
+  -> Given a binary search tree, rearrange the tree in in-order so that the leftmost node in the tree 
+     is now the root of the tree, and every node has no left child and only 1 right child.
       Ex. Input =  5       
                   / \             
                 3    6      
@@ -966,7 +991,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-102)  Check If N and Its Double Exist <b>#Array</b> </summary>
 <pre>
-  -> Given an array arr of integers, check if there exists two integers N and M such that N is the double of M (i.e.N = 2*M).
+  -> Given an array arr of integers, check if there exists two integers N and M such that N is 
+     the double of M (i.e.N = 2*M).
       Ex. Input = [10,2,5,4,3,2]
           Ans = true
 </pre>
@@ -990,9 +1016,11 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-104)  1-bit and 2-bit Characters <b>#Array</b> </summary>
 <pre>
-  -> There are two special characters. The first character can be represented by one bit 0. The second character can be            represented by two bits (10 or 11).
+  -> There are two special characters. The first character can be represented by one bit 0. The 
+     second character can be represented by two bits (10 or 11).
   
-  -> Now given a string represented by several bits. Return whether the last character must be a one-bit character or not.        The given string will always end with a zero.
+  -> Now given a string represented by several bits. Return whether the last character must be a 
+     one-bit character or not. The given string will always end with a zero.
       Ex. Input = [1, 1, 1, 0]        Input = [0,0]
           Ans = false                 Ans = true
 </pre>
@@ -1120,7 +1148,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-117)  Third Maximum Number <b>#Array</b> </summary>
 <pre>
-  -> Given a non-empty array of integers, return the third maximum number in this array. If it does not exist, return the          maximum number. 
+  -> Given a non-empty array of integers, return the third maximum number in this array. If it 
+     does not exist, return the maximum number. 
      Ex. Input: [2, 2, 3, 1]
          Output: 1
 </pre> 
@@ -1128,9 +1157,12 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-118)  Kth Largest Element in a Stream <b>#Heap</b> </summary>
 <pre>
-  -> Design a class to find the kth largest element in a stream. Note that it is the kth largest element in the sorted order,      not the kth distinct element.
+  -> Design a class to find the kth largest element in a stream. Note that it is the kth largest 
+     element in the sorted order, not the kth distinct element.
   
-  -> Your KthLargest class will have a constructor which accepts an integer k and an integer array nums, which contains            initial elements from the stream. For each call to the method KthLargest.add, return the element representing the kth        largest element in the stream.
+  -> Your KthLargest class will have a constructor which accepts an integer k and an integer array 
+     nums, which contains initial elements from the stream. For each call to the method KthLargest.add, 
+     return the element representing the kth largest element in the stream.
      Ex.  int k = 3;
           int[] arr = [4,5,8,2];
           KthLargest kthLargest = new KthLargest(3, arr);
@@ -1205,8 +1237,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-124)  Range Sum Query 2D - Immutable <b>#Dynamic Programming</b> </summary>
 <pre>
-  -> Given a 2D matrix matrix, find the sum of the elements inside the rectangle defined by its upper left corner 
-     (row1, col1) and lower right corner (row2, col2).
+  -> Given a 2D matrix matrix, find the sum of the elements inside the rectangle defined by its upper 
+     left corner (row1, col1) and lower right corner (row2, col2).
     Ex. Given matrix = [
                         [3, 0, 1, 4, 2],
                         [5, 6, 3, 2, 1],
@@ -1222,8 +1254,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-125)  Check If It Is a Straight Line <b>#Array #Math #Geometry</b> </summary>
 <pre>
-  -> You are given an array coordinates,coordinates[i] = [x, y],where [x, y] represents the coordinate of a point. 
-     Check if these points make a straight line in the XY plane.
+  -> You are given an array coordinates,coordinates[i] = [x, y],where [x, y] represents the coordinate 
+     of a point. Check if these points make a straight line in the XY plane.
     Ex. coordinates = [[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]]
         Output: true
 </pre> 
@@ -1326,12 +1358,14 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-134)  Build an Array With Stack Operations <b>#Stack</b> </summary>
 <pre>
-  -> Given an array target and an integer n. In each iteration, you will read a number from  list = {1,2,3..., n}.
+  -> Given an array target and an integer n. In each iteration, you will read a number from  
+     list = {1,2,3..., n}.
   -> Build the target array using the following operations:
         Push: Read a new element from the beginning list, and push it in the array.
         Pop: delete the last element of the array.
   -> If the target array is already built, stop reading more elements.
-  -> You are guaranteed that the target array is strictly increasing, only containing numbers between 1 to n inclusive.
+  -> You are guaranteed that the target array is strictly increasing, only containing numbers between 
+     1 to n inclusive.
      Ex. target = [2,3,4], n = 4
          Output = ["Push","Pop","Push","Push","Push"]
 </pre> 
@@ -1703,7 +1737,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 
 <details><summary> Program-166)  Container With Most Water <b>#Array #Two Pointers</b> </summary>
 <pre>
-  -> Given an array A of non-negative integers, half of the integers in A are odd, and half of the integers are even.
+  -> Given an array A of non-negative integers, half of the integers in A are odd, and half of the 
+     integers are even.
   -> Sort the array so that whenever A[i] is odd, i is odd; and whenever A[i] is even, i is even.
   -> You may return any answer array that satisfies this condition.
      Ex. Input  : [1,8,6,10,7,4,8,13,16]
@@ -1727,7 +1762,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
   -> Given an m * n matrix M initialized with all 0's and several update operations.
   -> Operations are represented by a 2D array, and each operation is represented by an array with two 
      positive integers a and b, which means M[i][j] should be added by one for all 0 <= i < a and 0 <= j < b.
-  -> You need to count and return the number of maximum integers in the matrix after performing all the operations.
+  -> You need to count and return the number of maximum integers in the matrix after performing all 
+     the operations.
      Ex. Input  : m = 3, n = 3, Ops = [[2,2],[3,3],[1,2],[2,2]]
          Output : 2
 </pre> 
@@ -1845,8 +1881,8 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
 <details><summary> Program-178)  Binary Tree Tilt <b>#Tree</b> </summary>
 <pre>
   -> Given a binary tree, return the tilt of the whole tree.
-  -> The tilt of a tree node is defined as the absolute difference between the sum of all left subtree node 
-     values and the sum of all right subtree node values. Null node has tilt 0.
+  -> The tilt of a tree node is defined as the absolute difference between the sum of all 
+     left subtree node values and the sum of all right subtree node values. Null node has tilt 0.
   -> The tilt of the whole tree is defined as the sum of all nodes' tilt.
      Ex. Input  : [7,6,1,2,3,4]
          Output : 11
