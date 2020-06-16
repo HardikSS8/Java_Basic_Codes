@@ -2139,3 +2139,36 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Output : 6   (Explanation: B = [2,8])
 </pre>
 </details>
+
+<details><summary> Program-201)  Four Divisors <b>#Math</b> </summary>
+<pre>
+  -> Given an integer array nums, return the sum of divisors of the integers in that array that have 
+     exactly four divisors.
+  -> If there is no such integer in the array, return 0.
+     Ex. Input  : nums = [21,4,7]
+         Output : 32      Explanation:
+                              21 has 4 divisors: 1, 3, 7, 21
+                              4 has 3 divisors: 1, 2, 4
+                              7 has 2 divisors: 1, 7
+                              The answer is the sum of divisors of 21 only.
+</pre>
+</details>
+
+<details><summary> Program-202)  Clumsy Factorial <b>#Math</b> </summary>
+<pre>
+  -> Normally, the factorial of a positive integer n is the product of all positive integers less than 
+     or equal to n.  For example, factorial(10) = 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1.
+  -> We instead make a clumsy factorial: using the integers in decreasing order, we swap out the 
+     multiply operations for a fixed rotation of operations: multiply (*), divide (/), add (+) and 
+     subtract (-) in this order.
+  -> For example, clumsy(10) = 10 * 9 / 8 + 7 - 6 * 5 / 4 + 3 - 2 * 1.  However, these operations are 
+     still applied using the usual order of operations of arithmetic: we do all multiplication and division 
+     steps before any addition or subtraction steps, and multiplication and division steps are processed 
+     left to right.
+  -> Additionally, the division that we use is floor division such that 10 * 9 / 8 equals 11.  This guarantees 
+     the result is an integer.
+  -> Implement the clumsy function as defined above: given an integer N, it returns the clumsy factorial of N.
+     Ex. Input  : 10
+         Output : 12    (Explanation: 12 = 10 * 9 / 8 + 7 - 6 * 5 / 4 + 3 - 2 * 1)
+</pre>
+</details>
