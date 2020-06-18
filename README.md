@@ -2172,3 +2172,45 @@ For reference check out this link: [Edit distance](https://en.wikipedia.org/wiki
          Output : 12    (Explanation: 12 = 10 * 9 / 8 + 7 - 6 * 5 / 4 + 3 - 2 * 1)
 </pre>
 </details>
+
+<details><summary> Program-203)  Linked List Cycle <b>#Linked List #Two Pointers</b> </summary>
+<pre>
+  -> Given a linked list, determine if it has a cycle in it.
+  -> To represent a cycle in the given linked list, we use an integer pos which represents 
+     the position (0-indexed) in the linked list where tail connects to. If pos is -1, then there 
+     is no cycle in the linked list.
+     Ex. Input  : head = [3,2,0,-4], pos = 1
+         Output : true
+</pre>
+</details>
+
+<details><summary> Program-204)  Reverse Words in a String III <b>#String</b> </summary>
+<pre>
+  -> Given a string, you need to reverse the order of characters in each word within a sentence 
+     while still preserving whitespace and initial word order.
+     Ex. Input  : "Let's take LeetCode contest"
+         Output : "s'teL ekat edoCteeL tsetnoc"
+</pre>
+</details>
+
+<details><summary> Program-205)  Reverse Only Letters <b>#String</b> </summary>
+<pre>
+  -> Given a string S, return the "reversed" string where all characters that are not a letter 
+     stay in the same place, and all letters reverse their positions.
+     Ex. Input  : "Test1ng-Leet=code-Q!"
+         Output : "Qedo1ct-eeLg=ntse-T!"
+</pre>
+</details>
+
+<details><summary> Program-206)  Detect Capital <b>#String</b> </summary>
+<pre>
+  -> Given a word, you need to judge whether the usage of capitals in it is right or not.
+  -> We define the usage of capitals in a word to be right when one of the following cases holds:
+      -> All letters in this word are capitals, like "USA".
+      -> All letters in this word are not capitals, like "leetcode".
+      -> Only the first letter in this word is capital, like "Google".
+  -> Otherwise, we define that this word doesn't use capitals in a right way.
+     Ex. Input: "FlaG"            Input: "USA"
+         Output: False            Output: True    
+</pre>
+</details>
