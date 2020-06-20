@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 219) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -2319,6 +2319,71 @@
     -> You may return the answer in any order.
        Ex. Input  : ["bella","label","roller"]
            Output : ["e","l","l"]
+  </pre>
+  </details>
+  
+  <details><summary> Program-215)  Maximum Frequency Stack <b>#Stack #Hash Table</b> </summary>
+  <pre>
+    -> Implement FreqStack, a class which simulates the operation of a stack-like data structure.
+    -> FreqStack has two functions:
+        -> push(int x), which pushes an integer x onto the stack.
+        -> pop(), which removes and returns the most frequent element in the stack.
+    -> If there is a tie for most frequent element, the element closest to the top of the 
+       stack is removed and returned.
+       Ex. Input  : ["FreqStack","push","push","push","push","push","push","pop","pop","pop","pop"],
+                    [[],[5],[7],[5],[7],[4],[5],[],[],[],[]]
+           Output : [null,null,null,null,null,null,null,5,7,5,4]
+  </pre>
+  </details>
+  
+  <details><summary> Program-216)  Validate Stack Sequences <b>#Stack</b> </summary>
+  <pre>
+    -> Given two sequences pushed and popped with distinct values, return true if and only if 
+       this could have been the result of a sequence of push and pop operations on an initially empty stack.
+       Ex. Input: pushed = [1,2,3,4,5], popped = [4,5,3,2,1]
+           Output: true
+  </pre>
+  </details>
+  
+  <details><summary> Program-217)  Minimum Add to Make Parentheses Valid <b>#Stack #Greedy</b> </summary>
+  <pre>
+    -> Given a string S of '(' and ')' parentheses, we add the minimum number of parentheses ( '(' or ')', 
+       and in any positions ) so that the resulting parentheses string is valid.
+    -> Formally, a parentheses string is valid if and only if:
+        -> It is the empty string, or
+        -> It can be written as AB (A concatenated with B), where A and B are valid strings, or
+        -> It can be written as (A), where A is a valid string.
+    -> Given a parentheses string, return the minimum number of parentheses we must add to make 
+       the resulting string valid.
+       Ex. Input  : "()))(("
+           Output : 4
+  </pre>
+  </details>
+  
+  <details><summary> Program-218)  Binary Search Tree Iterator <b>#Stack #Tree #Design</b> </summary>
+  <pre>
+    -> Implement an iterator over a binary search tree (BST). Your iterator will be initialized 
+       with the root node of a BST.
+    -> Calling next() will return the next smallest number in the BST.
+     Ex. Input : ["BSTIterator","next","next","hasNext","next","hasNext","next","hasNext","next","hasNext"]
+                 [[[7,3,15,null,null,9,20]],[null],[null],[null],[null],[null],[null],[null],[null],[null]]
+         Output: [null,3,7,true,9,true,15,true,20,false]
+  </pre>
+  </details>
+  
+  <details><summary> Program-219)  Next Greater Node In Linked List <b>#Stack #Linked List</b> </summary>
+  <pre>
+    -> We are given a linked list with head as the first node.  Let's number the nodes in the list: 
+       node_1, node_2, node_3, ... etc.
+    -> Each node may have a next larger value: for node_i, next_larger(node_i) is the node_j.val 
+       such that j > i, node_j.val > node_i.val, and j is the smallest possible choice.  If such a 
+       j does not exist, the next larger value is 0.
+    -> Return an array of integers answer, where answer[i] = next_larger(node_{i+1}).
+    -> Note that in the example inputs (not outputs) below, arrays such as [2,1,5] represent the 
+       serialization of a linked list with a head node value of 2, second node value of 1, and 
+       third node value of 5.
+       Ex. Input  : [1,7,5,1,9,2,5,1]
+           Output : [7,9,9,9,0,5,0,0]
   </pre>
   </details>
 </details>  
