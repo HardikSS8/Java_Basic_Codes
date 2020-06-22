@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 219) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 222) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -2384,6 +2384,38 @@
        third node value of 5.
        Ex. Input  : [1,7,5,1,9,2,5,1]
            Output : [7,9,9,9,0,5,0,0]
+  </pre>
+  </details>
+  
+  <details><summary> Program-220)  XOR Operation in an Array <b>#Array #Bit Manipulation</b> </summary>
+  <pre>
+    -> Given an integer n and an integer start.
+    -> Define an array nums where nums[i] = start + 2*i (0-indexed) and n == nums.length.
+    -> Return the bitwise XOR of all elements of nums.
+       Ex. Input  : n = 4, start = 3
+           Output : 8  (Explanation: Array nums is equal to [3, 5, 7, 9] where (3 ^ 5 ^ 7 ^ 9) = 8)
+  </pre>
+  </details>
+  
+  <details><summary> Program-221)  K-diff Pairs in an Array <b>#Array #Two Pointers</b> </summary>
+  <pre>
+    -> Given an array of integers and an integer k, you need to find the number of unique k-diff 
+       pairs in the array. Here a k-diff pair is defined as an integer pair (i, j), where i and j
+       are both numbers in the array and their absolute difference is k.
+       Ex. Input  : [3, 1, 4, 1, 5], k = 2
+           Output : 2
+  </pre>
+  </details>
+  
+  <details><summary> Program-222)  Count Largest Group <b>#Array</b> </summary>
+  <pre>
+    -> Given an integer n. Each number from 1 to n is grouped according to the sum of its digits. 
+    -> Return how many groups have the largest size.
+       Ex. Input  : n = 13
+           Output : 4    (Explanation: There are 9 groups in total, they are grouped according 
+                           sum of its digits of numbers from 1 to 13:
+                           [1,10], [2,11], [3,12], [4,13], [5], [6], [7], [8], [9]. 
+                           There are 4 groups with largest size.)
   </pre>
   </details>
 </details>  
