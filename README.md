@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 224) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 229) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -2447,6 +2447,70 @@
                       [8,5,2],
                       [9,6,3]
                     ]
+  </pre>
+  </details>
+  
+  <details><summary> Program-225)  Shift 2D Grid <b>#Array</b> </summary>
+  <pre>
+    -> Given a 2D grid of size m x n and an integer k. You need to shift the grid k times.
+    -> In one shift operation:
+        -> Element at grid[i][j] moves to grid[i][j + 1].
+        -> Element at grid[i][n - 1] moves to grid[i + 1][0].
+        -> Element at grid[m - 1][n - 1] moves to grid[0][0].
+    -> Return the 2D grid after applying shift operation k times.
+       Ex. Input  : grid = [[1,2,3],[4,5,6],[7,8,9]], k = 1
+           Output : [[9,1,2],[3,4,5],[6,7,8]]
+  </pre>
+  </details>
+  
+  <details><summary> Program-226)  Compare Strings by Frequency of the Smallest Character <b>#Array #String</b> </summary>
+  <pre>
+    -> Let's define a function f(s) over a non-empty string s, which calculates the frequency of the
+       smallest character in s. For example, if s = "dcce" then f(s) = 2 because the smallest character 
+       is "c" and its frequency is 2.
+    -> Now, given string arrays queries and words, return an integer array answer, where each answer[i] 
+       is the number of words such that f(queries[i]) < f(W), where W is a word in words.
+       Ex. Input: queries = ["bbb","cc"], words = ["a","aa","aaa","aaaa"]
+           Output: [1,2]    (Explanation: On the first query only f("bbb") < f("aaaa"). On the second query 
+                             both f("aaa") and f("aaaa") are both > f("cc").)
+  </pre>
+  </details>
+  
+  <details><summary> Program-227)  Fair Candy Swap <b>#Array</b> </summary>
+  <pre>
+    -> Alice and Bob have candy bars of different sizes: A[i] is the size of the i-th bar of candy that 
+       Alice has, and B[j] is the size of the j-th bar of candy that Bob has.
+    -> Since they are friends, they would like to exchange one candy bar each so that after the exchange, 
+       they both have the same total amount of candy.  (The total amount of candy a person has is the sum 
+       of the sizes of candy bars they have.)
+    -> Return an integer array ans where ans[0] is the size of the candy bar that Alice must exchange, and 
+       ans[1] is the size of the candy bar that Bob must exchange.
+    -> If there are multiple answers, you may return any one of them.  It is guaranteed an answer exists.
+       Ex. Input  : A = [1,2,5], B = [2,4]
+           Output : [5,4]
+  </pre>
+  </details>
+  
+  <details><summary> Program-228)  Pascal's Triangle <b>#Array</b> </summary>
+  <pre>
+    -> Given a non-negative integer numRows, generate the first numRows of Pascal's triangle.
+       Ex. Input: 5
+           Output: [
+                    [1],
+                    [1,1],
+                    [1,2,1],
+                    [1,3,3,1],
+                    [1,4,6,4,1]
+                   ]
+  </pre>
+  </details>
+  
+  <details><summary> Program-229)  Pascal's Triangle II <b>#Array</b> </summary>
+  <pre>
+    -> Given a non-negative index k where k ≤ 33, return the kth index row of the Pascal's triangle.  
+    -> Note that the row index starts from 0.
+       Ex. Input: 4
+           Output: [1,4,6,4,1]
   </pre>
   </details>
 </details>  
