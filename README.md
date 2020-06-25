@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 229) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 231) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -2511,6 +2511,31 @@
     -> Note that the row index starts from 0.
        Ex. Input: 4
            Output: [1,4,6,4,1]
+  </pre>
+  </details>
+  
+  <details><summary> Program-230)  Check If It Is a Good Array <b>#Math</b> </summary>
+  <pre>
+    -> Given an array nums of positive integers. Your task is to select some subset of nums, multiply 
+       each element by an integer and add all these numbers. The array is said to be good if you can obtain 
+       a sum of 1 from the array by any possible subset and multiplicand.
+    -> Return True if the array is good otherwise return False.
+       Ex. Input  : nums = [29,6,10]
+           Output : true     (Explanation: Pick numbers 29, 6 and 10.
+                              29*1 + 6*(-3) + 10*(-1) = 1)
+  </pre>
+  </details>
+  
+  <details><summary> Program-231)  Prime Palindrome <b>#Math</b> </summary>
+  <pre>
+    -> Find the smallest prime palindrome greater than or equal to N.
+    -> Recall that a number is prime if it's only divisors are 1 and itself, and it is greater than 1.  
+    -> For example, 2,3,5,7,11 and 13 are primes.
+    -> Recall that a number is a palindrome if it reads the same from left to right as it does from 
+       right to left. 
+    -> For example, 12321 is a palindrome.
+       Ex. Input  : 9989900
+           Output : 100030001
   </pre>
   </details>
 </details>  
