@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 231) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 236) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -2536,6 +2536,84 @@
     -> For example, 12321 is a palindrome.
        Ex. Input  : 9989900
            Output : 100030001
+  </pre>
+  </details>
+  
+  <details><summary> Program-232)  Evaluate Reverse Polish Notation <b>#Stack</b> </summary>
+  <pre>
+    -> Evaluate the value of an arithmetic expression in Reverse Polish Notation.
+    -> Valid operators are +, -, *, /. Each operand may be an integer or another expression.
+    -> Note:
+        -> Division between two integers should truncate toward zero.
+        -> The given RPN expression is always valid. That means the expression would always evaluate 
+           to a result and there won't be any divide by zero operation.
+       Ex. Input  : ["4", "13", "5", "/", "+"]
+           Output : 6
+  </pre>
+  </details>
+  
+  <details><summary> Program-233)  Decode String <b>#Stack #Depth-first Search</b> </summary>
+  <pre>
+    -> Given an encoded string, return its decoded string.
+    -> The encoding rule is: k[encoded_string], where the encoded_string inside the square brackets 
+       is being repeated exactly k times. Note that k is guaranteed to be a positive integer.
+    -> You may assume that the input string is always valid; No extra white spaces, square 
+       brackets are well-formed, etc.
+    -> Furthermore, you may assume that the original data does not contain any digits and that digits
+       are only for those repeat numbers, k. For example, there won't be input like 3a or 2[4].
+       Ex. Input  : s = "3[a2[c]]"
+           Output : "accaccacc"
+  </pre>
+  </details>
+  
+  <details><summary> Program-234)  Decoded String at Index <b>#Stack</b> </summary>
+  <pre>
+    -> An encoded string S is given.  To find and write the decoded string to a tape, the encoded 
+       string is read one character at a time and the following steps are taken:
+        -> If the character read is a letter, that letter is written onto the tape.
+        -> If the character read is a digit (say d), the entire current tape is repeatedly written 
+           d-1 more times in total.
+    -> Now for some encoded string S, and an index K, find and return the K-th letter (1 indexed) in 
+       the decoded string.
+       Ex. Input  : S = "a2345678999999999999999", K = 1
+           Output : "a"
+  </pre>
+  </details>
+  
+  <details><summary> Program-235)  Verify Preorder Serialization of a Binary Tree <b>#Stack</b> </summary>
+  <pre>
+    -> One way to serialize a binary tree is to use pre-order traversal. When we encounter a non-null 
+       node, we record the node's value. If it is a null node, we record using a sentinel value such as #.
+             _9_
+            /   \
+           3     2
+          / \   / \
+         4   1  #  6
+        / \ / \   / \
+        # # # #   # #
+    -> For example, the above binary tree can be serialized to the string "9,3,4,#,#,1,#,#,2,#,6,#,#", 
+       where # represents a null node.
+    -> Given a string of comma separated values, verify whether it is a correct preorder traversal 
+       serialization of a binary tree. Find an algorithm without reconstructing the tree.
+    -> Each comma separated value in the string must be either an integer or a character '#' 
+       representing null pointer.
+    -> You may assume that the input format is always valid, for example it could never contain 
+       two consecutive commas such as "1,,3".
+       Ex. Input  : "9,3,4,#,#,1,#,#,2,#,6,#,#"
+           Output : true
+  </pre>
+  </details>
+  
+  <details><summary> Program-236)  Asteroid Collision <b>#Stack</b> </summary>
+  <pre>
+    -> We are given an array asteroids of integers representing asteroids in a row.
+    -> For each asteroid, the absolute value represents its size, and the sign represents its direction 
+       (positive meaning right, negative meaning left). Each asteroid moves at the same speed.
+    -> Find out the state of the asteroids after all collisions. If two asteroids meet, the smaller one 
+       will explode. If both are the same size, both will explode. Two asteroids moving in the same 
+       direction will never meet.
+       Ex. Input  : asteroids = [10, 2, -5]
+           Output : [10]
   </pre>
   </details>
 </details>  
