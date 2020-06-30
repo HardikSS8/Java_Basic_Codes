@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 236) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 240) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -2614,6 +2614,69 @@
        direction will never meet.
        Ex. Input  : asteroids = [10, 2, -5]
            Output : [10]
+  </pre>
+  </details>
+  
+  <details><summary> Program-237)  Excel Sheet Column Number <b>#Math</b> </summary>
+  <pre>
+    -> Given a column title as appear in an Excel sheet, return its corresponding column number.
+    -> For example:
+            A -> 1
+            B -> 2
+            C -> 3
+            ...
+            Z -> 26
+            AA -> 27
+            AB -> 28 
+       Ex. Input  : "ZY"
+           Output : 701
+  </pre>
+  </details>
+  
+  <details><summary> Program-238)  Excel Sheet Column Title <b>#Math</b> </summary>
+  <pre>
+    -> Given a positive integer, return its corresponding column title as appear in an Excel sheet.
+    -> For example:
+          1 -> A
+          2 -> B
+          3 -> C
+          ...
+          26 -> Z
+          27 -> AA
+          28 -> AB 
+       Ex. Input  : 701
+           Output : "ZY"
+  </pre>
+  </details>
+  
+  <details><summary> Program-239)  Minimum Index Sum of Two Lists <b>#Hash Table</b> </summary>
+  <pre>
+    -> Suppose Andy and Doris want to choose a restaurant for dinner, and they both have a list of 
+       favorite restaurants represented by strings.
+    -> You need to help them find out their common interest with the least list index sum. If there 
+       is a choice tie between answers, output all of them with no order requirement. You could 
+       assume there always exists an answer.
+       Ex. Input  : ["Shogun", "Tapioca Express", "Burger King", "KFC"]
+                    ["KFC", "Shogun", "Burger King"]
+           Output : ["Shogun"]
+  </pre>
+  </details>
+  
+  <details><summary> Program-240)  Subdomain Visit Count <b>#Hash Table</b> </summary>
+  <pre>
+    -> A website domain like "discuss.leetcode.com" consists of various subdomains. At the top level, 
+       we have "com", at the next level, we have "leetcode.com", and at the lowest level, 
+       "discuss.leetcode.com". When we visit a domain like "discuss.leetcode.com", we will also 
+       visit the parent domains "leetcode.com" and "com" implicitly.
+    -> Now, call a "count-paired domain" to be a count (representing the number of visits this domain 
+       received), followed by a space, followed by the address. An example of a count-paired domain 
+       might be "9001 discuss.leetcode.com".
+    -> We are given a list cpdomains of count-paired domains. We would like a list of count-paired domains, 
+       (in the same format as the input, and in any order), that explicitly counts the number of visits to 
+       each subdomain.
+       Ex. Input : ["900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"]
+           Output: ["901 mail.com","50 yahoo.com","900 google.mail.com",
+                    "5 wiki.org","5 org","1 intel.mail.com","951 com"]
   </pre>
   </details>
 </details>  
