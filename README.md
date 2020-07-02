@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 240) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 243) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -2677,6 +2677,37 @@
        Ex. Input : ["900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"]
            Output: ["901 mail.com","50 yahoo.com","900 google.mail.com",
                     "5 wiki.org","5 org","1 intel.mail.com","951 com"]
+  </pre>
+  </details>
+  
+  <details><summary> Program-241)  Word Pattern <b>#Hash Table</b> </summary>
+  <pre>
+    -> Given a pattern and a string str, find if str follows the same pattern.
+    -> Here follow means a full match, such that there is a bijection between a letter in pattern and a 
+       non-empty word in str.
+       Ex. Input  : pattern = "abba", str = "dog cat cat fish"
+           Output : false
+  </pre>
+  </details>
+  
+  <details><summary> Program-242)  Isomorphic Strings <b>#Hash Table</b> </summary>
+  <pre>
+    -> Given two strings s and t, determine if they are isomorphic.
+    -> Two strings are isomorphic if the characters in s can be replaced to get t.
+    -> All occurrences of a character must be replaced with another character while preserving 
+       the order of characters. No two characters may map to the same character but a character 
+       may map to itself.
+       Ex.  Input: s = "foo", t = "bar"
+            Output: false
+  </pre>
+  </details>
+  
+  <details><summary> Program-243)  Average Salary Excluding the Minimum and Maximum Salary <b>#Array #Sort</b> </summary>
+  <pre>
+    -> Given an array of unique integers salary where salary[i] is the salary of the employee i.
+    -> Return the average salary of employees excluding the minimum and maximum salary.
+       Ex.  Input: salary = [8000,9000,2000,3000,6000,1000]
+            Output: 4750.00000
   </pre>
   </details>
 </details>  
