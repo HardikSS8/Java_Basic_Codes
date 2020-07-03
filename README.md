@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 243) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 246) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -2708,6 +2708,40 @@
     -> Return the average salary of employees excluding the minimum and maximum salary.
        Ex.  Input: salary = [8000,9000,2000,3000,6000,1000]
             Output: 4750.00000
+  </pre>
+  </details>
+  
+  <details><summary> Program-244)  Encode and Decode TinyURL <b>#Hash Table #Math</b> </summary>
+  <pre>
+    -> TinyURL is a URL shortening service where you enter a URL such as 
+       https://leetcode.com/problems/design-tinyurl and it returns a short URL such as 
+       http://tinyurl.com/4e9iAk.
+    -> Design the encode and decode methods for the TinyURL service. There is no restriction 
+       on how your encode/decode algorithm should work. You just need to ensure that a URL can 
+       be encoded to a tiny URL and the tiny URL can be decoded to the original URL
+  </pre>
+  </details>
+  
+  <details><summary> Program-245)  Group Anagrams <b>#Hash Table #String</b> </summary>
+  <pre>
+    -> Given an array of strings, group anagrams together.
+       Ex.  Input  : ["eat", "tea", "tan", "ate", "nat", "bat"],
+            Output : [["ate","eat","tea"],["nat","tan"],["bat"]]
+  </pre>
+  </details>
+  
+  <details><summary> Program-246)  Island Perimeter <b>#Hash Table</b> </summary>
+  <pre>
+    -> You are given a map in form of a two-dimensional integer grid where 1 represents 
+       land and 0 represents water.
+    -> Grid cells are connected horizontally/vertically (not diagonally). The grid is 
+       completely surrounded by water, and there is exactly one island (i.e., 
+       one or more connected land cells).
+    -> The island doesn't have "lakes" (water inside that isn't connected to the water 
+       around the island). One cell is a square with side length 1. The grid is rectangular, 
+       width and height don't exceed 100. Determine the perimeter of the island.
+       Ex.  Input : [[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]
+            Output: 16
   </pre>
   </details>
 </details>  
