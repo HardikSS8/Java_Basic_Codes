@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 246) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 249) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -2742,6 +2742,47 @@
        width and height don't exceed 100. Determine the perimeter of the island.
        Ex.  Input : [[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]
             Output: 16
+  </pre>
+  </details>
+  
+  <details><summary> Program-247)  Subrectangle Queries <b>#Array</b> </summary>
+  <pre>
+    -> Implement the class SubrectangleQueries which receives a rows x cols rectangle 
+       as a matrix of integers in the constructor and supports two methods:
+        1. updateSubrectangle(int row1, int col1, int row2, int col2, int newValue)
+           Updates all values with newValue in the subrectangle whose upper left coordinate 
+           is (row1,col1) and bottom right coordinate is (row2,col2).
+        2. getValue(int row, int col) 
+    -> Returns the current value of the coordinate (row,col) from the rectangle.
+       Ex. Input  : ["SubrectangleQueries","getValue","updateSubrectangle","getValue",
+                     "getValue","updateSubrectangle","getValue","getValue"]
+                    [[[[1,2,1],[4,3,4],[3,2,1],[1,1,1]]],[0,2],[0,0,3,2,5],[0,2],[3,1],[3,0,3,2,10],[3,1],[0,2]]
+           Output : [null,1,null,5,5,null,10,5]
+  </pre>
+  </details>
+  
+  <details><summary> Program-248)  Can Make Arithmetic Progression From Sequence <b>#Array #Sort</b> </summary>
+  <pre>
+    -> Given an array of numbers arr. A sequence of numbers is called an arithmetic progression 
+       if the difference between any two consecutive elements is the same.
+    -> Return true if the array can be rearranged to form an arithmetic progression, 
+       otherwise, return false.
+       Ex. Input  : arr = [3,5,1]
+           Output : true
+  </pre>
+  </details>
+  
+  <details><summary> Program-249)  Queries on a Permutation With Key <b>#Array</b> </summary>
+  <pre>
+    -> Given the array queries of positive integers between 1 and m, you have to process 
+       all queries[i] (from i=0 to i=queries.length-1) according to the following rules:
+        -> In the beginning, you have the permutation P=[1,2,3,...,m].
+        -> For the current i, find the position of queries[i] in the permutation P (indexing from 0) 
+           and then move this at the beginning of the permutation P. Notice that the position of 
+           queries[i] in P is the result for queries[i].
+    -> Return an array containing the result for the given queries.
+       Ex. Input  : queries = [3,1,2,1], m = 5
+           Output : [2,1,2,1] 
   </pre>
   </details>
 </details>  
