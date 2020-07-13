@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 249) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 252) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -2783,6 +2783,36 @@
     -> Return an array containing the result for the given queries.
        Ex. Input  : queries = [3,1,2,1], m = 5
            Output : [2,1,2,1] 
+  </pre>
+  </details>
+  
+  <details><summary> Program-250)  Number of Good Pairs <b>#Array #Hash Table #Math</b> </summary>
+  <pre>
+    -> Given an array of integers nums.
+    -> A pair (i,j) is called good if nums[i] == nums[j] and i < j.
+    -> Return the number of good pairs
+       Ex. Input: nums = [1,2,3,1,1,3]
+           Output: 4
+  </pre>
+  </details>
+  
+  <details><summary> Program-251)  N-ary Tree Postorder Traversal <b>#Tree</b> </summary>
+  <pre>
+    -> Given an n-ary tree, return the postorder traversal of its nodes' values.
+    -> Nary-Tree input serialization is represented in their level order traversal, 
+       each group of children is separated by the null value.
+       Ex. Input: root = [1,null,3,2,4,null,5,6]
+           Output: [5,6,3,2,4,1]
+  </pre>
+  </details>
+  
+  <details><summary> Program-252)  N-ary Tree Preorder Traversal <b>#Tree</b> </summary>
+  <pre>
+    -> Given an n-ary tree, return the preorder traversal of its nodes' values.
+    -> Nary-Tree input serialization is represented in their level order traversal, 
+       each group of children is separated by the null value.
+       Ex. Input: root = [1,null,3,2,4,null,5,6]
+           Output: [1,3,5,6,2,4]
   </pre>
   </details>
 </details>  
