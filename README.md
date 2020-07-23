@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 252) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 253) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -2813,6 +2813,16 @@
        each group of children is separated by the null value.
        Ex. Input: root = [1,null,3,2,4,null,5,6]
            Output: [1,3,5,6,2,4]
+  </pre>
+  </details>
+  
+  <details><summary> Program-253)  Split a String in Balanced Strings <b>#String #Greedy</b> </summary>
+  <pre>
+    -> Balanced strings are those who have equal quantity of 'L' and 'R' characters.
+    -> Given a balanced string s split it in the maximum amount of balanced strings.
+    -> Return the maximum amount of splitted balanced strings.
+       Ex. Input: s = "RLRRLLRLRL"
+           Output: 4
   </pre>
   </details>
 </details>  
