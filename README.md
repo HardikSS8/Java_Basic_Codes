@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 253) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 254) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -2823,6 +2823,31 @@
     -> Return the maximum amount of splitted balanced strings.
        Ex. Input: s = "RLRRLLRLRL"
            Output: 4
+  </pre>
+  </details>
+  
+  <details><summary> Program-254)  Apply Discount Every n Orders <b>#Design</b> </summary>
+  <pre>
+    -> There is a sale in a supermarket, there will be a discount every n customer.
+    -> There are some products in the supermarket where the id of the i-th product is products[i] 
+       and the price per unit of this product is prices[i].
+    -> The system will count the number of customers and when the n-th customer arrive 
+       he/she will have a discount on the bill. (i.e if the cost is x the new cost is 
+       x - (discount * x) / 100). Then the system will start counting customers again.
+    -> The customer orders a certain amount of each product where product[i] is the id of 
+       the i-th product the customer ordered and amount[i] is the number of units the 
+       customer ordered of that product.
+    -> Implement the Cashier class:
+          -> Cashier(int n, int discount, int[] products, int[] prices) Initializes the object 
+             with n, the discount, the products and their prices.
+          -> double getBill(int[] product, int[] amount) returns the value of the bill and 
+             apply the discount if needed. Answers within 10^-5 of the actual value will 
+             be accepted as correct.
+       Ex. Input :  ["Cashier","getBill","getBill","getBill","getBill","getBill","getBill","getBill"]
+                    [[3,50,[1,2,3,4,5,6,7],[100,200,300,400,300,200,100]],[[1,2],[1,2]],[[3,7],[10,10]]
+                    [[1,2,3,4,5,6,7],[1,1,1,1,1,1,1]],[[4],[10]],[[7,3],[10,10]],[[7,5,3,1,6,4,2],
+                    [10,10,10,9,9,9,7]],[[2,3,5],[5,3,2]]]
+           Output : [null,500.0,4000.0,800.0,4000.0,4000.0,7350.0,2500.0]
   </pre>
   </details>
 </details>  
