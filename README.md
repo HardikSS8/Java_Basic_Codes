@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 254) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 255) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -2791,8 +2791,8 @@
     -> Given an array of integers nums.
     -> A pair (i,j) is called good if nums[i] == nums[j] and i < j.
     -> Return the number of good pairs
-       Ex. Input: nums = [1,2,3,1,1,3]
-           Output: 4
+       Ex. Input  : nums = [1,2,3,1,1,3]
+           Output : 4
   </pre>
   </details>
   
@@ -2801,8 +2801,8 @@
     -> Given an n-ary tree, return the postorder traversal of its nodes' values.
     -> Nary-Tree input serialization is represented in their level order traversal, 
        each group of children is separated by the null value.
-       Ex. Input: root = [1,null,3,2,4,null,5,6]
-           Output: [5,6,3,2,4,1]
+       Ex. Input  : root = [1,null,3,2,4,null,5,6]
+           Output : [5,6,3,2,4,1]
   </pre>
   </details>
   
@@ -2811,8 +2811,8 @@
     -> Given an n-ary tree, return the preorder traversal of its nodes' values.
     -> Nary-Tree input serialization is represented in their level order traversal, 
        each group of children is separated by the null value.
-       Ex. Input: root = [1,null,3,2,4,null,5,6]
-           Output: [1,3,5,6,2,4]
+       Ex. Input  : root = [1,null,3,2,4,null,5,6]
+           Output : [1,3,5,6,2,4]
   </pre>
   </details>
   
@@ -2821,8 +2821,8 @@
     -> Balanced strings are those who have equal quantity of 'L' and 'R' characters.
     -> Given a balanced string s split it in the maximum amount of balanced strings.
     -> Return the maximum amount of splitted balanced strings.
-       Ex. Input: s = "RLRRLLRLRL"
-           Output: 4
+       Ex. Input  : s = "RLRRLLRLRL"
+           Output : 4
   </pre>
   </details>
   
@@ -2843,11 +2843,26 @@
           -> double getBill(int[] product, int[] amount) returns the value of the bill and 
              apply the discount if needed. Answers within 10^-5 of the actual value will 
              be accepted as correct.
-       Ex. Input :  ["Cashier","getBill","getBill","getBill","getBill","getBill","getBill","getBill"]
+       Ex. Input  : ["Cashier","getBill","getBill","getBill","getBill","getBill","getBill","getBill"]
                     [[3,50,[1,2,3,4,5,6,7],[100,200,300,400,300,200,100]],[[1,2],[1,2]],[[3,7],[10,10]]
                     [[1,2,3,4,5,6,7],[1,1,1,1,1,1,1]],[[4],[10]],[[7,3],[10,10]],[[7,5,3,1,6,4,2],
                     [10,10,10,9,9,9,7]],[[2,3,5],[5,3,2]]]
            Output : [null,500.0,4000.0,800.0,4000.0,4000.0,7350.0,2500.0]
+  </pre>
+  </details>
+  
+  <details><summary> Program-255)  Bag of Tokens <b>#Greedy</b> </summary>
+  <pre>
+    -> You have an initial power P, an initial score of 0 points, and a bag of tokens.
+    -> Each token can be used at most once, has a value token[i], and has potentially 
+       two ways to use it.
+          -> If we have at least token[i] power, we may play the token face up, 
+             losing token[i] power, and gaining 1 point.
+          -> If we have at least 1 point, we may play the token face down, gaining 
+             token[i] power, and losing 1 point.
+    -> Return the largest number of points we can have after playing any number of tokens.
+       Ex. Input  : tokens = [100,200,300,400], P = 200
+           Output : 2
   </pre>
   </details>
 </details>  
