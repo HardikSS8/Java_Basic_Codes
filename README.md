@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 255) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 258) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -2863,6 +2863,45 @@
     -> Return the largest number of points we can have after playing any number of tokens.
        Ex. Input  : tokens = [100,200,300,400], P = 200
            Output : 2
+  </pre>
+  </details>
+  
+  <details><summary> Program-256)  Uncommon Words from Two Sentences <b>#Hash Table</b> </summary>
+  <pre>
+    -> We are given two sentences A and B.  (A sentence is a string of space separated 
+       words. Each word consists only of lowercase letters.)
+    -> A word is uncommon if it appears exactly once in one of the sentences, 
+       and does not appear in the other sentence.
+    -> Return a list of all uncommon words. 
+    -> You may return the list in any order.
+       Ex. Input  : A = "this apple is sweet", B = "this apple is sour"
+           Output : ["sweet","sour"]
+  </pre>
+  </details>
+  
+  <details><summary> Program-257)  Sort Characters By Frequency <b>#Hash Table #Heap</b> </summary>
+  <pre>
+    -> Given a string, sort it in decreasing order based on the frequency of characters.
+       Ex. Input  : "tree"
+           Output : "eert"
+  </pre>
+  </details>
+  
+  <details><summary> Program-258)  Friends Of Appropriate Ages <b>#Array</b> </summary>
+  <pre>
+    -> Some people will make friend requests. The list of their ages is given and 
+       ages[i] is the age of the ith person. 
+    -> Person A will NOT friend request person B (B != A) if any of the following 
+       conditions are true:
+          -> age[B] <= 0.5 * age[A] + 7
+          -> age[B] > age[A]
+          -> age[B] > 100 && age[A] < 100
+       Otherwise, A will friend request B.
+    -> Note that if A requests B, B does not necessarily request A.  Also, people 
+       will not friend request themselves.
+    -> How many total friend requests are made?
+       Ex. Input  : [20,30,100,110,120]
+           Output : 3   (Explanation: Friend requests are made 110 -> 100, 120 -> 110, 120 -> 100)
   </pre>
   </details>
 </details>  
