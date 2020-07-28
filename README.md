@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 258) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 262) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -2902,6 +2902,51 @@
     -> How many total friend requests are made?
        Ex. Input  : [20,30,100,110,120]
            Output : 3   (Explanation: Friend requests are made 110 -> 100, 120 -> 110, 120 -> 100)
+  </pre>
+  </details>
+  
+  <details><summary> Program-259)  Is Subsequence <b>#Binary Search #Dynamic Programming #Greedy</b> </summary>
+  <pre>
+    -> Given a string s and a string t, check if s is subsequence of t.
+    -> A subsequence of a string is a new string which is formed from the original string by 
+       deleting some (can be none) of the characters without disturbing the relative positions 
+       of the remaining characters. (ie, "ace" is a subsequence of "abcde" while "aec" is not).
+       Ex. Input  : s = "abc", t = "ahbgdc"
+           Output : true
+  </pre>
+  </details>
+  
+  <details><summary> Program-260)  Ransom Note <b>#String</b> </summary>
+  <pre>
+    -> Given an arbitrary ransom note string and another string containing letters from all 
+       the magazines, write a function that will return true if the ransom note can be 
+       constructed from the magazines ; otherwise, it will return false.
+    -> Each letter in the magazine string can only be used once in your ransom note.
+       Ex. Input  : ransomNote = "cd", magazine = "bfdgdfd"
+           Output : false
+  </pre>
+  </details>
+  
+  <details><summary> Program-261)  Guess Number Higher or Lower <b>#Binary Search</b> </summary>
+  <pre>
+    -> We are playing the Guess Game. The game is as follows:
+      -> I pick a number from 1 to n. You have to guess which number I picked.
+      -> Every time you guess wrong, I'll tell you whether the number is higher or lower.
+      -> You call a pre-defined API guess(int num) which returns 3 possible results (-1, 1, or 0):
+          -> -1 : My number is lower
+          -> 1 : My number is higher
+          -> 0 : Congrats! You got it!
+       Ex. Input  : n = 10, pick = 6
+           Output : 6
+  </pre>
+  </details>
+  
+  <details><summary> Program-262)  Shuffle an Array <b>#Array</b> </summary>
+  <pre>
+    -> Shuffle a set of numbers without duplicates.
+       Ex. Input  : ["Solution","shuffle","reset","shuffle"]
+                    [[[1,2,3]],[],[],[]]
+           Output : [null,[1,2,3],[1,2,3],[1,3,2]]
   </pre>
   </details>
 </details>  
