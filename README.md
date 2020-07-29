@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 262) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 264) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -2947,6 +2947,32 @@
        Ex. Input  : ["Solution","shuffle","reset","shuffle"]
                     [[[1,2,3]],[],[],[]]
            Output : [null,[1,2,3],[1,2,3],[1,3,2]]
+  </pre>
+  </details>
+  
+  <details><summary> Program-263)  Reformat Date <b>#String</b> </summary>
+  <pre>
+    -> Given a date string in the form Day Month Year, where: 
+       -> Day is in the set {"1st", "2nd", "3rd", "4th", ..., "30th", "31st"}.
+       -> Month is in the set {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", 
+         "Aug", "Sep", "Oct", "Nov", "Dec"}.
+       -> Year is in the range [1900, 2100].
+       -> Convert the date string to the format YYYY-MM-DD, where:
+            -> YYYY denotes the 4 digit year.
+            -> MM denotes the 2 digit month.
+            -> DD denotes the 2 digit day.
+       Ex. Input  : date = "1th Jun 1996"
+           Output : "1996-06-01"
+  </pre>
+  </details>
+  
+  <details><summary> Program-264)  Consecutive Characters <b>#String</b> </summary>
+  <pre>
+    -> Given a string s, the power of the string is the maximum length of a 
+       non-empty substring that contains only one unique character.
+    -> Return the power of the string.
+       Ex. Input  : s = "abbcccddddeeeeedcba"
+           Output : 5
   </pre>
   </details>
 </details>  
