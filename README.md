@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 264) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 269) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -2973,6 +2973,57 @@
     -> Return the power of the string.
        Ex. Input  : s = "abbcccddddeeeeedcba"
            Output : 5
+  </pre>
+  </details>
+  
+  <details><summary> Program-265)  Maximum of Absolute Value Expression <b>#Math #Bit Manipulation</b> </summary>
+  <pre>
+    -> Given two arrays of integers with equal lengths, return the maximum value of:
+       |arr1[i] - arr1[j]| + |arr2[i] - arr2[j]| + |i - j|
+    -> where the maximum is taken over all 0 <= i, j < arr1.length.
+       Ex. Input  : arr1 = [1,-2,-5,0,10], arr2 = [0,-2,-1,-7,-4]
+           Output : 20
+  </pre>
+  </details>
+  
+  <details><summary> Program-266)  The kth Factor of n <b>#Math</b> </summary>
+  <pre>
+    -> Given two positive integers n and k.
+    -> A factor of an integer n is defined as an integer i where n % i == 0.
+    -> Consider a list of all factors of n sorted in ascending order, return the 
+       kth factor in this list or return -1 if n has less than k factors.
+       Ex. Input  : n = 12, k = 3
+           Output : 3
+  </pre>
+  </details>
+  
+  <details><summary> Program-267)  Valid Square <b>#Math</b> </summary>
+  <pre>
+    -> Given the coordinates of four points in 2D space, return whether the 
+       four points could construct a square.
+    -> The coordinate (x,y) of a point is represented by an integer array with two integers.
+       Ex. Input  : p1 = [0,0], p2 = [1,1], p3 = [1,0], p4 = [0,1]
+           Output : True
+  </pre>
+  </details>
+  
+  <details><summary> Program-268)  Simplified Fractions <b>#Math</b> </summary>
+  <pre>
+    -> Given an integer n, return a list of all simplified fractions between 0 
+       and 1 (exclusive) such that the denominator is less-than-or-equal-to n. 
+       The fractions can be in any order.
+       Ex. Input  : n = 4
+           Output : ["1/2","1/3","1/4","2/3","3/4"]
+  </pre>
+  </details>
+  
+  <details><summary> Program-269)  Closest Divisors <b>#Math</b> </summary>
+  <pre>
+    -> Given an integer num, find the closest two integers in absolute 
+       difference whose product equals num + 1 or num + 2.
+    -> Return the two integers in any order.
+       Ex. Input: num = 999
+           Output: [40,25]
   </pre>
   </details>
 </details>  
