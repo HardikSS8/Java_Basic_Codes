@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 269) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 273) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -3024,6 +3024,57 @@
     -> Return the two integers in any order.
        Ex. Input: num = 999
            Output: [40,25]
+  </pre>
+  </details>
+ 
+  <details><summary> Program-270)  Largest Number At Least Twice of Others <b>#Array</b> </summary>
+  <pre>
+    -> In a given integer array nums, there is always exactly one largest element.
+    -> Find whether the largest element in the array is at least twice as 
+       much as every other number in the array.
+    -> If it is, return the index of the largest element, otherwise return -1.
+       Ex. Input  : nums = [1, 2, 3, 4]
+           Output : -1
+  </pre>
+  </details>
+  
+  <details><summary> Program-271)  Count Good Triplets <b>#Array</b> </summary>
+  <pre>
+    -> Given an array of integers arr, and three integers a, b and c. 
+       You need to find the number of good triplets.
+    -> A triplet (arr[i], arr[j], arr[k]) is good if the following conditions are true:
+        -> 0 <= i < j < k < arr.length
+        -> |arr[i] - arr[j]| <= a
+        -> |arr[j] - arr[k]| <= b
+        -> |arr[i] - arr[k]| <= c
+      -> Where |x| denotes the absolute value of x. 
+    -> Return the number of good triplets.
+       Ex. Input  : arr = [3,0,1,1,9,7], a = 7, b = 2, c = 3
+           Output : 4
+  </pre>
+  </details>
+  
+  <details><summary> Program-272)  Day of the Week <b>#Array</b> </summary>
+  <pre>
+    -> Given a date, return the corresponding day of the week for that date.
+    -> The input is given as three integers representing the day, month and year respectively.
+    -> Return the answer as one of the following values {"Sunday", "Monday", 
+       "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"}.
+       Ex. Input  : day = 31, month = 8, year = 2019
+           Output : "Saturday"
+  </pre>
+  </details>
+  
+  <details><summary> Program-273)  Positions of Large Groups <b>#Array</b> </summary>
+  <pre>
+    -> In a string S of lowercase letters, these letters form consecutive groups 
+       of the same character.
+    -> For example, a string like S = "abbxxxxzyy" has the groups "a", "bb", "xxxx", "z" and "yy".
+    -> Call a group large if it has 3 or more characters.  We would like the starting 
+       and ending positions of every large group.
+    -> The final answer should be in lexicographic order.
+       Ex. Input  : "abcdddeeeeaabbbcd"
+           Output : [[3,5],[6,9],[12,14]]
   </pre>
   </details>
 </details>  
