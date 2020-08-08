@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 276) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 279) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -3396,9 +3396,49 @@
     -> String words[i] is substring of words[j], if can be obtained removing some 
        characters to left and/or right side of words[j].
       
-   
       Ex. Input  : words = ["mass","as","hero","superhero"]
           Output : ["as","hero"]
+  </pre>
+  </details>
+  
+  <details><summary> Program-277)  Most Common Word <b>#String</b> </summary>
+  <pre>
+    -> Given a paragraph and a list of banned words, return the most frequent word that 
+       is not in the list of banned words.  It is guaranteed there is at least one word 
+       that isn't banned, and that the answer is unique.
+    -> Words in the list of banned words are given in lowercase, and free of punctuation.  
+       Words in the paragraph are not case sensitive.  The answer is in lowercase.
+   
+      Ex. Input  : paragraph = "Bob hit a ball, the hit BALL flew far after it was hit." banned = ["hit"]
+          Output : "ball"
+  </pre>
+  </details>
+  
+  <details><summary> Program-278)  Camelcase Matching <b>#String #Trie</b> </summary>
+  <pre>
+    -> A query word matches a given pattern if we can insert lowercase letters to the 
+       pattern word so that it equals the query. (We may insert each character at 
+       any position, and may insert 0 characters.)
+    -> Given a list of queries, and a pattern, return an answer list of booleans, 
+       where answer[i] is true if and only if queries[i] matches the pattern.
+   
+      Ex. Input  : queries = ["FooBar","FooBarTest","FootBall","FrameBuffer","ForceFeedBack"], pattern = "FoBa"
+          Output : [true,false,true,false,false]
+  </pre>
+  </details>
+  
+  <details><summary> Program-279)  Replace Words <b>#Hash Table #Trie</b> </summary>
+  <pre>
+    -> In English, we have a concept called root, which can be followed by some other 
+       words to form another longer word - let's call this word successor. For example, 
+       the root an, followed by other, which can form another word another.
+    -> Now, given a dictionary consisting of many roots and a sentence. You need to 
+       replace all the successor in the sentence with the root forming it. If a successor 
+       has many roots can form it, replace it with the root with the shortest length.
+    -> You need to output the sentence after the replacement.
+      
+      Ex. Input  : dict = ["cat","bat","rat"], sentence = "the cattle was rattled by the battery"
+          Output : "the cat was rat by the bat"
   </pre>
   </details>
 </details>  
