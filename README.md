@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 279) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 285) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -3441,4 +3441,72 @@
           Output : "the cat was rat by the bat"
   </pre>
   </details>
+  
+  <details><summary> Program-280)  Kth Missing Positive Number <b>#Array #Hash Table</b> </summary>
+  <pre>
+    -> Given an array arr of positive integers sorted in a strictly increasing order, and an integer k.
+    -> Find the kth positive integer that is missing from this array.
+      
+      Ex. Input  : arr = [2,3,4,7,11], k = 5
+          Output : 9 
+  </pre>
+  </details>
+  
+  <details><summary> Program-281)  Pairs of Songs With Total Durations Divisible by 60 <b>#Array</b> </summary>
+  <pre>
+    -> In a list of songs, the i-th song has a duration of time[i] seconds. 
+    -> Return the number of pairs of songs for which their total duration in seconds is divisible 
+       by 60.  Formally, we want the number of indices i, j such that i < j with (time[i] + time[j]) % 60 == 0.
+      
+      Ex. Input  : [30,20,150,100,40]
+          Output : 3
+  </pre>
+  </details>
+  
+  <details><summary> Program-282)  Binary Prefix Divisible By 5 <b>#Array</b> </summary>
+  <pre>
+    -> Given an array A of 0s and 1s, consider N_i: the i-th subarray from A[0] to A[i] 
+       interpreted as a binary number (from most-significant-bit to least-significant-bit.)
+    -> Return a list of booleans answer, where answer[i] is true if and only if N_i is divisible by 5.
+      
+      Ex. Input  : [0,1,1,1,1,1]
+          Output : [true,false,false,false,true,false]
+  </pre>
+  </details>
+  
+  <details><summary> Program-283)  Subarray Product Less Than K <b>#Array #Two Pointers</b> </summary>
+  <pre>
+    -> Your are given an array of positive integers nums.
+    -> Count and print the number of (contiguous) subarrays where the product of all 
+       the elements in the subarray is less than k.
+      
+      Ex. Input  : nums = [10, 5, 2, 6], k = 100
+          Output : 8
+  </pre>
+  </details>
+  
+  <details><summary> Program-284)   Maximum Product Subarray <b>#Array #Dynamic Programming</b> </summary>
+  <pre>
+    -> Given an integer array nums, find the contiguous subarray within an array 
+       (containing at least one number) which has the largest product.
+      
+      Ex. Input  : [2,3,-2,4]
+          Output : 6
+  </pre>
+  </details>
+  
+  <details><summary> Program-285)   House Robber <b>#Dynamic Programming</b> </summary>
+  <pre>
+    -> You are a professional robber planning to rob houses along a street. Each house has 
+       a certain amount of money stashed, the only constraint stopping you from robbing each 
+       of them is that adjacent houses have security system connected and it will automatically 
+       contact the police if two adjacent houses were broken into on the same night.
+    -> Given a list of non-negative integers representing the amount of money of each house, 
+       determine the maximum amount of money you can rob tonight without alerting the police.
+      
+      Ex. Input  : nums = [2,7,9,3,1]
+          Output : 12
+  </pre>
+  </details>
+ 
 </details>  
