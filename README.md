@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 285) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 286) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -3506,6 +3506,19 @@
       
       Ex. Input  : nums = [2,7,9,3,1]
           Output : 12
+  </pre>
+  </details>
+  
+  <details><summary> Program-286)   Reformat The String <b>#String</b> </summary>
+  <pre>
+    -> Given alphanumeric string s. (Alphanumeric string is a string consisting 
+       of lowercase English letters and digits).
+    -> You have to find a permutation of the string where no letter is followed by another letter 
+       and no digit is followed by another digit. That is, no two adjacent characters have the same type.
+    -> Return the reformatted string or return an empty string if it is impossible to reformat the string.
+      
+      Ex. Input  : s = "covid2019"
+          Output : "c2o0v1i9d"
   </pre>
   </details>
  
