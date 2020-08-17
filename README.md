@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 286) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 290) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -3519,6 +3519,52 @@
       
       Ex. Input  : s = "covid2019"
           Output : "c2o0v1i9d"
+  </pre>
+  </details>
+  
+  <details><summary> Program-287)   Intersection of Two Linked Lists <b>#Linked List</b> </summary>
+  <pre>
+    -> Write a program to find the node at which the intersection of two singly linked lists begins.
+      
+      Ex. Input  : intersectVal = 8, listA = [4,1,8,4,5], listB = [5,6,1,8,4,5], skipA = 2, skipB = 3
+          Output : Reference of the node with value = 8
+  </pre>
+  </details>
+  
+  <details><summary> Program-288)   Intersection of Two Arrays II <b>#Hash Table #Two Pointers #Binary Search #Sort</b> </summary>
+  <pre>
+    -> Given two arrays, write a function to compute their intersection.
+      
+      Ex. Input  : nums1 = [1,2,2,1], nums2 = [2,2]
+          Output : [2,2]
+  </pre>
+  </details>
+  
+  <details><summary> Program-289)   Rectangle Overlap <b>#Math</b> </summary>
+  <pre>
+    -> A rectangle is represented as a list [x1, y1, x2, y2], where (x1, y1) are the 
+       coordinates of its bottom-left corner, and (x2, y2) are the coordinates of its top-right corner.
+    -> Two rectangles overlap if the area of their intersection is positive.  To be clear, 
+       two rectangles that only touch at the corner or edges do not overlap.
+    -> Given two (axis-aligned) rectangles, return whether they overlap.
+      
+      Ex. Input  : rec1 = [0,0,2,2], rec2 = [1,1,3,3]
+          Output : true
+  </pre>
+  </details>
+  
+  <details><summary> Program-290)   Best Time to Buy and Sell Stock II <b>#Array #Greedy</b> </summary>
+  <pre>
+    -> Say you have an array prices for which the ith element is the price of a given stock on day i.
+    -> Design an algorithm to find the maximum profit. You may complete as many 
+       transactions as you like (i.e., buy one and sell one share of the stock multiple times).
+    -> Note: You may not engage in multiple transactions at the same time (i.e., you must sell 
+       the stock before you buy again).
+      
+      Ex. Input  : [7,1,5,3,6,4]
+          Output : 7
+          Explanation: Buy on day 2 (price = 1) and sell on day 3 (price = 5), profit = 5-1 = 4.
+                       Then buy on day 4 (price = 3) and sell on day 5 (price = 6), profit = 6-3 = 3.
   </pre>
   </details>
  
