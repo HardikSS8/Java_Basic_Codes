@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 295) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 296) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -3621,6 +3621,16 @@
     -> Given a singly linked list, determine if it is a palindrome.
 
       Ex. Input  : 1->2->2->1
+          Output : true
+  </pre>
+  </details>
+  
+  <details><summary> Program-296)   Three Consecutive Odds <b>#Array</b> </summary>
+  <pre>
+    -> Given an integer array arr, return true if there are three consecutive odd numbers 
+       in the array. Otherwise, return false.
+
+      Ex. Input  : arr = [1,2,34,3,4,5,7,23,12]
           Output : true
   </pre>
   </details>
