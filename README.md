@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 290) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 295) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -3565,6 +3565,63 @@
           Output : 7
           Explanation: Buy on day 2 (price = 1) and sell on day 3 (price = 5), profit = 5-1 = 4.
                        Then buy on day 4 (price = 3) and sell on day 5 (price = 6), profit = 6-3 = 3.
+  </pre>
+  </details>
+  
+  <details><summary> Program-291)   Construct the Rectangle <b>#Array</b> </summary>
+  <pre>
+    -> For a web developer, it is very important to know how to design a web page's size. 
+       So, given a specific rectangular web page’s area, your job by now is to design a 
+       rectangular web page, whose length L and width W satisfy the following requirements:
+        -> 1. The area of the rectangular web page you designed must equal to the given target area.
+        -> 2. The width W should not be larger than the length L, which means L >= W.
+        -> 3. The difference between length L and width W should be as small as possible.
+    -> You need to output the length L and the width W of the web page you designed in sequence.
+      
+      Ex. Input  : 4
+          Output : [2, 2]
+  </pre>
+  </details>
+  
+  <details><summary> Program-292)   Find Smallest Letter Greater Than Target <b>#Binary Search</b> </summary>
+  <pre>
+    -> Given a list of sorted characters letters containing only lowercase letters, and given 
+       a target letter target, find the smallest element in the list that is larger than the given target.
+    -> Letters also wrap around. For example, if the target is target = 'z' and 
+       letters = ['a', 'b'], the answer is 'a'.
+      
+      Ex. Input  : letters = ["c", "f", "j"], target = "g"
+          Output : "j"
+  </pre>
+  </details>
+  
+  <details><summary> Program-293)   Nth Magical Number <b>#Math #Binary Search</b> </summary>
+  <pre>
+    -> A positive integer is magical if it is divisible by either A or B.
+    -> Return the N-th magical number.  Since the answer may be very large, return it modulo 10^9 + 7.
+      
+      Ex. Input  : N = 5, A = 2, B = 4
+          Output : 10
+  </pre>
+  </details>
+  
+  <details><summary> Program-294)   Reorder List <b>#Linked List</b> </summary>
+  <pre>
+    -> Given a singly linked list L: L0→L1→…→Ln-1→Ln,
+    -> reorder it to: L0→Ln→L1→Ln-1→L2→Ln-2→…
+    -> You may not modify the values in the list's nodes, only nodes itself may be changed.
+      
+      Ex. Input  : 1->2->3->4 
+          Output : 1->4->2->3.
+  </pre>
+  </details>
+  
+  <details><summary> Program-295)   Palindrome Linked List <b>#Linked List #Two Pointers</b> </summary>
+  <pre>
+    -> Given a singly linked list, determine if it is a palindrome.
+
+      Ex. Input  : 1->2->2->1
+          Output : true
   </pre>
   </details>
  
