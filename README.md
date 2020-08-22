@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 296) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 298) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -3632,6 +3632,30 @@
 
       Ex. Input  : arr = [1,2,34,3,4,5,7,23,12]
           Output : true
+  </pre>
+  </details>
+  
+  <details><summary> Program-297)   Single Element in a Sorted Array <b>#Array</b> </summary>
+  <pre>
+    -> You are given a sorted array consisting of only integers where every element appears 
+       exactly twice, except for one element which appears exactly once. Find this single 
+       element that appears only once.
+    -> Follow up: Your solution should run in O(log n) time and O(1) space.
+
+      Ex. Input  : nums = [1,1,2,3,3,4,4,8,8]
+          Output : 2
+  </pre>
+  </details>
+  
+  <details><summary> Program-298)   Reverse String II <b>#String</b> </summary>
+  <pre>
+    -> Given a string and an integer k, you need to reverse the first k characters for 
+       every 2k characters counting from the start of the string. If there are less than 
+       k characters left, reverse all of them. If there are less than 2k but greater 
+       than or equal to k characters, then reverse the first k characters and left the other as original.
+
+      Ex. Input  : s = "abcdefg", k = 2
+          Output : "bacdfeg"
   </pre>
   </details>
  
