@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 298) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 300) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -3656,6 +3656,29 @@
 
       Ex. Input  : s = "abcdefg", k = 2
           Output : "bacdfeg"
+  </pre>
+  </details>
+  
+  <details><summary> Program-299)   Check If All 1's Are at Least Length K Places Away <b>#Array</b> </summary>
+  <pre>
+    -> Given an array nums of 0s and 1s and an integer k, return True if all 1's are at 
+       least k places away from each other, otherwise return False.
+
+      Ex. Input  : nums = [1,0,0,0,1,0,0,1], k = 2
+          Output : true
+  </pre>
+  </details>
+  
+  <details><summary> Program-300)   Minimum Number of Steps to Make Two Strings Anagram <b>#String</b> </summary>
+  <pre>
+    -> Given two equal-size strings s and t. In one step you can choose any character 
+       of t and replace it with another character.
+    -> Return the minimum number of steps to make t an anagram of s.
+    -> An Anagram of a string is a string that contains the same characters with a 
+       different (or the same) ordering.
+
+      Ex. Input  : s = "leetcode", t = "practice"
+          Output : 5
   </pre>
   </details>
  
