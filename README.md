@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 300) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 304) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -3679,6 +3679,53 @@
 
       Ex. Input  : s = "leetcode", t = "practice"
           Output : 5
+  </pre>
+  </details>
+  
+  <details><summary> Program-301)   Decrypt String from Alphabet to Integer Mapping <b>#String</b> </summary>
+  <pre>
+    -> Given a string s formed by digits ('0' - '9') and '#' . We want to map s to English 
+       lowercase characters as follows:
+          -> Characters ('a' to 'i') are represented by ('1' to '9') respectively.
+          -> Characters ('j' to 'z') are represented by ('10#' to '26#') respectively. 
+    -> Return the string formed after mapping.
+    -> It's guaranteed that a unique mapping will always exist.
+
+      Ex. Input  : s = "10#11#12"
+          Output : "jkab"        Explanation: "j" -> "10#" , "k" -> "11#" , "a" -> "1" , "b" -> "2".
+  </pre>
+  </details>
+  
+  <details><summary> Program-302)   Subsets <b>#Array #Backtracking #Bit Manipulation</b> </summary>
+  <pre>
+    -> Given a set of distinct integers, nums, return all possible subsets (the power set). 
+    -> Note: The solution set must not contain duplicate subsets.
+
+      Ex. Input  : [1,2,3]
+          Output : [[],[1],[1,2],[1,2,3],[1,3],[2],[2,3],[3]]
+  </pre>
+  </details>
+  
+  <details><summary> Program-303)   Count Square Submatrices with All Ones <b>#Array #Dynamic Programming</b> </summary>
+  <pre>
+    -> Given a m * n matrix of ones and zeros, return how many square submatrices have all ones.
+
+      Ex. Input  : [[1,0,1],[1,1,0],[1,1,0]]
+          Output : 7
+  </pre>
+  </details>
+  
+  <details><summary> Program-304)   Best Time to Buy and Sell Stock with Transaction Fee <b>#Array #Dynamic Programming #Greedy</b> </summary>
+  <pre>
+    -> Your are given an array of integers prices, for which the i-th element is the price of 
+       a given stock on day i; and a non-negative integer fee representing a transaction fee.
+    -> You may complete as many transactions as you like, but you need to pay the transaction fee 
+       for each transaction. You may not buy more than 1 share of a stock at a time 
+       (ie. you must sell the stock share before you buy again.)
+    -> Return the maximum profit you can make.
+      
+      Ex. Input  : [1,3,2,8,4,9], fee= 2
+          Output : 8
   </pre>
   </details>
  
