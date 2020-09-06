@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 304) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 306) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -3726,6 +3726,27 @@
       
       Ex. Input  : [1,3,2,8,4,9], fee= 2
           Output : 8
+  </pre>
+  </details>
+  
+  <details><summary> Program-305)   Shuffle String <b>#Sort</b> </summary>
+  <pre>
+    -> Given a string s and an integer array indices of the same length.
+    -> The string s will be shuffled such that the character at the ith position moves to 
+       indices[i] in the shuffled string.
+    -> Return the shuffled string.
+      
+      Ex. Input  : s = "codeleet", indices = [4,5,6,7,0,2,1,3]
+          Output : "leetcode"
+  </pre>
+  </details>
+  
+  <details><summary> Program-306)   Merge Intervals <b>#Array #Sort</b> </summary>
+  <pre>
+    -> Given a collection of intervals, merge all overlapping intervals.
+      
+      Ex. Input  : intervals = [[1,3],[2,6],[8,10],[15,18]]
+          Output : [[1,6],[8,10],[15,18]]
   </pre>
   </details>
  
