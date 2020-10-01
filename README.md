@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 306) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 310) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -3747,6 +3747,63 @@
       
       Ex. Input  : intervals = [[1,3],[2,6],[8,10],[15,18]]
           Output : [[1,6],[8,10],[15,18]]
+  </pre>
+  </details>
+  
+  <details><summary> Program-307)   Sum of All Odd Length Subarrays <b>#Array</b> </summary>
+  <pre>
+    -> Given an array of positive integers arr, calculate the sum of all possible odd-length subarrays.
+    -> A subarray is a contiguous subsequence of the array.
+    -> Return the sum of all odd-length subarrays of arr.
+      
+      Ex. Input  : arr = [1,4,2,5,3]
+          Output : 58
+  </pre>
+  </details>
+  
+  <details><summary> Program-308)   Matrix Diagonal Sum <b>#Array</b> </summary>
+  <pre>
+    -> Given a square matrix mat, return the sum of the matrix diagonals.
+    -> Only include the sum of all the elements on the primary diagonal and all the elements on the 
+       secondary diagonal that are not part of the primary diagonal.
+      
+      Ex. Input  : mat = [[1,2,3],
+                         [4,5,6],
+                         [7,8,9]]
+          Output : 25
+  </pre>
+  </details>
+  
+  <details><summary> Program-309)   Find the Winner of an Array Game <b>#Array</b> </summary>
+  <pre>
+    -> Given an integer array arr of distinct integers and an integer k.
+    -> A game will be played between the first two elements of the array (i.e. arr[0] and arr[1]). 
+       In each round of the game, we compare arr[0] with arr[1], the larger integer wins and 
+       remains at position 0 and the smaller integer moves to the end of the array. The game ends 
+       when an integer wins k consecutive rounds.
+    -> Return the integer which will win the game.
+    -> It is guaranteed that there will be a winner of the game.
+      
+      Ex. Input  : arr = [2,1,3,5,4,6,7], k = 2
+          Output : 5
+  </pre>
+  </details>
+  
+  <details><summary> Program-310)   Can Make Palindrome from Substring <b>#Array #String</b> </summary>
+  <pre>
+    -> Given a string s, we make queries on substrings of s.
+    -> For each query queries[i] = [left, right, k], we may rearrange the substring 
+       s[left], ..., s[right], and then choose up to k of them to replace with any 
+       lowercase English letter. 
+    -> If the substring is possible to be a palindrome string after the operations above, 
+       the result of the query is true. Otherwise, the result is false.
+    -> Return an array answer[], where answer[i] is the result of the i-th query queries[i].
+    -> Note that: Each letter is counted individually for replacement so if for example 
+       s[left..right] = "aaa", and k = 2, we can only replace two of the letters.  
+       (Also, note that the initial string s is never modified by any query.)
+      
+      Ex. Input  : s = "abcda", queries = [[3,3,0],[1,2,0],[0,3,1],[0,3,2],[0,4,1]]
+          Output : [true,false,false,true,true]
   </pre>
   </details>
  
