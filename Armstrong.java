@@ -1,7 +1,7 @@
 class Armstrong{  
   public static void main(String[] args)  {  
     int c=0,a,temp;  
-    int n=153;//It is the number to check armstrong  
+    int n=153;  
     temp=n;  
     while(n>0)  
     {  
