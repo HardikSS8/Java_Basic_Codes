@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 311) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 313) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -3810,6 +3810,31 @@
       
       Ex. Input  : n = 2345687
           Output : "2.345.687"
+  </pre>
+  </details>
+  
+  <details><summary> Program-312)   Remove All Adjacent Duplicates in String II <b>#Stack</b> </summary>
+  <pre>
+    -> Given a string s, a k duplicate removal consists of choosing k adjacent and equal letters from s and 
+       removing them causing the left and the right side of the deleted substring to concatenate together.
+    -> We repeatedly make k duplicate removals on s until we no longer can.
+    -> Return the final string after all such duplicate removals have been made.
+    -> It is guaranteed that the answer is unique.
+      
+      Ex. Input  : s = "deeedbbcccbdaa", k = 3
+          Output : "aa"
+  </pre>
+  </details>
+  
+  <details><summary> Program-313)    Letter Combinations of a Phone Number <b>#String #Backtracking</b> </summary>
+  <pre>
+    -> Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the 
+       number could represent. Return the answer in any order.
+    -> A mapping of digit to letters (just like on the telephone buttons) is given below. Note that 1 does not 
+       map to any letters.
+      
+      Ex. Input  : "56
+          Output : ["jm","jn","jo","km","kn","ko","lm","ln","lo"]
   </pre>
   </details>
  
