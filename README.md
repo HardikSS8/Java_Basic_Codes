@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 313) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 316) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -3833,8 +3833,44 @@
     -> A mapping of digit to letters (just like on the telephone buttons) is given below. Note that 1 does not 
        map to any letters.
       
-      Ex. Input  : "56
+      Ex. Input  : "56"
           Output : ["jm","jn","jo","km","kn","ko","lm","ln","lo"]
+  </pre>
+  </details>
+  
+  <details><summary> Program-314)    Mean of Array After Removing Some Elements <b>#Array</b> </summary>
+  <pre>
+    -> Given an integer array arr, return the mean of the remaining integers after removing the smallest 
+       5% and the largest 5% of the elements.
+    -> Answers within 10-5 of the actual answer will be considered accepted.
+      
+      Ex. Input  : arr = [6,2,7,5,1,2,0,3,10,2,5,0,5,5,0,8,7,6,8,0]
+          Output : 4.00000
+  </pre>
+  </details>
+  
+  <details><summary> Program-315)    Check If a Word Occurs As a Prefix of Any Word in a Sentence <b>#String</b> </summary>
+  <pre>
+    -> Given a sentence that consists of some words separated by a single space, and a searchWord.
+    -> You have to check if searchWord is a prefix of any word in sentence.
+    -> Return the index of the word in sentence where searchWord is a prefix of this word (1-indexed).
+    -> If searchWord is a prefix of more than one word, return the index of the first word 
+       (minimum index). If there is no such word return -1.
+    -> A prefix of a string S is any leading contiguous substring of S.
+      
+      Ex. Input  : sentence = "this problem is an easy problem", searchWord = "pro"
+          Output : 2
+  </pre>
+  </details>
+  
+  <details><summary> Program-316)    Largest Substring Between Two Equal Characters <b>#String</b> </summary>
+  <pre>
+    -> Given a string s, return the length of the longest substring between two equal characters, 
+       excluding the two characters. If there is no such substring return -1.
+    -> A substring is a contiguous sequence of characters within a string.
+      
+      Ex. Input  : "mgntdygtxrvxjnwksqhxuxtrv"
+          Output : 18
   </pre>
   </details>
  
