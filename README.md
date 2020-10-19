@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 316) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 319) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -3871,6 +3871,42 @@
       
       Ex. Input  : "mgntdygtxrvxjnwksqhxuxtrv"
           Output : 18
+  </pre>
+  </details>
+  
+  <details><summary> Program-317)    Complex Number Multiplication <b>#Math #String</b> </summary>
+  <pre>
+    -> Given two strings representing two complex numbers.
+    -> You need to return a string representing their multiplication. Note i2 = -1 according to the definition.
+      
+      Ex. Input  : "1+-1i", "1+-1i"
+          Output : "0+-2i"
+  </pre>
+  </details>
+  
+  <details><summary> Program-318)    Valid Parenthesis String <b>#String</b> </summary>
+  <pre>
+    -> Given a string containing only three types of characters: '(', ')' and '*', write a function to 
+       check whether this string is valid. We define the validity of a string by these rules:
+      -> Any left parenthesis '(' must have a corresponding right parenthesis ')'.
+      -> Any right parenthesis ')' must have a corresponding left parenthesis '('.
+      -> Left parenthesis '(' must go before the corresponding right parenthesis ')'.
+      -> '*' could be treated as a single right parenthesis ')' or a single left parenthesis '(' or an empty string.
+      -> An empty string is also valid.
+      
+      Ex. Input  : "(*))"
+          Output : True
+  </pre>
+  </details>
+  
+  <details><summary> Program-319)    Occurrences After Bigram <b>#Hash Table</b> </summary>
+  <pre>
+    -> Given words first and second, consider occurrences in some text of the form "first second third", 
+       where second comes immediately after first, and third comes immediately after second.
+    -> For each such occurrence, add "third" to the answer, and return the answer.
+      
+      Ex. Input  : text = "alice is a good girl she is a good student", first = "a", second = "good"
+          Output : ["girl","student"]
   </pre>
   </details>
  
