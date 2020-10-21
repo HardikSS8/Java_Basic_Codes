@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 319) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 324) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -3907,6 +3907,61 @@
       
       Ex. Input  : text = "alice is a good girl she is a good student", first = "a", second = "good"
           Output : ["girl","student"]
+  </pre>
+  </details>
+  
+  <details><summary> Program-320)    Implement strStr() <b>#String #Two Pointers</b> </summary>
+  <pre>
+    -> Implement strStr().
+    -> Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+    -> Clarification:
+      -> What should we return when needle is an empty string? This is a great question to ask during an interview.
+      -> For the purpose of this problem, we will return 0 when needle is an empty string. This is 
+         consistent to C's strstr() and Java's indexOf().
+      
+      Ex. Input  : haystack = "hello", needle = "ll"
+          Output : 2
+  </pre>
+  </details>
+  
+  <details><summary> Program-321)    Longest Common Prefix <b>#String</b> </summary>
+  <pre>
+    -> Write a function to find the longest common prefix string amongst an array of strings.
+    -> If there is no common prefix, return an empty string "".
+      
+      Ex. Input  : strs = ["flower","flow","flight"]
+          Output : "fl"
+  </pre>
+  </details>
+  
+  <details><summary> Program-322)    Number of Substrings With Only 1s <b>#Math #String</b> </summary>
+  <pre>
+    -> Given a binary string s (a string consisting only of '0' and '1's).
+    -> Return the number of substrings with all characters 1's.
+    -> Since the answer may be too large, return it modulo 10^9 + 7.
+      
+      Ex. Input  : s = "0110111"
+          Output : 9
+  </pre>
+  </details>
+  
+  <details><summary> Program-323)    Binary String With Substrings Representing 1 To N <b>#String</b> </summary>
+  <pre>
+    -> Given a binary string S (a string consisting only of '0' and '1's) and a positive integer N, return 
+       true if and only if for every integer X from 1 to N, the binary representation of X is a substring of S.
+      
+      Ex. Input  : "011011011010", N = 145
+          Output : false
+  </pre>
+  </details>
+  
+  <details><summary> Program-324)    Number of Substrings Containing All Three Characters <b>#String</b> </summary>
+  <pre>
+    -> Given a string s consisting only of characters a, b and c.
+    -> Return the number of substrings containing at least one occurrence of all these characters a, b and c.
+      
+      Ex. Input  : "abbbcaabcaaabccaa"
+          Output : 104
   </pre>
   </details>
  
