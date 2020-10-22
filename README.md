@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 324) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 326) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -3962,6 +3962,32 @@
       
       Ex. Input  : "abbbcaabcaaabccaa"
           Output : 104
+  </pre>
+  </details>
+  
+  <details><summary> Program-325)    Corporate Flight Bookings <b>#Array #Math</b> </summary>
+  <pre>
+    -> There are n flights, and they are labeled from 1 to n.
+    -> We have a list of flight bookings.  The i-th booking bookings[i] = [i, j, k] means that we booked 
+       k seats from flights labeled i to j inclusive.
+    -> Return an array answer of length n, representing the number of seats booked on each flight in order of their label.
+      
+      Ex. Input  : bookings = [[1,2,10],[2,3,20],[2,5,25]], n = 5
+          Output : [10,55,45,25,25]
+  </pre>
+  </details>
+  
+  <details><summary> Program-326)    Invalid Transactions <b>#Array #String</b> </summary>
+  <pre>
+    -> A transaction is possibly invalid if:
+      -> the amount exceeds $1000, or;
+      -> if it occurs within (and including) 60 minutes of another transaction with the same name in a different city.
+      -> Each transaction string transactions[i] consists of comma separated values representing the name, 
+         time (in minutes), amount, and city of the transaction.
+    -> Given a list of transactions, return a list of transactions that are possibly invalid.  You may return the answer in any order.
+
+      Ex. Input  : transactions = ["alice,20,800,mtv","alice,50,100,beijing"]
+          Output : ["alice,20,800,mtv","alice,50,100,beijing"]
   </pre>
   </details>
  
