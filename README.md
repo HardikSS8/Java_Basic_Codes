@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 326) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 330) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -3988,6 +3988,51 @@
 
       Ex. Input  : transactions = ["alice,20,800,mtv","alice,50,100,beijing"]
           Output : ["alice,20,800,mtv","alice,50,100,beijing"]
+  </pre>
+  </details>
+  
+  <details><summary> Program-327)    Rotate String <b>#String</b> </summary>
+  <pre>
+    -> We are given two strings, A and B.
+    -> A shift on A consists of taking string A and moving the leftmost character to the rightmost position. 
+       For example, if A = 'abcde', then it will be 'bcdea' after one shift on A. Return True if and only if A can 
+       become B after some number of shifts on A.
+
+
+      Ex. Input  : A = 'abcde', B = 'cdeab'
+          Output : true
+  </pre>
+  </details>
+  
+  <details><summary> Program-328)    Sequential Digits <b>#Backtracking</b> </summary>
+  <pre>
+    -> An integer has sequential digits if and only if each digit in the number is one more than the previous digit.
+    -> Return a sorted list of all the integers in the range [low, high] inclusive that have sequential digits.
+
+      Ex. Input  : low = 1000, high = 13000
+          Output : [1234,2345,3456,4567,5678,6789,12345]
+  </pre>
+  </details>
+  
+  <details><summary> Program-329)    Repeated String Match <b>#String</b> </summary>
+  <pre>
+    -> Given two strings a and b, return the minimum number of times you should repeat string a so that 
+       string b is a substring of it. If it is impossible for b to be a substring of a after repeating it, return -1.
+    -> Notice: string "abc" repeated 0 times is "",  repeated 1 time is "abc" and repeated 2 times is "abcabc".
+
+      Ex. Input  : a = "abcd", b = "cdabcdab"
+          Output : 3
+  </pre>
+  </details>
+  
+  <details><summary> Program-330)    Repeated DNA Sequences <b>#Hash Table #Bit Manipulation</b> </summary>
+  <pre>
+    -> All DNA is composed of a series of nucleotides abbreviated as 'A', 'C', 'G', and 'T', for example: "ACGAATTCCG". 
+       When studying DNA, it is sometimes useful to identify repeated sequences within the DNA.
+    -> Write a function to find all the 10-letter-long sequences (substrings) that occur more than once in a DNA molecule.
+
+      Ex. Input  : s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
+          Output : ["AAAAACCCCC","CCCCCAAAAA"]
   </pre>
   </details>
  
