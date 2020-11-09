@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 330) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 336) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -4033,6 +4033,78 @@
 
       Ex. Input  : s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
           Output : ["AAAAACCCCC","CCCCCAAAAA"]
+  </pre>
+  </details>
+  
+  <details><summary> Program-331)    Non-decreasing Array <b>#Array</b> </summary>
+  <pre>
+    -> Given an array nums with n integers, your task is to check if it could become non-decreasing by modifying 
+       at most 1 element.
+    -> We define an array is non-decreasing if nums[i] <= nums[i + 1] holds for every i (0-based) 
+       such that (0 <= i <= n - 2).
+
+
+      Ex. Input  : nums = [4,2,3]
+          Output : true
+  </pre>
+  </details>
+  
+  <details><summary> Program-332)    Climbing Stairs <b>#Dynamic Programming</b> </summary>
+  <pre>
+    -> You are climbing a stair case. It takes n steps to reach to the top.
+    -> Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+
+      Ex. Input  : 3
+          Output : 3   (Explanation: There are three ways to climb to the top.
+                        1. 1 step + 1 step + 1 step
+                        2. 1 step + 2 steps
+                        3. 2 steps + 1 step)
+  </pre>
+  </details>
+  
+  <details><summary> Program-333)    Min Cost Climbing Stairs <b>#Array #Dynamic Programming</b> </summary>
+  <pre>
+    -> On a staircase, the i-th step has some non-negative cost cost[i] assigned (0 indexed).
+    -> Once you pay the cost, you can either climb one or two steps. You need to find minimum cost to reach 
+       the top of the floor, and you can either start from the step with index 0, or the step with index 1.
+
+      Ex. Input  : cost = [1, 100, 1, 1, 1, 100, 1, 1, 100, 1]
+          Output : 6
+  </pre>
+  </details>
+  
+  <details><summary> Program-334)    The k Strongest Values in an Array <b>#Array #Sort</b> </summary>
+  <pre>
+    -> Given an array of integers arr and an integer k.
+    -> A value arr[i] is said to be stronger than a value arr[j] if |arr[i] - m| > |arr[j] - m| where 
+       m is the median of the array.
+        -> If |arr[i] - m| == |arr[j] - m|, then arr[i] is said to be stronger than arr[j] if arr[i] > arr[j].
+    -> Return a list of the strongest k values in the array. return the answer in any arbitrary order.
+
+      Ex. Input  : arr = [6,7,11,7,6,8], k = 5
+          Output : [11,8,6,6,7]
+  </pre>
+  </details>
+  
+  <details><summary> Program-335)    Find Words That Can Be Formed by Characters <b>#Array #Hash Table</b> </summary>
+  <pre>
+    -> You are given an array of strings words and a string chars.
+    -> A string is good if it can be formed by characters from chars (each character can only be used once).
+    -> Return the sum of lengths of all good strings in words.
+
+      Ex. Input  : words = ["hello","world","leetcode"], chars = "welldonehoneyr"
+          Output : 10    (Explanation: The strings that can be formed are "hello" and "world" so the answer is 5 + 5 = 10.)
+  </pre>
+  </details>
+  
+  <details><summary> Program-336)    Longest Subarray of 1's After Deleting One Element <b>#Array</b> </summary>
+  <pre>
+    -> Given a binary array nums, you should delete one element from it.
+    -> Return the size of the longest non-empty subarray containing only 1's in the resulting array.
+    -> Return 0 if there is no such subarray.
+
+      Ex. Input  : nums = [0,1,1,1,0,1,1,0,1]
+          Output : 5
   </pre>
   </details>
  
