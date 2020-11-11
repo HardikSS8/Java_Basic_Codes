@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 336) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 339) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -4105,6 +4105,42 @@
 
       Ex. Input  : nums = [0,1,1,1,0,1,1,0,1]
           Output : 5
+  </pre>
+  </details>
+  
+  <details><summary> Program-337)    Least Number of Unique Integers after K Removals <b>#Array #Sort</b> </summary>
+  <pre>
+    -> Given an array of integers arr and an integer k. Find the least number of unique integers after removing exactly k elements.
+
+      Ex. Input  : arr = [4,3,1,1,3,3,2], k = 3
+          Output : 2     (Explanation: Remove 4, 2 and either one of the two 1s or three 3s. 1 and 3 will be left.)
+  </pre>
+  </details>
+  
+  <details><summary> Program-338)    Add Strings <b>#String</b> </summary>
+  <pre>
+    -> Given two non-negative integers num1 and num2 represented as string, return the sum of num1 and num2.
+    -> Note:
+        -> The length of both num1 and num2 is < 5100.
+        -> Both num1 and num2 contains only digits 0-9.
+        -> Both num1 and num2 does not contain any leading zero.
+        -> You must not use any built-in BigInteger library or convert the inputs to integer directly.
+
+      Ex. Input  : "24566", "232759"
+          Output : "257325"
+  </pre>
+  </details>
+  
+  <details><summary> Program-339)    Assign Cookies <b>#Greedy</b> </summary>
+  <pre>
+    -> Assume you are an awesome parent and want to give your children some cookies. But, you should give each 
+       child at most one cookie.
+    -> Each child i has a greed factor g[i], which is the minimum size of a cookie that the child will be content with; 
+       and each cookie j has a size s[j]. If s[j] >= g[i], we can assign the cookie j to the child i, and the child i 
+       will be content. Your goal is to maximize the number of your content children and output the maximum number.
+
+      Ex. Input  : g = [1,2], s = [1,2,3]
+          Output : 2
   </pre>
   </details>
  
