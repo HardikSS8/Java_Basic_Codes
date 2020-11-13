@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 339) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 343) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -4141,6 +4141,67 @@
 
       Ex. Input  : g = [1,2], s = [1,2,3]
           Output : 2
+  </pre>
+  </details>
+  
+  <details><summary> Program-340)    Unique Morse Code Words <b>#String</b> </summary>
+  <pre>
+    -> International Morse Code defines a standard encoding where each letter is mapped to a series of dots 
+       and dashes, as follows: "a" maps to ".-", "b" maps to "-...", "c" maps to "-.-.", and so on.
+    -> For convenience, the full table for the 26 letters of the English alphabet is given below:
+        -> [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.",
+            "--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
+    -> Now, given a list of words, each word can be written as a concatenation of the Morse code of each letter. 
+       For example, "cab" can be written as "-.-..--...", (which is the concatenation "-.-." + ".-" + "-...").
+    -> We'll call such a concatenation, the transformation of a word.
+    -> Return the number of different transformations among all words we have.
+
+      Ex. Input  : words = ["gin", "zen", "gig", "msg"]
+          Output : 2    (Explanation: The transformation of each word is:
+                                    "gin" -> "--...-."
+                                    "zen" -> "--...-."
+                                    "gig" -> "--...--."
+                                    "msg" -> "--...--.")
+  </pre>
+  </details>
+  
+  <details><summary> Program-341)    Destination City <b>#String</b> </summary>
+  <pre>
+    -> You are given the array paths, where paths[i] = [cityAi, cityBi] means there exists a direct path 
+       going from cityAi to cityBi. Return the destination city, that is, the city without any path outgoing to another city.
+    -> It is guaranteed that the graph of paths forms a line without any loop, therefore, there will be exactly 
+       one destination city.
+
+      Ex. Input  : paths = [["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]]
+          Output : "Sao Paulo" 
+  </pre>
+  </details>
+  
+  <details><summary> Program-342)    Robot Return to Origin <b>#String</b> </summary>
+  <pre>
+    -> There is a robot starting at position (0, 0), the origin, on a 2D plane. Given a sequence of its 
+       moves, judge if this robot ends up at (0, 0) after it completes its moves.
+    -> The move sequence is represented by a string, and the character moves[i] represents its ith move. 
+       Valid moves are R (right), L (left), U (up), and D (down). If the robot returns to the origin after 
+       it finishes all of its moves, return true. Otherwise, return false.
+    -> Note: The way that the robot is "facing" is irrelevant. "R" will always make the robot move to the 
+       right once, "L" will always make it move left, etc. Also, assume that the magnitude of the robot's movement 
+       is the same for each move.
+
+      Ex. Input  : moves = "LDRRLRUULR"
+          Output : false
+  </pre>
+  </details>
+  
+  <details><summary> Program-343)    Path Crossing <b>#String</b> </summary>
+  <pre>
+    -> Given a string path, where path[i] = 'N', 'S', 'E' or 'W', each representing moving one unit north, south, 
+       east, or west, respectively. You start at the origin (0, 0) on a 2D plane and walk on the path specified by path.
+    -> Return True if the path crosses itself at any point, that is, if at any time you are on a location you've 
+       previously visited. Return False otherwise.
+
+      Ex. Input  : path = "NESWW"
+          Output : true
   </pre>
   </details>
  
