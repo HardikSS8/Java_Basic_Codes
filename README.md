@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 343) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 348) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -4202,6 +4202,64 @@
 
       Ex. Input  : path = "NESWW"
           Output : true
+  </pre>
+  </details>
+  
+  <details><summary> Program-344)    Get Maximum in Generated Array <b>#Array</b> </summary>
+  <pre>
+    -> You are given an integer n. An array nums of length n + 1 is generated in the following way:
+        -> nums[0] = 0
+        -> nums[1] = 1
+        -> nums[2 * i] = nums[i] when 2 <= 2 * i <= n
+        -> nums[2 * i + 1] = nums[i] + nums[i + 1] when 2 <= 2 * i + 1 <= n
+    -> Return the maximum integer in the array nums.
+
+      Ex. Input  : n = 7
+          Output : 3
+  </pre>
+  </details>
+  
+  <details><summary> Program-345)    Richest Customer Wealth <b>#Array</b> </summary>
+  <pre>
+    -> You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the ith customer 
+       has in the jth bank. Return the wealth that the richest customer has.
+    -> A customer's wealth is the amount of money they have in all their bank accounts. The richest customer is 
+       the customer that has the maximum wealth.
+
+      Ex. Input  : accounts = [[1,5],[7,3],[3,5]]
+          Output : 10
+  </pre>
+  </details>
+  
+  <details><summary> Program-346)    Number of Sub-arrays With Odd Sum <b>#Array #Math</b> </summary>
+  <pre>
+    -> Given an array of integers arr. Return the number of sub-arrays with odd sum.
+    -> As the answer may grow large, the answer must be computed modulo 10^9 + 7.
+
+      Ex. Input  : arr = [1,3,5]
+          Output : 4
+  </pre>
+  </details>
+  
+  <details><summary> Program-347)    Check If Two String Arrays are Equivalent <b>#String</b> </summary>
+  <pre>
+    -> Given two string arrays word1 and word2, return true if the two arrays represent the same string, and false otherwise.
+    -> A string is represented by an array if the array elements concatenated in order forms the string.
+
+      Ex. Input  : word1  = ["abc", "d", "defg"], word2 = ["abcddefg"]
+          Output : true
+  </pre>
+  </details>
+  
+  <details><summary> Program-348)    Maximum Repeating Substring <b>#String</b> </summary>
+  <pre>
+    -> For a string sequence, a string word is k-repeating if word concatenated k times is a substring of sequence. 
+       The word's maximum k-repeating value is the highest value k where word is k-repeating in sequence. If 
+       word is not a substring of sequence, word's maximum k-repeating value is 0.
+    -> Given strings sequence and word, return the maximum k-repeating value of word in sequence.
+
+      Ex. Input  : sequence = "ababc", word = "ab"
+          Output : 2
   </pre>
   </details>
  
