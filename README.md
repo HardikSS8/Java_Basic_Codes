@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 348) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 351) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -4260,6 +4260,41 @@
 
       Ex. Input  : sequence = "ababc", word = "ab"
           Output : 2
+  </pre>
+  </details>
+  
+  <details><summary> Program-349)    Count the Number of Consistent Strings <b>#String</b> </summary>
+  <pre>
+    -> You are given a string allowed consisting of distinct characters and an array of strings words. 
+       A string is consistent if all characters in the string appear in the string allowed.
+    -> Return the number of consistent strings in the array words.
+
+      Ex. Input  : allowed = "ab", words = ["ad","bd","aaab","baa","badab"]
+          Output : 2
+  </pre>
+  </details>
+  
+  <details><summary> Program-350)    Goal Parser Interpretation <b>#String</b> </summary>
+  <pre>
+    -> You own a Goal Parser that can interpret a string command. The command consists of an alphabet of "G", "()" 
+       and/or "(al)" in some order. The Goal Parser will interpret "G" as the string "G", "()" as the string "o", 
+       and "(al)" as the string "al". The interpreted strings are then concatenated in the original order.
+    -> Given the string command, return the Goal Parser's interpretation of command.
+
+      Ex. Input  : command = "G()()()()(al)"
+          Output : "Gooooal"
+  </pre>
+  </details>
+  
+  <details><summary> Program-351)    Sum of Absolute Differences in a Sorted Array <b>#Math #Greedy</b> </summary>
+  <pre>
+    -> You are given an integer array nums sorted in non-decreasing order.
+    -> Build and return an integer array result with the same length as nums such that result[i] 
+       is equal to the summation of absolute differences between nums[i] and all the other elements in the array.
+    -> In other words, result[i] is equal to sum(|nums[i]-nums[j]|) where 0 <= j < nums.length and j != i (0-indexed).
+
+      Ex. Input  : nums = [2,3,5]
+          Output : [4,3,5]
   </pre>
   </details>
  
