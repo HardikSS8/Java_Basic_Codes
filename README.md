@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 351) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 354) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -4295,6 +4295,52 @@
 
       Ex. Input  : nums = [2,3,5]
           Output : [4,3,5]
+  </pre>
+  </details>
+  
+  <details><summary> Program-352)    Shortest Completing Word <b>#Hash Table</b> </summary>
+  <pre>
+    -> Given a string licensePlate and an array of strings words, find the shortest completing word in words.
+    -> A completing word is a word that contains all the letters in licensePlate. Ignore numbers 
+       and spaces in licensePlate, and treat letters as case insensitive. If a letter appears more than 
+       once in licensePlate, then it must appear in the word the same number of times or more.
+    -> For example, if licensePlate = "aBc 12c", then it contains letters 'a', 'b' (ignoring case), 
+       and 'c' twice. Possible completing words are "abccdef", "caaacab", and "cbca".
+    -> Return the shortest completing word in words. It is guaranteed an answer exists. If there are 
+       multiple shortest completing words, return the first one that occurs in words.
+
+      Ex. Input  : licensePlate = "1s3 PSt", words = ["step","steps","stripe","stepple"]
+          Output : "steps"
+  </pre>
+  </details>
+  
+  <details><summary> Program-353)    Longest Word in Dictionary <b>#Hash Table #Trie</b> </summary>
+  <pre>
+    -> Given a list of strings words representing an English Dictionary, find the longest word in words 
+       that can be built one character at a time by other words in words. If there is more than one 
+       possible answer, return the longest word with the smallest lexicographical order.
+    -> If there is no answer, return the empty string.
+
+      Ex. words  = ["w","wo","wor","worl", "world"]
+          Output : "world" 
+  </pre>
+  </details>
+  
+  <details><summary> Program-354)    Reformat Phone Number <b>#String</b> </summary>
+  <pre>
+    -> You are given a phone number as a string number. number consists of digits, spaces ' ', and/or dashes '-'.
+    -> You would like to reformat the phone number in a certain manner. Firstly, remove all spaces and 
+       dashes. Then, group the digits from left to right into blocks of length 3 until there are 4 or fewer 
+       digits. The final digits are then grouped as follows:
+        -> 2 digits: A single block of length 2.
+        -> 3 digits: A single block of length 3.
+        -> 4 digits: Two blocks of length 2 each.
+    -> The blocks are then joined by dashes. Notice that the reformatting process should never produce 
+       any blocks of length 1 and produce at most two blocks of length 2.
+    -> Return the phone number after formatting.
+
+      Ex. Input  : number = "1-23-45 6"
+          Output : "123-456"
   </pre>
   </details>
  
