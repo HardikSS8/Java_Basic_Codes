@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 354) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 357) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -4341,6 +4341,56 @@
 
       Ex. Input  : number = "1-23-45 6"
           Output : "123-456"
+  </pre>
+  </details>
+  
+  <details><summary> Program-355)    Maximum Nesting Depth of the Parentheses <b>#String</b> </summary>
+  <pre>
+    -> A string is a valid parentheses string (denoted VPS) if it meets one of the following:
+        -> It is an empty string "", or a single character not equal to "(" or ")",
+        -> It can be written as AB (A concatenated with B), where A and B are VPS's, or
+        -> It can be written as (A), where A is a VPS.
+        -> We can similarly define the nesting depth depth(S) of any VPS S as follows:
+            -> depth("") = 0
+            -> depth(C) = 0, where C is a string with a single character not equal to "(" or ")".
+            -> depth(A + B) = max(depth(A), depth(B)), where A and B are VPS's.
+            -> depth("(" + A + ")") = 1 + depth(A), where A is a VPS.
+    -> For example, "", "()()", and "()(()())" are VPS's (with nesting depths 0, 1, and 2), and ")(" 
+       and "(()" are not VPS's.
+    -> Given a VPS represented as string s, return the nesting depth of s.
+
+      Ex. Input  : s = "(8-9)*(3+(4*7)/7(8+3))"
+          Output : 2
+  </pre>
+  </details>
+  
+  <details><summary> Program-356)    Design Parking System <b>#Design</b> </summary>
+  <pre>
+    -> Design a parking system for a parking lot. The parking lot has three kinds of parking spaces: big, 
+       medium, and small, with a fixed number of slots for each size.
+    -> Implement the ParkingSystem class:
+        -> ParkingSystem(int big, int medium, int small) Initializes object of the ParkingSystem class. 
+           The number of slots for each parking space are given as part of the constructor.
+        -> bool addCar(int carType) Checks whether there is a parking space of carType for the car that wants to 
+           get into the parking lot. carType can be of three kinds: big, medium, or small, which are represented 
+           by 1, 2, and 3 respectively. A car can only park in a parking space of its carType. If there is no 
+           space available, return false, else park the car in that size space and return true.
+
+      Ex. Input  : ["ParkingSystem", "addCar", "addCar", "addCar", "addCar"][[1, 1, 0], [1], [2], [3], [1]]
+          Output : [null, true, true, false, false]
+  </pre>
+  </details>
+  
+  <details><summary> Program-357)    Special Array With X Elements Greater Than or Equal X <b>#Array</b> </summary>
+  <pre>
+    -> You are given an array nums of non-negative integers. nums is considered special if there exists a 
+       number x such that there are exactly x numbers in nums that are greater than or equal to x.
+    -> Notice that x does not have to be an element in nums.  
+    -> Return x if the array is special, otherwise, return -1. It can be proven that if nums is special, 
+       the value for x is unique.
+
+      Ex. Input  : [3,6,7,7,0]
+          Output : -1
   </pre>
   </details>
  
