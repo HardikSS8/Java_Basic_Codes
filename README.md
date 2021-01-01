@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 357) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 362) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -4392,6 +4392,92 @@
       Ex. Input  : [3,6,7,7,0]
           Output : -1
   </pre>
+  </details>
+  
+  <details><summary> Program-358)    Rearrange Spaces Between Words <b>#String</b> </summary>
+  <pre>
+    -> You are given a string text of words that are placed among some number of spaces. Each word 
+       consists of one or more lowercase English letters and are separated by at least one space. It's 
+       guaranteed that text contains at least one word.
+    -> Rearrange the spaces so that there is an equal number of spaces between every pair of 
+       adjacent words and that number is maximized. If you cannot redistribute all the spaces equally, 
+       place the extra spaces at the end, meaning the returned string should be the same length as text.
+    -> Return the string after rearranging the spaces.
+
+      Ex. Input  : text = "  this   is  a sentence "
+          Output : "this   is   a   sentence"
+  </pre>
+  </details>
+  
+  <details><summary> Program-359)    Number of Students Unable to Eat Lunch <b>#Array</b> </summary>
+  <pre>
+    -> The school cafeteria offers circular and square sandwiches at lunch break, referred to by 
+       numbers 0 and 1 respectively. All students stand in a queue. Each student either prefers 
+       square or circular sandwiches.
+    -> The number of sandwiches in the cafeteria is equal to the number of students. The sandwiches 
+       are placed in a stack. At each step:
+    -> If the student at the front of the queue prefers the sandwich on the top of the stack, they will 
+       take it and leave the queue.
+    -> Otherwise, they will leave it and go to the queue's end.
+    -> This continues until none of the queue students want to take the top sandwich and are thus unable to eat.
+    -> You are given two integer arrays students and sandwiches where sandwiches[i] is the type of the ith 
+       sandwich in the stack (i = 0 is the top of the stack) and students[j] is the preference of the jth 
+       student in the initial queue (j = 0 is the front of the queue). Return the number of students that
+       are unable to eat.
+
+      Ex. Input  : students = [1,1,0,0], sandwiches = [0,1,0,1]
+          Output : 0 
+  </pre> 
+  </details>
+  
+  <details><summary> Program-360)    Average Waiting Time <b>#Array</b> </summary>
+  <pre>
+    -> There is a restaurant with a single chef. You are given an array customers, where 
+       customers[i] = [arrivali, timei]:
+        -> arrivali is the arrival time of the ith customer. The arrival times are sorted in non-decreasing order.
+        -> timei is the time needed to prepare the order of the ith customer.
+    -> When a customer arrives, he gives the chef his order, and the chef starts preparing it 
+       once he is idle. The customer waits till the chef finishes preparing his order. The chef 
+       does not prepare food for more than one customer at a time. The chef prepares food for customers
+       in the order they were given in the input.
+    -> Return the average waiting time of all customers. Solutions within 10-5 from the actual answer
+       are considered accepted.
+
+      Ex. Input  : customers = [[5,2],[5,4],[10,3],[20,1]]
+          Output : 3.25000
+  </pre> 
+  </details>
+  
+  <details><summary> Program-361)    Determine if String Halves Are Alike <b>#String</b> </summary>
+  <pre>
+    -> You are given a string s of even length. Split this string into two halves of equal lengths, 
+       and let a be the first half and b be the second half.
+    -> Two strings are alike if they have the same number of vowels ('a', 'e', 'i', 'o', 'u', 'A', 
+       'E', 'I', 'O', 'U'). Notice that s contains uppercase and lowercase letters.
+    -> Return true if a and b are alike. Otherwise, return false.
+
+      Ex. Input  : s = "MerryChristmas"
+          Output : false
+  </pre> 
+  </details>
+  
+  <details><summary> Program-362)    Find Kth Bit in Nth Binary String <b>#String</b> </summary>
+  <pre>
+    -> Given two positive integers n and k, the binary string  Sn is formed as follows:
+        -> S1 = "0"
+        -> Si = Si-1 + "1" + reverse(invert(Si-1)) for i > 1
+    -> Where + denotes the concatenation operation, reverse(x) returns the reversed string x, 
+       and invert(x) inverts all the bits in x (0 changes to 1 and 1 changes to 0).
+    -> For example, the first 4 strings in the above sequence are:  
+        -> S1 = "0"
+        -> S2 = "011"
+        -> S3 = "0111001"
+        -> S4 = "011100110110001"
+    -> Return the kth bit in Sn. It is guaranteed that k is valid for the given n.
+
+      Ex. Input  : n = 4, k = 11
+          Output : "1"      (Explanation: S4 is "011100110110001". The 11th bit is "1".)
+  </pre> 
   </details>
  
 </details>  
