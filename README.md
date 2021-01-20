@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 362) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 366) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -4477,6 +4477,57 @@
 
       Ex. Input  : n = 4, k = 11
           Output : "1"      (Explanation: S4 is "011100110110001". The 11th bit is "1".)
+  </pre> 
+  </details>
+  
+  <details><summary> Program-363)    Calculate Money in Leetcode Bank <b>#Math #Greedy</b> </summary>
+  <pre>
+    -> Hercy wants to save money for his first car. He puts money in the Leetcode bank every day. 
+    -> He starts by putting in $1 on Monday, the first day. Every day from Tuesday to Sunday, he will put 
+       in $1 more than the day before. On every subsequent Monday, he will put in $1 more than the previous Monday.
+    -> Given n, return the total amount of money he will have in the Leetcode bank at the end of the nth day.
+
+      Ex. Input  : n = 20
+          Output : 96
+  </pre> 
+  </details>
+  
+  <details><summary> Program-364)    Divisor Game <b>#Math #Dynamic Programming</b> </summary>
+  <pre>
+    -> Alice and Bob take turns playing a game, with Alice starting first.
+    -> Initially, there is a number N on the chalkboard.  On each player's turn, that player makes a move consisting of:
+        -> Choosing any x with 0 < x < N and N % x == 0.
+        -> Replacing the number N on the chalkboard with N - x.
+        -> Also, if a player cannot make a move, they lose the game.
+    -> Return True if and only if Alice wins the game, assuming both players play optimally.
+
+      Ex. Input  : 20
+          Output : true
+  </pre> 
+  </details>
+  
+  <details><summary> Program-365)    Global and Local Inversions <b>#Array #Math</b> </summary>
+  <pre>
+    -> We have some permutation A of [0, 1, ..., N - 1], where N is the length of A.
+    -> The number of (global) inversions is the number of i < j with 0 <= i < j < N and A[i] > A[j].
+    -> The number of local inversions is the number of i with 0 <= i < N and A[i] > A[i+1].
+    -> Return true if and only if the number of global inversions is equal to the number of local inversions.
+
+      Ex. Input  : A = [1,2,4,3,0,5]
+          Output : false
+  </pre> 
+  </details>
+  
+  <details><summary> Program-366)    Partition Array into Disjoint Intervals <b>#Array</b> </summary>
+  <pre>
+    -> Given an array A, partition it into two (contiguous) subarrays left and right so that:
+      -> Every element in left is less than or equal to every element in right.
+      -> left and right are non-empty.
+      -> left has the smallest possible size.
+    -> Return the length of left after such a partitioning.  It is guaranteed that such a partitioning exists.
+
+      Ex. Input  : [5,0,3,8,6]
+          Output : 3
   </pre> 
   </details>
  
