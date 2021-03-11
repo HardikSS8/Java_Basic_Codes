@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 366) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 377) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -4528,6 +4528,150 @@
 
       Ex. Input  : [5,0,3,8,6]
           Output : 3
+  </pre> 
+  </details>
+  
+  <details><summary> Program-367)    Maximum Number of Balls in a Box <b>#Array</b> </summary>
+  <pre>
+    -> You are working in a ball factory where you have n balls numbered from lowLimit up to highLimit 
+       inclusive (i.e., n == highLimit - lowLimit + 1), and an infinite number of boxes numbered 
+       from 1 to infinity.
+    -> Your job at this factory is to put each ball in the box with a number equal to the sum of digits 
+       of the ball's number. For example, the ball number 321 will be put in the box number 3 + 2 + 1 = 6 
+       and the ball number 10 will be put in the box number 1 + 0 = 1.
+    -> Given two integers lowLimit and highLimit, return the number of balls in the box with the most balls.
+
+      Ex. Input  : lowLimit = 5, highLimit = 15
+          Output : 2
+  </pre> 
+  </details>
+  
+  <details><summary> Program-368)    Find the Highest Altitude <b>#Array</b> </summary>
+  <pre>
+    -> There is a biker going on a road trip. The road trip consists of n + 1 points at different 
+       altitudes. The biker starts his trip on point 0 with altitude equal 0.
+    -> You are given an integer array gain of length n where gain[i] is the net gain in altitude 
+       between points i and i + 1 for all (0 <= i < n). Return the highest altitude of a point.
+
+      Ex. Input  : gain = [-5,1,5,0,-7]
+          Output : 1
+  </pre> 
+  </details>
+  
+  <details><summary> Program-369)    Sum of Unique Elements <b>#Array</b> </summary>
+  <pre>
+    -> You are given an integer array nums. The unique elements of an array are the 
+       elements that appear exactly once in the array.
+    -> Return the sum of all the unique elements of nums.
+
+      Ex. Input  : nums = [1,2,3,2]
+          Output : 4
+  </pre> 
+  </details>
+  
+  <details><summary> Program-370)    Check if Array Is Sorted and Rotated <b>#Array</b> </summary>
+  <pre>
+    -> Given an array nums, return true if the array was originally sorted in non-decreasing order, 
+       then rotated some number of positions (including zero). Otherwise, return false.
+    -> There may be duplicates in the original array.
+    -> Note: An array A rotated by x positions results in an array B of the same length such 
+       that A[i] == B[(i+x) % A.length], where % is the modulo operation.
+
+      Ex. Input  : nums = [3,4,5,1,2]
+          Output : true
+  </pre> 
+  </details>
+  
+  <details><summary> Program-371)    Count Items Matching a Rule <b>#Array #String</b> </summary>
+  <pre>
+    -> You are given an array items, where each items[i] = [typei, colori, namei] describes the type, color, 
+       and name of the ith item. You are also given a rule represented by two strings, ruleKey and ruleValue.
+    -> The ith item is said to match the rule if one of the following is true:
+      -> ruleKey == "type" and ruleValue == typei.
+      -> ruleKey == "color" and ruleValue == colori.
+      -> ruleKey == "name" and ruleValue == namei.
+    -> Return the number of items that match the given rule.
+
+      Ex. Input  : items = [["phone","blue","pixel"],["computer","silver","lenovo"],["phone","gold","iphone"]], 
+                            ruleKey = "color", ruleValue = "silver"
+          Output : 1
+  </pre> 
+  </details>
+  
+  <details><summary> Program-372)    Find Nearest Point That Has the Same X or Y Coordinate <b>#Array</b> </summary>
+  <pre>
+    -> You are given two integers, x and y, which represent your current location on a Cartesian 
+       grid: (x, y). You are also given an array points where each points[i] = [ai, bi] represents that
+       a point exists at (ai, bi). A point is valid if it shares the same x-coordinate or the same 
+       y-coordinate as your location.
+    -> Return the index (0-indexed) of the valid point with the smallest Manhattan distance from your 
+       current location. If there are multiple, return the valid point with the smallest index. If there 
+       are no valid points, return -1.
+    -> The Manhattan distance between two points (x1, y1) and (x2, y2) is abs(x1 - x2) + abs(y1 - y2).
+
+      Ex. Input  : x = 3, y = 4, points = [[1,2],[3,1],[2,4],[2,3],[4,4]]
+          Output : 2
+  </pre> 
+  </details>
+  
+  <details><summary> Program-373)    Sum of Beauty of All Substrings <b>#Hash Table #String</b> </summary>
+  <pre>
+    -> The beauty of a string is the difference in frequencies between the most frequent and least frequent characters.
+    -> For example, the beauty of "abaacc" is 3 - 1 = 2.
+    -> Given a string s, return the sum of beauty of all of its substrings.
+
+      Ex. Input  : s = "aabcb"
+          Output : 5
+  </pre> 
+  </details>
+  
+  <details><summary> Program-374)    Contiguous Array <b>#Hash Table</b> </summary>
+  <pre>
+    -> Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1.
+
+      Ex. Input  : [0,1,0]
+          Output : 2
+  </pre> 
+  </details>
+  
+  <details><summary> Program-375)    Merge Strings Alternately <b>#String</b> </summary>
+  <pre>
+    -> You are given two strings word1 and word2. Merge the strings by adding letters in alternating 
+       order, starting with word1. If a string is longer than the other, append the additional 
+       letters onto the end of the merged string.
+    -> Return the merged string.
+      
+      Ex. Input  : word1 = "ab", word2 = "pqrs"
+          Output : "apbqrs"
+  </pre> 
+  </details>
+  
+  <details><summary> Program-376)    Minimum Number of Operations to Move All Balls to Each Box <b>#Array #Greedy</b> </summary>
+  <pre>
+    -> You have n boxes. You are given a binary string boxes of length n, where boxes[i] is '0' 
+       if the ith box is empty, and '1' if it contains one ball.
+    -> In one operation, you can move one ball from a box to an adjacent box. Box i is adjacent 
+       to box j if abs(i - j) == 1. Note that after doing so, there may be more than one ball in some boxes.
+    -> Return an array answer of size n, where answer[i] is the minimum number of operations needed 
+       to move all the balls to the ith box.  
+    -> Each answer[i] is calculated considering the initial state of the boxes.
+      
+      Ex. Input  : boxes = "001011"
+          Output : [11,8,5,4,3,4]
+  </pre> 
+  </details>
+  
+  <details><summary> Program-377)    Minimum Cost to Move Chips to The Same Position <b>#Array #Math #Greedy</b> </summary>
+  <pre>
+    -> We have n chips, where the position of the ith chip is position[i].
+    -> We need to move all the chips to the same position. In one step, we can change the position
+       of the ith chip from position[i] to:
+      -> position[i] + 2 or position[i] - 2 with cost = 0.
+      -> position[i] + 1 or position[i] - 1 with cost = 1.
+    -> Return the minimum cost needed to move all the chips to the same position.
+      
+      Ex. Input  : position = [2,2,2,3,3]
+          Output : 2
   </pre> 
   </details>
  
