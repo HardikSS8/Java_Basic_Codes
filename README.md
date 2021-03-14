@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 379) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 382) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -4698,6 +4698,45 @@
       
       Ex. Input  : deliciousness = [1,1,1,3,3,3,7]
           Output : 15
+  </pre> 
+  </details>
+  
+  <details><summary> Program-380)    Maximum Units on a Truck <b>#Greedy #Sort</b> </summary>
+  <pre>
+    -> You are assigned to put some amount of boxes onto one truck. You are given a 2D array boxTypes, 
+       where boxTypes[i] = [numberOfBoxesi, numberOfUnitsPerBoxi]:
+      -> numberOfBoxesi is the number of boxes of type i.
+      -> numberOfUnitsPerBoxi is the number of units in each box of the type i.
+    -> You are also given an integer truckSize, which is the maximum number of boxes that can be put 
+       on the truck. You can choose any boxes to put on the truck as long as the number of 
+       boxes does not exceed truckSize.
+    -> Return the maximum total number of units that can be put on the truck.
+      
+      Ex. Input  : boxTypes = [[1,3],[2,2],[3,1]], truckSize = 4
+          Output : 8
+  </pre> 
+  </details>
+  
+  <details><summary> Program-381)    Sort Array by Increasing Frequency <b>#Array #Sort</b> </summary>
+  <pre>
+    -> Given an array of integers nums, sort the array in increasing order based on the frequency 
+       of the values. If multiple values have the same frequency, sort them in decreasing order.
+    -> Return the sorted array.
+      
+      Ex. Input  : nums = [-1,1,-6,4,5,-6,1,4,1]
+          Output : [5,-1,4,4,-6,-6,1,1,1]
+  </pre> 
+  </details>
+  
+  <details><summary> Program-382)    Check if One String Swap Can Make Strings Equal <b>#String</b> </summary>
+  <pre>
+    -> You are given two strings s1 and s2 of equal length. A string swap is an operation where you 
+       choose two indices in a string (not necessarily different) and swap the characters at these indices.
+    -> Return true if it is possible to make both strings equal by performing at most one string swap 
+       on exactly one of the strings. Otherwise, return false.
+      
+      Ex. Input  : s1 = "bank", s2 = "kanb"
+          Output : true
   </pre> 
   </details>
  
