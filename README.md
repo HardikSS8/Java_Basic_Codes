@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 377) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 379) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -4672,6 +4672,32 @@
       
       Ex. Input  : position = [2,2,2,3,3]
           Output : 2
+  </pre> 
+  </details>
+  
+  <details><summary> Program-378)    Check if Number is a Sum of Powers of Three <b>#Math #Backtracking #Recursion</b> </summary>
+  <pre>
+    -> Given an integer n, return true if it is possible to represent n as the sum of distinct powers 
+       of three. Otherwise, return false.
+    -> An integer y is a power of three if there exists an integer x such that y == 3^x.
+      
+      Ex. Input  : n = 91
+          Output : true    (Explanation: 91 = 30 + 32 + 34)
+  </pre> 
+  </details>
+  
+  <details><summary> Program-379)    Count Good Meals <b>#Math #Backtracking #Recursion</b> </summary>
+  <pre>
+    -> A good meal is a meal that contains exactly two different food items with a sum of 
+       deliciousness equal to a power of two.
+    -> You can pick any two different foods to make a good meal.
+    -> Given an array of integers deliciousness where deliciousness[i] is the deliciousness of the ith item 
+       of food, return the number of different good meals you can make from this list modulo 10^9 + 7.
+    -> Note that items with different indices are considered different even if they have the 
+       same deliciousness value.
+      
+      Ex. Input  : deliciousness = [1,1,1,3,3,3,7]
+          Output : 15
   </pre> 
   </details>
  
