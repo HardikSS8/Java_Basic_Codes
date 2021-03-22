@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 382) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 385) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -4737,6 +4737,56 @@
       
       Ex. Input  : s1 = "bank", s2 = "kanb"
           Output : true
+  </pre> 
+  </details>
+  
+  <details><summary> Program-383)    Second Largest Digit in a String <b>#String</b> </summary>
+  <pre>
+    -> Given an alphanumeric string s, return the second largest numerical digit that appears in s, 
+       or -1 if it does not exist.
+    -> An alphanumeric string is a string consisting of lowercase English letters and digits.
+      
+      Ex. Input  : s = "dfa12321afd"
+          Output : 2
+  </pre> 
+  </details>
+  
+  <details><summary> Program-384)    Design Authentication Manager <b>#Hash Table #Design</b> </summary>
+  <pre>
+    -> There is an authentication system that works with authentication tokens. For each session, the 
+       user will receive a new authentication token that will expire timeToLive seconds after the currentTime. 
+       If the token is renewed, the expiry time will be extended to expire timeToLive seconds after the 
+       (potentially different) currentTime.
+    -> Implement the AuthenticationManager class:
+      -> AuthenticationManager(int timeToLive) constructs the AuthenticationManager and sets the timeToLive.
+      -> generate(string tokenId, int currentTime) generates a new token with the given tokenId at the 
+         given currentTime in seconds.
+      -> renew(string tokenId, int currentTime) renews the unexpired token with the given tokenId at the
+         given currentTime in seconds. If there are no unexpired tokens with the given tokenId, the request 
+         is ignored, and nothing happens.
+      -> countUnexpiredTokens(int currentTime) returns the number of unexpired tokens at the given currentTime.
+    -> Note that if a token expires at time t, and another action happens on time t 
+      (renew or countUnexpiredTokens), the expiration takes place before the other actions.
+      
+      Ex. Input  : ["AuthenticationManager", "renew", "generate", "countUnexpiredTokens", "generate", 
+                    "renew", "renew", "countUnexpiredTokens"]
+                   [[5], ["aaa", 1], ["aaa", 2], [6], ["bbb", 7], ["aaa", 8], ["bbb", 10], [15]]
+          Output : [null, null, null, 1, null, null, null, 0]
+
+  </pre> 
+  </details>
+  
+  <details><summary> Program-385)    Top K Frequent Word <b>#Hash Table #Heap #Trie</b> </summary>
+  <pre>
+    -> Given a non-empty list of words, return the k most frequent elements.
+    -> Your answer should be sorted by frequency from highest to lowest. If two words have the 
+       same frequency, then the word with the lower alphabetical order comes first.
+      
+      Ex. Input  : ["AuthenticationManager", "renew", "generate", "countUnexpiredTokens", "generate", 
+                    "renew", "renew", "countUnexpiredTokens"]
+                   [[5], ["aaa", 1], ["aaa", 2], [6], ["bbb", 7], ["aaa", 8], ["bbb", 10], [15]]
+          Output : [null, null, null, 1, null, null, null, 0]
+
   </pre> 
   </details>
  
