@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 385) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 389) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -4787,6 +4787,65 @@
                    [[5], ["aaa", 1], ["aaa", 2], [6], ["bbb", 7], ["aaa", 8], ["bbb", 10], [15]]
           Output : [null, null, null, 1, null, null, null, 0]
 
+  </pre> 
+  </details>
+  
+  <details><summary> Program-386)    Making File Names Unique <b>#Hash Table #String</b> </summary>
+  <pre>
+    -> Given an array of strings names of size n. You will create n folders in your file system 
+       such that, at the ith minute, you will create a folder with the name names[i].
+    -> Since two files cannot have the same name, if you enter a folder name which is previously 
+       used, the system will have a suffix addition to its name in the form of (k), where, k is 
+       the smallest positive integer such that the obtained name remains unique.
+    -> Return an array of strings of length n where ans[i] is the actual name the system will 
+       assign to the ith folder when you create it.
+      
+      Ex. Input  : names = ["gta","gta(1)","gta","avalon"]
+          Output : ["gta","gta(1)","gta(2)","avalon"]
+  </pre> 
+  </details>
+  
+  <details><summary> Program-387)    Time Based Key-Value Store <b>#Hash Table #Binary Search</b> </summary>
+  <pre>
+    -> Create a timebased key-value store class TimeMap, that supports two operations.
+      -> 1. set(string key, string value, int timestamp)
+            Stores the key and value, along with the given timestamp.
+      -> 2. get(string key, int timestamp)
+            Returns a value such that set(key, value, timestamp_prev) was called previously, 
+            with timestamp_prev <= timestamp.
+      -> If there are multiple such values, it returns the one with the largest timestamp_prev.
+      -> If there are no values, it returns the empty string ("").
+      
+      Ex. Input  : inputs = ["TimeMap","set","get","get","set","get","get"], 
+                            [[],["foo","bar",1],["foo",1],["foo",3],["foo","bar2",4],["foo",4],["foo",5]]
+          Output : [null,null,"bar","bar",null,"bar2","bar2"]
+  </pre> 
+  </details>
+  
+  <details><summary> Program-388)    Largest Values From Labels <b>#Hash Table #Greedy</b> </summary>
+  <pre>
+    -> We have a set of items: the i-th item has value values[i] and label labels[i].
+       Then, we choose a subset S of these items, such that:
+      -> |S| <= num_wanted
+      -> For every label L, the number of items in S with label L is <= use_limit.
+    -> Return the largest possible sum of the subset S.
+      
+      Ex. Input  : values = [5,4,3,2,1], labels = [1,1,2,2,3], num_wanted = 3, use_limit = 1
+          Output : 9
+  </pre> 
+  </details>
+  
+  <details><summary> Program-389)    Last Stone Weight <b>#Heap #Greedy</b> </summary>
+  <pre>
+    -> We have a collection of stones, each stone has a positive integer weight.
+    -> Each turn, we choose the two heaviest stones and smash them together.  Suppose the stones
+       have weights x and y with x <= y.  The result of this smash is:
+      -> If x == y, both stones are totally destroyed;
+      -> If x != y, the stone of weight x is totally destroyed, and the stone of weight y has new weight y-x.
+    -> At the end, there is at most 1 stone left.  Return the weight of this stone (or 0 if there are no stones left.)
+      
+      Ex. Input  : [2,7,4,1,8,1]
+          Output : 1
   </pre> 
   </details>
  
