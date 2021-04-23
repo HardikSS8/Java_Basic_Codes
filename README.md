@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 389) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 397) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -4846,6 +4846,115 @@
       
       Ex. Input  : [2,7,4,1,8,1]
           Output : 1
+  </pre> 
+  </details>
+
+  <details><summary> Program-390)    Minimum Operations to Make the Array Increasing <b>#Array #Greedy</b> </summary>
+  <pre>
+    -> You are given an integer array nums (0-indexed). In one operation, you can choose an element of the 
+       array and increment it by 1.
+    -> For example, if nums = [1,2,3], you can choose to increment nums[1] to make nums = [1,3,3].
+    -> Return the minimum number of operations needed to make nums strictly increasing.
+    -> An array nums is strictly increasing if nums[i] < nums[i+1] for all 0 <= i < nums.length - 1. 
+       An array of length 1 is trivially strictly increasing.
+      
+      Ex. Input  : nums = [1,5,2,4,1]
+          Output : 14
+  </pre> 
+  </details>
+
+  <details><summary> Program-391)    Maximum Ice Cream Bars <b>#Array #Sort</b> </summary>
+  <pre>
+    -> It is a sweltering summer day, and a boy wants to buy some ice cream bars.
+    -> At the store, there are n ice cream bars. You are given an array costs of length n, where costs[i] is the 
+       price of the ith ice cream bar in coins. The boy initially has coins coins to spend, and he wants 
+       to buy as many ice cream bars as possible. 
+    -> Return the maximum number of ice cream bars the boy can buy with coins coins.
+    -> Note: The boy can buy the ice cream bars in any order.
+      
+      Ex. Input  : costs = [10,6,8,7,7,8], coins = 5
+          Output : 0
+  </pre> 
+  </details>
+  
+  <details><summary> Program-392)    Minimum Number of Operations to Reinitialize a Permutation <b>#Array #Greedy</b> </summary>
+  <pre>
+    -> You are given an even integer n. You initially have a permutation perm of size n 
+       where perm[i] == i(0-indexed).  
+    -> In one operation, you will create a new array arr, and for each i:
+      -> If i % 2 == 0, then arr[i] = perm[i / 2].
+      -> If i % 2 == 1, then arr[i] = perm[n / 2 + (i - 1) / 2].
+    -> You will then assign arr to perm.
+    -> Return the minimum non-zero number of operations you need to perform on perm to return the 
+     permutation to its initial value.
+      
+      Ex. Input  : n = 4
+          Output : 2
+  </pre> 
+  </details>
+  
+  <details><summary> Program-393)    Check if the Sentence Is Pangram <b>#String</b> </summary>
+  <pre>
+    -> A pangram is a sentence where every letter of the English alphabet appears at least once.
+    -> Given a string sentence containing only lowercase English letters, return true if sentence 
+       is a pangram, or false otherwise.
+      
+      Ex. Input  : sentence = "thequickbrownfoxjumpsoverthelazydog"
+          Output : true
+  </pre> 
+  </details>
+  
+  <details><summary> Program-394)    Truncate Sentence <b>#String</b> </summary>
+  <pre>
+    -> A sentence is a list of words that are separated by a single space with no leading or trailing 
+       spaces. Each of the words consists of only uppercase and lowercase English letters (no punctuation).
+    -> For example, "Hello World", "HELLO", and "hello world hello world" are all sentences.
+    -> You are given a sentence s and an integer k. You want to truncate s such that it contains only 
+       the first k words. Return s after truncating it.
+      
+      Ex. Input  : s = "Hello how are you Contestant", k = 4
+          Output : "Hello how are you"
+  </pre> 
+  </details>
+  
+  <details><summary> Program-395)    Sign of the Product of an Array <b>#Math</b> </summary>
+  <pre>
+    -> There is a function signFunc(x) that returns:
+      -> 1 if x is positive.
+      -> -1 if x is negative.
+      -> 0 if x is equal to 0.
+    -> You are given an integer array nums. Let product be the product of all values in the array nums.
+    -> Return signFunc(product).
+      
+      Ex. Input  : nums = [-1,-2,-3,-4,3,2,1]
+          Output : 1
+  </pre> 
+  </details>
+  
+  <details><summary> Program-396)    Determine Color of a Chessboard Square <b>#String</b> </summary>
+  <pre>
+    -> You are given coordinates, a string that represents the coordinates of a square of the chessboard. 
+       Below is a chessboard for your reference 
+    -> Return true if the square is white, and false if the square is black.
+    -> The coordinate will always represent a valid chessboard square. The coordinate will always have 
+       the letter first, and the number second.
+      
+      Ex. Input  : coordinates = "h3"
+          Output : true
+  </pre> 
+  </details>
+  
+  <details><summary> Program-397)    Number of Different Integers in a String <b>#String</b> </summary>
+  <pre>
+    -> You are given a string word that consists of digits and lowercase English letters.
+    -> You will replace every non-digit character with a space. For example, "a123bc34d8ef34" will 
+       become " 123  34 8  34". Notice that you are left with some integers that are separated by at 
+       least one space: "123", "34", "8", and "34".
+    -> Return the number of different integers after performing the replacement operations on word.
+    -> Two integers are considered different if their decimal representations without any leading zeros are different.
+      
+      Ex. Input  : word = "a123bc34d8ef34"
+          Output : 3
   </pre> 
   </details>
  
