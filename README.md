@@ -8,7 +8,7 @@
 
 <h2> Find all the problems' description below. </h2>
 
-<details><summary> Click here to expand the problem statements. (Total Problems: 397) </summary>
+<details><summary> Click here to expand the problem statements. (Total Problems: 407) </summary>
   <br />
   <details><summary> Program-1)   Median of two sorted arrays (time complexity should be O(log(m+n))) <b>#Array #Binary Search #Divide and Conque</b></summary>
   <pre>
@@ -4955,6 +4955,152 @@
       
       Ex. Input  : word = "a123bc34d8ef34"
           Output : 3
+  </pre> 
+  </details>
+  
+  <details><summary> Program-398)    Minimum Distance to the Target Element <b>#Array</b> </summary>
+  <pre>
+    -> Given an integer array nums (0-indexed) and two integers target and start, find an index i such 
+       that nums[i] == target and abs(i - start) is minimized. Note that abs(x) is the absolute value of x.
+    -> Return abs(i - start).
+    -> It is guaranteed that target exists in nums.
+      
+      Ex. Input  : nums = [1,2,3,4,5], target = 5, start = 3
+          Output : 1
+  </pre> 
+  </details>
+  
+  <details><summary> Program-399)    Maximum Population Year <b>#Array</b> </summary>
+  <pre>
+    -> You are given a 2D integer array logs where each logs[i] = [birthi, deathi] indicates 
+       the birth and death years of the ith person.
+    -> The population of some year x is the number of people alive during that year. The ith 
+       person is counted in year x's population if x is in the inclusive range [birthi, deathi - 1]. 
+       Note that the person is not counted in the year that they die.
+    -> Return the earliest year with the maximum population.
+      
+      Ex. Input  : logs = [[1950,1961],[1960,1971],[1970,1981]]
+          Output : 1960
+  </pre> 
+  </details>
+  
+  <details><summary> Program-400)    Longer Contiguous Segments of Ones than Zeros <b>#Array #Two Pointers</b> </summary>
+  <pre>
+    -> Given a binary string s, return true if the longest contiguous segment of 1s is strictly 
+       longer than the longest contiguous segment of 0s in s. Return false otherwise.
+    -> For example, in s = "110100010" the longest contiguous segment of 1s has length 2, and 
+       the longest contiguous segment of 0s has length 3.
+    -> Note that if there are no 0s, then the longest contiguous segment of 0s is considered 
+       to have length 0. The same applies if there are no 1s.
+      
+      Ex. Input  : s = "111000"
+          Output : false
+  </pre> 
+  </details>
+  
+  <details><summary> Program-401)    Count Nice Pairs in an Array <b>#Array #Hash Table</b> </summary>
+  <pre>
+    -> You are given an array nums that consists of non-negative integers. Let us define rev(x) 
+       as the reverse of the non-negative integer x. For example, rev(123) = 321, and rev(120) = 21. 
+       A pair of indices (i, j) is nice if it satisfies all of the following conditions:
+        -> 0 <= i < j < nums.length
+        -> nums[i] + rev(nums[j]) == nums[j] + rev(nums[i])
+    -> Return the number of nice pairs of indices. Since that number can be too large, return it modulo 109 + 7.
+      
+      Ex. Input  : nums = [13,10,35,24,76]
+          Output : 4
+  </pre> 
+  </details>
+  
+  <details><summary> Program-402)    Replace All Digits with Characters <b>#String</b> </summary>
+  <pre>
+    -> You are given a 0-indexed string s that has lowercase English letters in its even 
+       indices and digits in its odd indices.
+    -> There is a function shift(c, x), where c is a character and x is a digit, that returns the 
+       xth character after c.
+    -> For example, shift('a', 5) = 'f' and shift('x', 0) = 'x'.
+    -> For every odd index i, you want to replace the digit s[i] with shift(s[i-1], s[i]).  
+    -> Return s after replacing all digits. It is guaranteed that shift(s[i-1], s[i]) will never exceed 'z'.
+      
+      Ex. Input  : s = "a1c1e1"
+          Output : "abcdef"
+  </pre> 
+  </details>
+  
+  <details><summary> Program-403)    Sorting the Sentence <b>#String #Sort</b> </summary>
+  <pre>
+    -> A sentence is a list of words that are separated by a single space with no leading 
+       or trailing spaces. Each word consists of lowercase and uppercase English letters.
+    -> A sentence can be shuffled by appending the 1-indexed word position to each word then 
+       rearranging the words in the sentence.
+    -> For example, the sentence "This is a sentence" can be shuffled as "sentence4 a3 is2 
+       This1" or "is2 sentence4 This1 a3".
+    -> Given a shuffled sentence s containing no more than 9 words, reconstruct and return the 
+       original sentence.
+      
+      Ex. Input  : s = "Myself2 Me1 I4 and3"
+          Output : "Me Myself and I"
+  </pre> 
+  </details>
+  
+  <details><summary> Program-404)    Substrings of Size Three with Distinct Characters <b>#String</b> </summary>
+  <pre>
+    -> A string is good if there are no repeated characters.
+    -> Given a string s, return the number of good substrings of length three in s.   
+    -> Note that if there are multiple occurrences of the same substring, every occurrence should be counted.
+    -> A substring is a contiguous sequence of characters in a string.
+      
+      Ex. Input  : s = "aababcabc"
+          Output : 4
+  </pre> 
+  </details>
+  
+  <details><summary> Program-405)    Check if Word Equals Summation of Two Words <b>#String</b> </summary>
+  <pre>
+    -> The letter value of a letter is its position in the alphabet starting from 0 
+       (i.e. 'a' -> 0, 'b' -> 1, 'c' -> 2, etc.).
+    -> The numerical value of some string of lowercase English letters s is the concatenation 
+       of the letter values of each letter in s, which is then converted into an integer.
+    -> For example, if s = "acb", we concatenate each letter's letter value, resulting in "021". 
+       After converting it, we get 21.
+    -> You are given three strings firstWord, secondWord, and targetWord, each consisting of 
+       lowercase English letters 'a' through 'j' inclusive.
+    -> Return true if the summation of the numerical values of firstWord and secondWord equals 
+       the numerical value of targetWord, or false otherwise.
+      
+      Ex. Input  : firstWord = "aaa", secondWord = "a", targetWord = "aaaa"
+          Output : true
+  </pre> 
+  </details>
+  
+  <details><summary> Program-406)    Sum of Digits in Base K <b>#Math #Bit Manipulation</b> </summary>
+  <pre>
+    -> Given an integer n (in base 10) and a base k, return the sum of the digits of 
+       n after converting n from base 10 to base k.
+    -> After converting, each digit should be interpreted as a base 10 number, and the 
+       sum should be returned in base 10.
+      
+      Ex. Input  : n = 34, k = 6
+          Output : 9
+  </pre> 
+  </details>
+  
+  <details><summary> Program-407)     Finding Pairs With a Certain Sum <b>#Hash Table #Design #Ordered Map</b> </summary>
+  <pre>
+    -> You are given two integer arrays nums1 and nums2. You are tasked to implement a 
+       data structure that supports queries of two types:
+    -> Add a positive integer to an element of a given index in the array nums2.
+    -> Count the number of pairs (i, j) such that nums1[i] + nums2[j] equals a given 
+       value (0 <= i < nums1.length and 0 <= j < nums2.length).
+    -> Implement the FindSumPairs class:    
+        -> FindSumPairs(int[] nums1, int[] nums2) Initializes the FindSumPairs object with two 
+           integer arrays nums1 and nums2.
+        -> void add(int index, int val) Adds val to nums2[index], i.e., apply nums2[index] += val.
+        -> int count(int tot) Returns the number of pairs (i, j) such that nums1[i] + nums2[j] == tot.
+      
+      Ex. Input  : ["FindSumPairs", "count", "add", "count", "count", "add", "add", "count"]
+                   [[[1, 1, 2, 2, 2, 3], [1, 4, 5, 2, 5, 4]], [7], [3, 2], [8], [4], [0, 1], [1, 1], [7]]
+          Output : [null, 8, null, 2, 1, null, null, 11]
   </pre> 
   </details>
  
